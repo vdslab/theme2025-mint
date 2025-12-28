@@ -21,11 +21,14 @@
   },
   "homepage": "https://github.com/vdslab/theme2025-mint#readme",
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
     "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "react-dom": "^19.2.3",
+    "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.1.2",
+    "daisyui": "^5.5.14",
     "vite": "^7.3.0"
   }
 }
