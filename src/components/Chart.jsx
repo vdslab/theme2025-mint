@@ -8,12 +8,12 @@ export default function Chart() {
       {/* リング（SVG） */}
       <PrecureColorRing />
 
-      {/* 中央の YouTube */}
-      <TransformationPlayer />
-
       {/* アイコン */}
       {/* 配置は適当です */}
       <PrecureIcon />
+
+      {/* 中央の YouTube */}
+      <TransformationPlayer />
     </div>
   );
 }
