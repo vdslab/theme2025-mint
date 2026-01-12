@@ -7,7 +7,7 @@ export default function PrecureIcon() {
         height="100"
         src="https://img.youtube.com/vi/qd83dvfcThU/hqdefault.jpg"
         style={{
-          transform: "translate(-200px, 150px)",
+          transform: 'translate(-200px, 150px)',
         }}
         frameBorder="0"
         allowFullScreen
