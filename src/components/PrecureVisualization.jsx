@@ -22,7 +22,11 @@ export default function PrecureVisualization() {
 
   return (
     <>
-      <MetricSelector metricsList={PERSONALITY_METRICS} metric={metric} setMetric={setMetric} />
+      <MetricSelector
+        metricsList={PERSONALITY_METRICS}
+        metric={metric}
+        setMetric={setMetric}
+      />
 
       <div className="relative w-[800px] h-[800px]">
         {/* アイコン */}
