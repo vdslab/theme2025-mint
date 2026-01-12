@@ -1,13 +1,12 @@
 import Header from './components/Header.jsx';
-import Chart from './components/Chart.jsx';
+import PrecureVisualization from "./components/PrecureVisualization.jsx";
 import Footer from './components/Footer.jsx';
 
 function App() {
   return (
     <div>
-      <Header />
-      <Chart />
-      <Footer />
+      <h1>PrecureVisualization</h1>
+      <PrecureVisualization />
     </div>
   );
 }
