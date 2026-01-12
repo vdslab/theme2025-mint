@@ -1,9 +1,9 @@
 export const PERSONALITY_METRICS = [
-  'extraversion',
-  'agreeableness',
-  'conscientiousness',
-  'emotional_stability',
-  'openness',
-  'bravery_justice',
-  'optimism_playfulness',
+  'sociability',
+  'empathy',
+  'responsibility',
+  'emotional_instability',
+  'curiosity',
+  'self_esteem',
+  'self_sacrifice',
 ];

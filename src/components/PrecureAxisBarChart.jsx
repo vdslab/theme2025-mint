@@ -9,11 +9,15 @@ export default function PrecureAxisBarChart({ data, metric }) {
     const height = 400;
     const margin = { top: 20, right: 20, bottom: 100, left: 40 };
 
-    const svg = d3.select(ref.current).append('svg').attr('width', width).attr('height', height);
+    const svg = d3
+      .select(ref.current)
+      .append('svg')
+      .attr('width', width)
+      .attr('height', height);
 
     const values = data.map((d) => ({
       name: d.name,
-      value: d.axes7[metric],
+      value: d.scores[metric],
     }));
 
     const x = d3
@@ -45,7 +49,10 @@ export default function PrecureAxisBarChart({ data, metric }) {
       .attr('transform', `translate(0,${height - margin.bottom})`)
       .call(d3.axisBottom(x).tickValues([]));
 
-    svg.append('g').attr('transform', `translate(${margin.left},0)`).call(d3.axisLeft(y));
+    svg
+      .append('g')
+      .attr('transform', `translate(${margin.left},0)`)
+      .call(d3.axisLeft(y));
 
     return () => {
       d3.select(ref.current).selectAll('*').remove();
