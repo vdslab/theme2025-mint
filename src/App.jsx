@@ -1,10 +1,13 @@
-import Chart from "./components/Chart.jsx";
+import Header from './components/Header.jsx';
+import Chart from './components/Chart.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
     <div>
-      <h1>Hello, World!</h1>
+      <Header />
       <Chart />
+      <Footer />
     </div>
   );
 }
