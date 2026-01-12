@@ -1,6 +1,7 @@
 [
   {
     "name": "Misumi Nagisa",
+    "cure": "キュアブラック",
     "url": "https://prettycure.fandom.com/wiki/Misumi_Nagisa",
     "season": [
       "Futari wa Pretty Cure",
@@ -25,6 +26,7 @@
   },
   {
     "name": "Yukishiro Honoka",
+    "cure": "キュアホワイト",
     "url": "https://prettycure.fandom.com/wiki/Yukishiro_Honoka",
     "season": [
       "Futari wa Pretty Cure",
@@ -49,6 +51,7 @@
   },
   {
     "name": "Kujou Hikari",
+    "cure": "シャイニールミナス",
     "url": "https://prettycure.fandom.com/wiki/Kujou_Hikari",
     "season": [
       "Futari wa Pretty Cure Max Heart",
@@ -72,21 +75,16 @@
   },
   {
     "name": "Hyuuga Saki",
+    "cure": "キュアブルーム／キュアブライト",
     "url": "https://prettycure.fandom.com/wiki/Hyuuga_Saki",
     "season": [
       "Futari wa Pretty Cure Splash Star",
       "Kibou no Chikara ~Otona Pretty Cure '23~"
     ],
     "themeColour": {
-      "main": "Pink (Cure Bloom",
-      "sub": "main) Yellow (Cure Bloom",
-      "raw": [
-        "Pink (Cure Bloom",
-        "main) Yellow (Cure Bloom",
-        "sub) Yellow (Cure Bright",
-        "main) Green (Cure Bright",
-        "sub)"
-      ]
+      "main": "Pink",
+      "sub": "null",
+      "raw": ["Pink"]
     },
     "personality": "Saki is a cheerful athletic girl and a member of\nYuunagi Middle School\n's girls' softball team. Her family runs the\nPANPAKA Pan Bakery\n. She is very energetic and optimistic girl whose hopeful nature often inspires or encourages others. She is bored easily on subjects she isn't interested in. She is selfless and kind but has a short temper at times. While she is good at baking delicious bread, she seems to struggle with making other things.\n\nAs an adult, Saki briefly has doubts about herself, as she does not want to let her loved ones down. However, she is encouraged by Mai to be honest with herself and others again.",
     "scores": {
@@ -101,6 +99,7 @@
   },
   {
     "name": "Kiryuu Kaoru",
+    "cure": "キュアウィンディ",
     "url": "https://prettycure.fandom.com/wiki/Kiryuu_Kaoru",
     "season": [
       "Futari wa Pretty Cure Splash Star",
@@ -124,6 +123,7 @@
   },
   {
     "name": "Kiryuu Michiru",
+    "cure": "キュアブライト",
     "url": "https://prettycure.fandom.com/wiki/Kiryuu_Michiru",
     "season": [
       "Futari wa Pretty Cure Splash Star",
@@ -147,6 +147,7 @@
   },
   {
     "name": "Mishou Mai",
+    "cure": "キュアイーグレット／キュアウィンディ",
     "url": "https://prettycure.fandom.com/wiki/Mishou_Mai",
     "season": ["Futari wa Pretty Cure Splash Star"],
     "themeColour": {
@@ -173,6 +174,7 @@
   },
   {
     "name": "Kasugano Urara",
+    "cure": "キュアレモネード",
     "url": "https://prettycure.fandom.com/wiki/Kasugano_Urara",
     "season": ["Yes! Pretty Cure 5", "Yes! Pretty Cure 5 GoGo!"],
     "themeColour": {
@@ -193,6 +195,7 @@
   },
   {
     "name": "Akimoto Komachi",
+    "cure": "キュアミント",
     "url": "https://prettycure.fandom.com/wiki/Akimoto_Komachi",
     "season": ["Yes! Pretty Cure 5", "Yes! Pretty Cure 5 GoGo!"],
     "themeColour": {
@@ -213,6 +216,7 @@
   },
   {
     "name": "Minazuki Karen",
+    "cure": "キュアアクア",
     "url": "https://prettycure.fandom.com/wiki/Minazuki_Karen",
     "season": ["Yes! Pretty Cure 5", "Yes! Pretty Cure 5 GoGo!"],
     "themeColour": {
@@ -233,6 +237,7 @@
   },
   {
     "name": "Milk",
+    "cure": "ミルキィローズ",
     "url": "https://prettycure.fandom.com/wiki/Milk",
     "season": [
       "Yes! Pretty Cure 5",
@@ -257,6 +262,7 @@
   },
   {
     "name": "Natsuki Rin",
+    "cure": "キュアルージュ",
     "url": "https://prettycure.fandom.com/wiki/Natsuki_Rin",
     "season": ["Yes! Pretty Cure 5", "Yes! Pretty Cure 5 GoGo!"],
     "themeColour": {
@@ -277,6 +283,7 @@
   },
   {
     "name": "Yumehara Nozomi",
+    "cure": "キュアドリーム",
     "url": "https://prettycure.fandom.com/wiki/Yumehara_Nozomi",
     "season": [
       "Yes! Pretty Cure 5",
@@ -301,6 +308,7 @@
   },
   {
     "name": "Aono Miki",
+    "cure": "キュアベリー",
     "url": "https://prettycure.fandom.com/wiki/Aono_Miki",
     "season": ["Fresh Pretty Cure!"],
     "themeColour": {
@@ -321,6 +329,7 @@
   },
   {
     "name": "Higashi Setsuna",
+    "cure": "キュアパッション",
     "url": "https://prettycure.fandom.com/wiki/Higashi_Setsuna",
     "season": ["Fresh Pretty Cure!"],
     "themeColour": {
@@ -341,6 +350,7 @@
   },
   {
     "name": "Momozono Love",
+    "cure": "キュアピーチ",
     "url": "https://prettycure.fandom.com/wiki/Momozono_Love",
     "season": ["Fresh Pretty Cure!"],
     "themeColour": {
@@ -361,6 +371,7 @@
   },
   {
     "name": "Yamabuki Inori",
+    "cure": "キュアパイン",
     "url": "https://prettycure.fandom.com/wiki/Yamabuki_Inori",
     "season": ["Fresh Pretty Cure!"],
     "themeColour": {
@@ -381,6 +392,7 @@
   },
   {
     "name": "Hojo Hibiki",
+    "cure": "キュアメロディ",
     "url": "https://prettycure.fandom.com/wiki/Hojo_Hibiki",
     "season": ["Suite Pretty Cure♪"],
     "themeColour": {
@@ -401,6 +413,7 @@
   },
   {
     "name": "Kurokawa Ellen",
+    "cure": "キュアビート",
     "url": "https://prettycure.fandom.com/wiki/Kurokawa_Ellen",
     "season": ["Suite Pretty Cure♪"],
     "themeColour": {
@@ -425,6 +438,7 @@
   },
   {
     "name": "Minamino Kanade",
+    "cure": "キュアリズム",
     "url": "https://prettycure.fandom.com/wiki/Minamino_Kanade",
     "season": ["Suite Pretty Cure♪"],
     "themeColour": {
@@ -445,6 +459,7 @@
   },
   {
     "name": "Shirabe Ako",
+    "cure": "キュアミューズ",
     "url": "https://prettycure.fandom.com/wiki/Shirabe_Ako",
     "season": ["Suite Pretty Cure♪"],
     "themeColour": {
@@ -465,6 +480,7 @@
   },
   {
     "name": "Aoki Reika",
+    "cure": "キュアビューティ",
     "url": "https://prettycure.fandom.com/wiki/Aoki_Reika",
     "season": ["Smile Pretty Cure!"],
     "themeColour": {
@@ -485,6 +501,7 @@
   },
   {
     "name": "Bad End Pretty Cure",
+    "cure": "バッドエンドプリキュア",
     "url": "https://prettycure.fandom.com/wiki/Bad_End_Pretty_Cure",
     "season": ["Smile Pretty Cure!"],
     "themeColour": {
@@ -507,6 +524,7 @@
   },
   {
     "name": "Hino Akane",
+    "cure": "キュアサニー",
     "url": "https://prettycure.fandom.com/wiki/Hino_Akane",
     "season": ["Smile Pretty Cure!"],
     "themeColour": {
@@ -527,6 +545,7 @@
   },
   {
     "name": "Hoshizora Miyuki",
+    "cure": "キュアハッピー",
     "url": "https://prettycure.fandom.com/wiki/Hoshizora_Miyuki",
     "season": ["Smile Pretty Cure!"],
     "themeColour": {
@@ -547,6 +566,7 @@
   },
   {
     "name": "Kise Yayoi",
+    "cure": "キュアピース",
     "url": "https://prettycure.fandom.com/wiki/Kise_Yayoi",
     "season": ["Smile Pretty Cure!"],
     "themeColour": {
@@ -567,6 +587,7 @@
   },
   {
     "name": "Midorikawa Nao",
+    "cure": "キュアマーチ",
     "url": "https://prettycure.fandom.com/wiki/Midorikawa_Nao",
     "season": ["Smile Pretty Cure!"],
     "themeColour": {
@@ -587,6 +608,7 @@
   },
   {
     "name": "Aida Mana",
+    "cure": "キュアハート",
     "url": "https://prettycure.fandom.com/wiki/Aida_Mana",
     "season": ["Doki Doki! Pretty Cure"],
     "themeColour": {
@@ -607,6 +629,7 @@
   },
   {
     "name": "Hishikawa Rikka",
+    "cure": "キュアダイヤモンド",
     "url": "https://prettycure.fandom.com/wiki/Hishikawa_Rikka",
     "season": ["Doki Doki! Pretty Cure"],
     "themeColour": {
@@ -627,6 +650,7 @@
   },
   {
     "name": "Kenzaki Makoto",
+    "cure": "キュアソード",
     "url": "https://prettycure.fandom.com/wiki/Kenzaki_Makoto",
     "season": ["Doki Doki! Pretty Cure"],
     "themeColour": {
@@ -647,6 +671,7 @@
   },
   {
     "name": "Madoka Aguri",
+    "cure": "キュアエース",
     "url": "https://prettycure.fandom.com/wiki/Madoka_Aguri",
     "season": ["Doki Doki! Pretty Cure"],
     "themeColour": {
@@ -667,6 +692,7 @@
   },
   {
     "name": "Regina",
+    "cure": "レジーナ",
     "url": "https://prettycure.fandom.com/wiki/Regina",
     "season": ["Doki Doki! Pretty Cure"],
     "themeColour": {
@@ -687,6 +713,7 @@
   },
   {
     "name": "Yotsuba Alice",
+    "cure": "キュアロゼッタ",
     "url": "https://prettycure.fandom.com/wiki/Yotsuba_Alice",
     "season": ["Doki Doki! Pretty Cure"],
     "themeColour": {
@@ -707,6 +734,7 @@
   },
   {
     "name": "Aino Megumi",
+    "cure": "キュアラブリー",
     "url": "https://prettycure.fandom.com/wiki/Aino_Megumi",
     "season": ["Happiness Charge Pretty Cure!"],
     "themeColour": {
@@ -729,6 +757,7 @@
   },
   {
     "name": "Hikawa Iona",
+    "cure": "キュアフォーチュン",
     "url": "https://prettycure.fandom.com/wiki/Hikawa_Iona",
     "season": ["Happiness Charge Pretty Cure!"],
     "themeColour": {
@@ -751,6 +780,7 @@
   },
   {
     "name": "Hikawa Maria",
+    "cure": "キュアテンダー",
     "url": "https://prettycure.fandom.com/wiki/Hikawa_Maria",
     "season": ["Happiness Charge Pretty Cure!"],
     "themeColour": {
@@ -771,6 +801,7 @@
   },
   {
     "name": "Omori Yuko",
+    "cure": "キュアハニー",
     "url": "https://prettycure.fandom.com/wiki/Omori_Yuko",
     "season": ["Happiness Charge Pretty Cure!"],
     "themeColour": {
@@ -791,6 +822,7 @@
   },
   {
     "name": "Queen Mirage",
+    "cure": "キュアミラージュ",
     "url": "https://prettycure.fandom.com/wiki/Queen_Mirage",
     "season": ["Happiness Charge Pretty Cure!"],
     "themeColour": {
@@ -815,6 +847,7 @@
   },
   {
     "name": "Shirayuki Hime",
+    "cure": "キュアプリンセス",
     "url": "https://prettycure.fandom.com/wiki/Shirayuki_Hime",
     "season": ["Happiness Charge Pretty Cure!"],
     "themeColour": {
@@ -835,6 +868,7 @@
   },
   {
     "name": "Akagi Towa",
+    "cure": "キュアスカーレット",
     "url": "https://prettycure.fandom.com/wiki/Akagi_Towa",
     "season": ["Go! Princess Pretty Cure"],
     "themeColour": {
@@ -855,6 +889,7 @@
   },
   {
     "name": "Amanogawa Kirara",
+    "cure": "キュアトゥインクル",
     "url": "https://prettycure.fandom.com/wiki/Amanogawa_Kirara",
     "season": ["Go! Princess Pretty Cure"],
     "themeColour": {
@@ -875,6 +910,7 @@
   },
   {
     "name": "Haruno Haruka",
+    "cure": "キュアフローラ",
     "url": "https://prettycure.fandom.com/wiki/Haruno_Haruka",
     "season": ["Go! Princess Pretty Cure"],
     "themeColour": {
@@ -895,6 +931,7 @@
   },
   {
     "name": "Kaido Minami",
+    "cure": "キュアマーメイド",
     "url": "https://prettycure.fandom.com/wiki/Kaido_Minami",
     "season": ["Go! Princess Pretty Cure"],
     "themeColour": {
@@ -915,6 +952,7 @@
   },
   {
     "name": "Asahina Mirai",
+    "cure": "キュアミラクル",
     "url": "https://prettycure.fandom.com/wiki/Asahina_Mirai",
     "season": [
       "Mahou Tsukai Pretty Cure!",
@@ -940,6 +978,7 @@
   },
   {
     "name": "Ha-chan",
+    "cure": "キュアフェリーチェ",
     "url": "https://prettycure.fandom.com/wiki/Ha-chan",
     "season": [
       "Mahou Tsukai Pretty Cure!",
@@ -963,6 +1002,7 @@
   },
   {
     "name": "Izayoi Liko",
+    "cure": "キュアマジカル",
     "url": "https://prettycure.fandom.com/wiki/Izayoi_Liko",
     "season": [
       "Mahou Tsukai Pretty Cure!",
@@ -988,6 +1028,7 @@
   },
   {
     "name": "Mofurun",
+    "cure": "モフルン",
     "url": "https://prettycure.fandom.com/wiki/Mofurun",
     "season": [
       "Mahou Tsukai Pretty Cure!",
@@ -1011,6 +1052,7 @@
   },
   {
     "name": "Arisugawa Himari",
+    "cure": "キュアカスタード",
     "url": "https://prettycure.fandom.com/wiki/Arisugawa_Himari",
     "season": ["KiraKira☆Pretty Cure A La Mode"],
     "themeColour": {
@@ -1031,6 +1073,7 @@
   },
   {
     "name": "Kenjou Akira",
+    "cure": "キュアショコラ",
     "url": "https://prettycure.fandom.com/wiki/Kenjou_Akira",
     "season": ["KiraKira☆Pretty Cure A La Mode"],
     "themeColour": {
@@ -1051,6 +1094,7 @@
   },
   {
     "name": "Kirahoshi Ciel",
+    "cure": "キュアパルフェ",
     "url": "https://prettycure.fandom.com/wiki/Kirahoshi_Ciel",
     "season": ["KiraKira☆Pretty Cure A La Mode"],
     "themeColour": {
@@ -1071,6 +1115,7 @@
   },
   {
     "name": "Kotozume Yukari",
+    "cure": "キュアマカロン",
     "url": "https://prettycure.fandom.com/wiki/Kotozume_Yukari",
     "season": ["KiraKira☆Pretty Cure A La Mode"],
     "themeColour": {
@@ -1091,6 +1136,7 @@
   },
   {
     "name": "Lumière",
+    "cure": "キュアルミエール",
     "url": "https://prettycure.fandom.com/wiki/Lumière",
     "season": ["KiraKira☆Pretty Cure A La Mode"],
     "themeColour": {
@@ -1111,6 +1157,7 @@
   },
   {
     "name": "Pekorin",
+    "cure": "ペコリン",
     "url": "https://prettycure.fandom.com/wiki/Pekorin",
     "season": ["KiraKira☆Pretty Cure A La Mode"],
     "themeColour": {
@@ -1131,6 +1178,7 @@
   },
   {
     "name": "Tategami Aoi",
+    "cure": "キュアジェラート",
     "url": "https://prettycure.fandom.com/wiki/Tategami_Aoi",
     "season": ["KiraKira☆Pretty Cure A La Mode"],
     "themeColour": {
@@ -1151,6 +1199,7 @@
   },
   {
     "name": "Usami Ichika",
+    "cure": "キュアホイップ",
     "url": "https://prettycure.fandom.com/wiki/Usami_Ichika",
     "season": ["KiraKira☆Pretty Cure A La Mode"],
     "themeColour": {
@@ -1171,6 +1220,7 @@
   },
   {
     "name": "Aisaki Emiru",
+    "cure": "キュアマシェリ",
     "url": "https://prettycure.fandom.com/wiki/Aisaki_Emiru",
     "season": ["HUGtto! Pretty Cure"],
     "themeColour": {
@@ -1191,6 +1241,7 @@
   },
   {
     "name": "Hugtan",
+    "cure": "キュアトゥモロー",
     "url": "https://prettycure.fandom.com/wiki/Hugtan",
     "season": ["HUGtto! Pretty Cure"],
     "themeColour": {
@@ -1211,6 +1262,7 @@
   },
   {
     "name": "Kagayaki Homare",
+    "cure": "キュアエトワール",
     "url": "https://prettycure.fandom.com/wiki/Kagayaki_Homare",
     "season": ["HUGtto! Pretty Cure"],
     "themeColour": {
@@ -1231,6 +1283,7 @@
   },
   {
     "name": "Nono Hana",
+    "cure": "キュアエール",
     "url": "https://prettycure.fandom.com/wiki/Nono_Hana",
     "season": ["HUGtto! Pretty Cure"],
     "themeColour": {
@@ -1251,6 +1304,7 @@
   },
   {
     "name": "Ruru Amour",
+    "cure": "キュアアムール",
     "url": "https://prettycure.fandom.com/wiki/Ruru_Amour",
     "season": ["HUGtto! Pretty Cure"],
     "themeColour": {
@@ -1271,6 +1325,7 @@
   },
   {
     "name": "Wakamiya Henri",
+    "cure": "キュアアンフィニ",
     "url": "https://prettycure.fandom.com/wiki/Wakamiya_Henri",
     "season": ["HUGtto! Pretty Cure"],
     "themeColour": {
@@ -1291,6 +1346,7 @@
   },
   {
     "name": "Yakushiji Saaya",
+    "cure": "キュアアンジュ",
     "url": "https://prettycure.fandom.com/wiki/Yakushiji_Saaya",
     "season": ["HUGtto! Pretty Cure"],
     "themeColour": {
@@ -1311,6 +1367,7 @@
   },
   {
     "name": "Amamiya Elena",
+    "cure": "キュアソレイユ",
     "url": "https://prettycure.fandom.com/wiki/Amamiya_Elena",
     "season": ["Star☆Twinkle Pretty Cure"],
     "themeColour": {
@@ -1331,6 +1388,7 @@
   },
   {
     "name": "Hagoromo Lala",
+    "cure": "キュアミルキー",
     "url": "https://prettycure.fandom.com/wiki/Hagoromo_Lala",
     "season": ["Star☆Twinkle Pretty Cure"],
     "themeColour": {
@@ -1351,6 +1409,7 @@
   },
   {
     "name": "Hoshina Hikaru",
+    "cure": "キュアスター",
     "url": "https://prettycure.fandom.com/wiki/Hoshina_Hikaru",
     "season": ["Star☆Twinkle Pretty Cure"],
     "themeColour": {
@@ -1371,6 +1430,7 @@
   },
   {
     "name": "Kaguya Madoka",
+    "cure": "キュアセレーネ",
     "url": "https://prettycure.fandom.com/wiki/Kaguya_Madoka",
     "season": ["Star☆Twinkle Pretty Cure"],
     "themeColour": {
@@ -1391,6 +1451,7 @@
   },
   {
     "name": "Yuni",
+    "cure": "キュアコスモ",
     "url": "https://prettycure.fandom.com/wiki/Yuni",
     "season": ["Star☆Twinkle Pretty Cure"],
     "themeColour": {
@@ -1411,6 +1472,7 @@
   },
   {
     "name": "Fuurin Asumi",
+    "cure": "キュアアース",
     "url": "https://prettycure.fandom.com/wiki/Fuurin_Asumi",
     "season": ["Healin' Good♥Pretty Cure"],
     "themeColour": {
@@ -1431,6 +1493,7 @@
   },
   {
     "name": "Hanadera Nodoka",
+    "cure": "キュアグレース",
     "url": "https://prettycure.fandom.com/wiki/Hanadera_Nodoka",
     "season": ["Healin' Good♥Pretty Cure"],
     "themeColour": {
@@ -1451,6 +1514,7 @@
   },
   {
     "name": "Hiramitsu Hinata",
+    "cure": "キュアスパークル",
     "url": "https://prettycure.fandom.com/wiki/Hiramitsu_Hinata",
     "season": ["Healin' Good♥Pretty Cure"],
     "themeColour": {
@@ -1471,6 +1535,7 @@
   },
   {
     "name": "Sawaizumi Chiyu",
+    "cure": "キュアフォンテーヌ",
     "url": "https://prettycure.fandom.com/wiki/Sawaizumi_Chiyu",
     "season": ["Healin' Good♥Pretty Cure"],
     "themeColour": {
@@ -1491,6 +1556,7 @@
   },
   {
     "name": "Cure Oasis",
+    "cure": "キュアオアシス",
     "url": "https://prettycure.fandom.com/wiki/Cure_Oasis",
     "season": ["Tropical-Rouge! Pretty Cure"],
     "themeColour": {
@@ -1511,6 +1577,7 @@
   },
   {
     "name": "Ichinose Minori",
+    "cure": "キュアパパイア",
     "url": "https://prettycure.fandom.com/wiki/Ichinose_Minori",
     "season": ["Tropical-Rouge! Pretty Cure"],
     "themeColour": {
@@ -1531,6 +1598,7 @@
   },
   {
     "name": "Laura",
+    "cure": "キュアラメール",
     "url": "https://prettycure.fandom.com/wiki/Laura",
     "season": ["Tropical-Rouge! Pretty Cure"],
     "themeColour": {
@@ -1551,6 +1619,7 @@
   },
   {
     "name": "Natsuumi Manatsu",
+    "cure": "キュアサマー",
     "url": "https://prettycure.fandom.com/wiki/Natsuumi_Manatsu",
     "season": ["Tropical-Rouge! Pretty Cure"],
     "themeColour": {
@@ -1571,6 +1640,7 @@
   },
   {
     "name": "Suzumura Sango",
+    "cure": "キュアコーラル",
     "url": "https://prettycure.fandom.com/wiki/Suzumura_Sango",
     "season": ["Tropical-Rouge! Pretty Cure"],
     "themeColour": {
@@ -1591,6 +1661,7 @@
   },
   {
     "name": "Takizawa Asuka",
+    "cure": "キュアフラミンゴ",
     "url": "https://prettycure.fandom.com/wiki/Takizawa_Asuka",
     "season": ["Tropical-Rouge! Pretty Cure"],
     "themeColour": {
@@ -1611,6 +1682,7 @@
   },
   {
     "name": "Fuwa Kokone",
+    "cure": "キュアスパイシー",
     "url": "https://prettycure.fandom.com/wiki/Fuwa_Kokone",
     "season": ["Delicious Party♡Pretty Cure"],
     "themeColour": {
@@ -1631,6 +1703,7 @@
   },
   {
     "name": "Hanamichi Ran",
+    "cure": "キュアヤムヤム",
     "url": "https://prettycure.fandom.com/wiki/Hanamichi_Ran",
     "season": ["Delicious Party♡Pretty Cure"],
     "themeColour": {
@@ -1651,6 +1724,7 @@
   },
   {
     "name": "Kasai Amane",
+    "cure": "キュアフィナーレ",
     "url": "https://prettycure.fandom.com/wiki/Kasai_Amane",
     "season": ["Delicious Party♡Pretty Cure"],
     "themeColour": {
@@ -1671,6 +1745,7 @@
   },
   {
     "name": "Nagomi Yui",
+    "cure": "キュアプレシャス",
     "url": "https://prettycure.fandom.com/wiki/Nagomi_Yui",
     "season": ["Delicious Party♡Pretty Cure"],
     "themeColour": {
@@ -1691,6 +1766,7 @@
   },
   {
     "name": "Ellee-chan",
+    "cure": "キュアマジェスティ",
     "url": "https://prettycure.fandom.com/wiki/Ellee-chan",
     "season": ["Hirogaru Sky! Pretty Cure"],
     "themeColour": {
@@ -1711,6 +1787,7 @@
   },
   {
     "name": "Hijiri Ageha",
+    "cure": "キュアバタフライ",
     "url": "https://prettycure.fandom.com/wiki/Hijiri_Ageha",
     "season": ["Hirogaru Sky! Pretty Cure"],
     "themeColour": {
@@ -1731,6 +1808,7 @@
   },
   {
     "name": "Nijigaoka Mashiro",
+    "cure": "キュアプリズム",
     "url": "https://prettycure.fandom.com/wiki/Nijigaoka_Mashiro",
     "season": ["Hirogaru Sky! Pretty Cure"],
     "themeColour": {
@@ -1751,6 +1829,7 @@
   },
   {
     "name": "Princess Elleelain",
+    "cure": "キュアマジェスティ",
     "url": "https://prettycure.fandom.com/wiki/Princess_Elleelain",
     "season": ["Hirogaru Sky! Pretty Cure"],
     "themeColour": {
@@ -1771,6 +1850,7 @@
   },
   {
     "name": "Sora Harewataru",
+    "cure": "キュアスカイ",
     "url": "https://prettycure.fandom.com/wiki/Sora_Harewataru",
     "season": ["Hirogaru Sky! Pretty Cure"],
     "themeColour": {
@@ -1791,6 +1871,7 @@
   },
   {
     "name": "Yuunagi Tsubasa",
+    "cure": "キュアウィング",
     "url": "https://prettycure.fandom.com/wiki/Yuunagi_Tsubasa",
     "season": ["Hirogaru Sky! Pretty Cure"],
     "themeColour": {
@@ -1811,6 +1892,7 @@
   },
   {
     "name": "Aokaze Nana",
+    "cure": "キュアウィンク",
     "url": "https://prettycure.fandom.com/wiki/Aokaze_Nana",
     "season": ["Kimi to Idol Pretty Cure♪"],
     "themeColour": {
@@ -1831,6 +1913,7 @@
   },
   {
     "name": "Dark Pretty Cure",
+    "cure": "ダークプリキュア",
     "url": "https://prettycure.fandom.com/wiki/Dark_Pretty_Cure",
     "season": ["Heartcatch Pretty Cure!"],
     "themeColour": {
@@ -1851,6 +1934,7 @@
   },
   {
     "name": "Hanasaki Kaoruko",
+    "cure": "非プリキュア",
     "url": "https://prettycure.fandom.com/wiki/Hanasaki_Kaoruko",
     "season": ["Heartcatch Pretty Cure!"],
     "themeColour": {
@@ -1871,6 +1955,7 @@
   },
   {
     "name": "Hanasaki Tsubomi",
+    "cure": "キュアブロッサム",
     "url": "https://prettycure.fandom.com/wiki/Hanasaki_Tsubomi",
     "season": ["Heartcatch Pretty Cure!"],
     "themeColour": {
@@ -1891,6 +1976,7 @@
   },
   {
     "name": "Hibiki Kaito",
+    "cure": "キュアズキューン",
     "url": "https://prettycure.fandom.com/wiki/Hibiki_Kaito",
     "season": ["Kimi to Idol Pretty Cure♪"],
     "themeColour": {
@@ -1911,6 +1997,7 @@
   },
   {
     "name": "Inukai Iroha",
+    "cure": "キュアフレンディ",
     "url": "https://prettycure.fandom.com/wiki/Inukai_Iroha",
     "season": ["Wonderful Pretty Cure!"],
     "themeColour": {
@@ -1931,6 +2018,7 @@
   },
   {
     "name": "Inukai Komugi",
+    "cure": "キュアワンダフル",
     "url": "https://prettycure.fandom.com/wiki/Inukai_Komugi",
     "season": ["Wonderful Pretty Cure!"],
     "themeColour": {
@@ -1951,6 +2039,7 @@
   },
   {
     "name": "Kurumi Erika",
+    "cure": "キュアマリン",
     "url": "https://prettycure.fandom.com/wiki/Kurumi_Erika",
     "season": ["Heartcatch Pretty Cure!"],
     "themeColour": {
@@ -1971,6 +2060,7 @@
   },
   {
     "name": "Meroron",
+    "cure": "キュアキッス",
     "url": "https://prettycure.fandom.com/wiki/Meroron",
     "season": ["Kimi to Idol Pretty Cure♪"],
     "themeColour": {
@@ -1991,6 +2081,7 @@
   },
   {
     "name": "Myoudouin Itsuki",
+    "cure": "キュアサンシャイン",
     "url": "https://prettycure.fandom.com/wiki/Myoudouin_Itsuki",
     "season": ["Heartcatch Pretty Cure!"],
     "themeColour": {
@@ -2011,6 +2102,7 @@
   },
   {
     "name": "Nekoyashiki Mayu",
+    "cure": "キュアリリアン",
     "url": "https://prettycure.fandom.com/wiki/Nekoyashiki_Mayu",
     "season": ["Wonderful Pretty Cure!"],
     "themeColour": {
@@ -2031,6 +2123,7 @@
   },
   {
     "name": "Nekoyashiki Yuki",
+    "cure": "キュアニャミー",
     "url": "https://prettycure.fandom.com/wiki/Nekoyashiki_Yuki",
     "season": ["Wonderful Pretty Cure!"],
     "themeColour": {
@@ -2051,6 +2144,7 @@
   },
   {
     "name": "Purirun",
+    "cure": "キュアズキューン",
     "url": "https://prettycure.fandom.com/wiki/Purirun",
     "season": ["Kimi to Idol Pretty Cure♪"],
     "themeColour": {
@@ -2071,6 +2165,7 @@
   },
   {
     "name": "Sakura Uta",
+    "cure": "キュアアイドル",
     "url": "https://prettycure.fandom.com/wiki/Sakura_Uta",
     "season": ["Kimi to Idol Pretty Cure♪"],
     "themeColour": {
@@ -2091,6 +2186,7 @@
   },
   {
     "name": "Shigure Kokoro",
+    "cure": "キュアキュンキュン",
     "url": "https://prettycure.fandom.com/wiki/Shigure_Kokoro",
     "season": ["Kimi to Idol Pretty Cure♪"],
     "themeColour": {
@@ -2111,6 +2207,7 @@
   },
   {
     "name": "Tsukikage Yuri",
+    "cure": "キュアムーンライト",
     "url": "https://prettycure.fandom.com/wiki/Tsukikage_Yuri",
     "season": ["Heartcatch Pretty Cure!"],
     "themeColour": {
