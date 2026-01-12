@@ -1,17 +1,17 @@
-import { useState,useEffect } from "react";
+import { useState, useEffect } from 'react';
 
-import PrecureColorRing from "./PrecureColorRing";
-import TransformationPlayer from "./TransformationPlayer";
-import PrecureIcon from "./PrecureIcon";
-import PrecureAxisBarChart from "./PrecureAxisBarChart";
-import { PERSONALITY_METRICS } from "../constants/personality_metrics";
+import PrecureColorRing from './PrecureColorRing';
+import TransformationPlayer from './TransformationPlayer';
+import PrecureIcon from './PrecureIcon';
+import PrecureAxisBarChart from './PrecureAxisBarChart';
+import { PERSONALITY_METRICS } from '../constants/personality_metrics';
 
 export default function Chart() {
   const [data, setData] = useState([]);
   const [metric, setMetric] = useState(PERSONALITY_METRICS[0]);
 
   useEffect(() => {
-    fetch("/data/precure_sorted.json")
+    fetch('/data/precure_sorted.json')
       .then((res) => res.json())
       .then((json) => setData(json));
   }, []);
@@ -19,7 +19,7 @@ export default function Chart() {
   if (!data.length) {
     return <div className="p-6">loading...</div>;
   }
-  
+
   return (
     <>
       <div className="relative w-[800px] h-[800px]">
@@ -40,9 +40,7 @@ export default function Chart() {
           {PERSONALITY_METRICS.map((m) => (
             <button
               key={m}
-              className={`btn btn-sm ${
-                metric === m ? "btn-primary" : "btn-outline"
-              }`}
+              className={`btn btn-sm ${metric === m ? 'btn-primary' : 'btn-outline'}`}
               onClick={() => setMetric(m)}
             >
               {m}
