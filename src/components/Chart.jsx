@@ -1,6 +1,6 @@
-import { useEffect, useRef } from "react";
-import * as d3 from "d3";
-import { PRECURE_COLORS } from "../constants/colors";
+import { useEffect, useRef } from 'react';
+import * as d3 from 'd3';
+import { PRECURE_COLORS } from '../constants/colors';
 
 export default function Chart({ data, metric }) {
   const ref = useRef(null);
@@ -16,11 +16,11 @@ export default function Chart({ data, metric }) {
 
     const svg = d3
       .select(ref.current)
-      .append("svg")
-      .attr("width", size)
-      .attr("height", size)
-      .append("g")
-      .attr("transform", `translate(${size / 2}, ${size / 2})`);
+      .append('svg')
+      .attr('width', size)
+      .attr('height', size)
+      .append('g')
+      .attr('transform', `translate(${size / 2}, ${size / 2})`);
 
     /* =====================
        Color Ring
@@ -36,13 +36,13 @@ export default function Chart({ data, metric }) {
       .endAngle((_, i) => (i + 1) * angleStep);
 
     svg
-      .selectAll(".color-ring")
+      .selectAll('.color-ring')
       .data(PRECURE_COLORS)
       .enter()
-      .append("path")
-      .attr("class", "color-ring")
-      .attr("d", ringArc)
-      .attr("fill", (d) => d);
+      .append('path')
+      .attr('class', 'color-ring')
+      .attr('d', ringArc)
+      .attr('fill', (d) => d);
 
     /* =====================
        Radial Bars（外側）
@@ -67,17 +67,17 @@ export default function Chart({ data, metric }) {
       .endAngle((d) => angle(d.name) + angle.bandwidth());
 
     svg
-      .selectAll(".radial-bar")
+      .selectAll('.radial-bar')
       .data(data)
       .enter()
-      .append("path")
-      .attr("class", "radial-bar")
-      .attr("d", barArc)
-      .attr("fill", "#facc15")
-      .attr("opacity", 0.9);
+      .append('path')
+      .attr('class', 'radial-bar')
+      .attr('d', barArc)
+      .attr('fill', '#facc15')
+      .attr('opacity', 0.9);
 
     return () => {
-      d3.select(ref.current).selectAll("*").remove();
+      d3.select(ref.current).selectAll('*').remove();
     };
   }, [data, metric]);
 

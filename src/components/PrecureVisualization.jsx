@@ -1,18 +1,17 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 
-import Chart from "./Chart";
-import PrecureColorRing from "./PrecureColorRing";
-import PrecureAxisBarChart from "./PrecureAxisBarChart";
-import TransformationPlayer from "./TransformationPlayer";
-import PrecureIcon from "./PrecureIcon";
-import { PERSONALITY_METRICS } from "../constants/personality_metrics";
+import MetricSelector from './MetricSelector';
+import PrecureIcon from './PrecureIcon';
+import TransformationPlayer from './TransformationPlayer';
+import Chart from './Chart';
+import { PERSONALITY_METRICS } from '../constants/personality_metrics';
 
 export default function PrecureVisualization() {
   const [data, setData] = useState([]);
   const [metric, setMetric] = useState(PERSONALITY_METRICS[0]);
 
   useEffect(() => {
-    fetch("/data/precure_profile_with_scores.json")
+    fetch('/data/precure_profile_with_scores.json')
       .then((res) => res.json())
       .then((json) => setData(json));
   }, []);
@@ -23,28 +22,9 @@ export default function PrecureVisualization() {
 
   return (
     <>
-      {/* 棒グラフ */}
-      <div className="p-6">
-        <div className="flex flex-wrap gap-2 mb-6">
-          {PERSONALITY_METRICS.map((m) => (
-            <button
-              key={m}
-              className={`btn btn-sm ${
-                metric === m ? "btn-primary" : "btn-outline"
-              }`}
-              onClick={() => setMetric(m)}
-            >
-              {m}
-            </button>
-          ))}
-        </div>
-        {/* <PrecureBarChart data={data} metric={metric} /> */}
-      </div>
+      <MetricSelector metricsList={PERSONALITY_METRICS} metric={metric} setMetric={setMetric} />
 
       <div className="relative w-[800px] h-[800px]">
-        {/* カラーリング */}
-        {/* <PrecureColorRing /> */}
-
         {/* アイコン */}
         <PrecureIcon />
 

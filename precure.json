@@ -26,7 +26,9 @@
     "themeColour": {
       "main": "Pink (standard) Red (Cherry Flamenco) Yellow (Lollipop Hip Hop) White (Forever Lovely)",
       "sub": null,
-      "raw": ["Pink (standard) Red (Cherry Flamenco) Yellow (Lollipop Hip Hop) White (Forever Lovely)"]
+      "raw": [
+        "Pink (standard) Red (Cherry Flamenco) Yellow (Lollipop Hip Hop) White (Forever Lovely)"
+      ]
     },
     "personality": "Megumi is energetic, and has a big heart that is always looking for others' well-being. She loves to help out and when she finds someone troubled or feeling sad, she steps in to lend them a hand without hesitation. She is bold and brave, and keeps an upbeat attitude that helps lighten other's moods better. She can be clumsy at times, and while she admires fashion, her own sense of it was initially considered to be rather numb.\n\nDeep down, Megumi has some insecurities, but she covers them up fairly well. She often worries that her tendency to help others may come off as selfish, thinking she only does it for compliments, even though her friends assure her that this is untrue. She can also come off as being pushy and irritate others, such as Hime, without meaning to. She can also be somewhat lazy and she is bad at studying. Her desire to help and get to know\nBlue\n also led her to becoming too attached to him, giving\nRed\n an opportunity to use her during a low moment. Despite that, she cares deeply for others.",
     "axes7": {
@@ -222,11 +224,16 @@
   {
     "name": "Asahina Mirai",
     "url": "https://prettycure.fandom.com/wiki/Asahina_Mirai",
-    "season": ["Mahou Tsukai Pretty Cure!", "Mahou Tsukai Pretty Cure!! ~MIRAI DAYS~"],
+    "season": [
+      "Mahou Tsukai Pretty Cure!",
+      "Mahou Tsukai Pretty Cure!! ~MIRAI DAYS~"
+    ],
     "themeColour": {
       "main": "Pink (Dia and Alexandrite) Red (Ruby) Blue (Sapphire) Yellow (Topaz)",
       "sub": null,
-      "raw": ["Pink (Dia and Alexandrite) Red (Ruby) Blue (Sapphire) Yellow (Topaz)"]
+      "raw": [
+        "Pink (Dia and Alexandrite) Red (Ruby) Blue (Sapphire) Yellow (Topaz)"
+      ]
     },
     "personality": "Mirai is a strange, funny, lovely and energetic girl who is interested in various things, and tends to think outside of the box. Her stuffed bear Mofurun that was given to her by her grandmother, Kanoko, is very important to her, and she admires Liko a lot. Her goal is to study magic she loves while trying to gain Liko's admiration. She is also scatterbrained, and gets distracted easily.\n\nAlthough sometimes rash, Mirai is extremely caring and selfless, as she will sacrifice herself for the friends she loves. She is also hardworking in order to attain the things she strives to accomplish, which is why she finds\nmagic\n exciting to learn.",
     "axes7": {
@@ -246,7 +253,9 @@
     "themeColour": {
       "main": "Dark Pink (Happy) Dark Orange (Sunny) Dark Yellow (Peace) Dark Green (March) Dark Blue (Beauty)",
       "sub": null,
-      "raw": ["Dark Pink (Happy) Dark Orange (Sunny) Dark Yellow (Peace) Dark Green (March) Dark Blue (Beauty)"]
+      "raw": [
+        "Dark Pink (Happy) Dark Orange (Sunny) Dark Yellow (Peace) Dark Green (March) Dark Blue (Beauty)"
+      ]
     },
     "personality": "The Bad End Cures have very little personality. They were created by Joker to be weapons used against the Pretty Cures. They seek their own happiness and seek to destroy their good-doer counterparts. As a result, they consider themselves superior to the Cures and vigorously denigrate and mock them, warping their principles into something worse.",
     "axes7": {
@@ -354,7 +363,9 @@
     "themeColour": {
       "main": "Pink (Dark Dream) Red (Dark Rouge) Yellow (Dark Lemonade) Green (Dark Mint) Blue (Dark Aqua)",
       "sub": null,
-      "raw": ["Pink (Dark Dream) Red (Dark Rouge) Yellow (Dark Lemonade) Green (Dark Mint) Blue (Dark Aqua)"]
+      "raw": [
+        "Pink (Dark Dream) Red (Dark Rouge) Yellow (Dark Lemonade) Green (Dark Mint) Blue (Dark Aqua)"
+      ]
     },
     "personality": null,
     "axes7": null
@@ -422,7 +433,10 @@
   {
     "name": "Ha-chan",
     "url": "https://prettycure.fandom.com/wiki/Ha-chan",
-    "season": ["Mahou Tsukai Pretty Cure!", "Mahou Tsukai Pretty Cure!! ~MIRAI DAYS~"],
+    "season": [
+      "Mahou Tsukai Pretty Cure!",
+      "Mahou Tsukai Pretty Cure!! ~MIRAI DAYS~"
+    ],
     "themeColour": {
       "main": "GreenPink",
       "sub": null,
@@ -626,7 +640,9 @@
     "themeColour": {
       "main": "PurpleTurquoise (Pine Arabian) Sky blue and pink (Anmitsu Komachi)",
       "sub": null,
-      "raw": ["PurpleTurquoise (Pine Arabian) Sky blue and pink (Anmitsu Komachi)"]
+      "raw": [
+        "PurpleTurquoise (Pine Arabian) Sky blue and pink (Anmitsu Komachi)"
+      ]
     },
     "personality": "Iona is a compassionate and just person who helps the weak with gentleness. As a Cure, she possesses a strong sense of duty and exceptional combat abilities, enabling her to single-handedly defeat the Saiarks one by one. She is a serious, cool, capable girl who holds herself and others to high standards. Although she excels academically, she can be a bit of a perfectionist and reluctant to seek help from others, leading to occasional carelessness. Iona also has a stubborn nature and a dislike for losing, rarely displaying laughter.\n\nHowever, she has an aura that makes it difficult to approach her; thus she has few friends. She doesn't laugh because she is tense, but she wants to change her cool and stiff character. In fact, she loves to laugh, to the point of spitting out her drink after hearing a random gag. It's also worth noting that she strongly believes in the power of love, even if she isn't able to express that.\n\nInitially, Iona appeared as an extremely cold-hearted, stubborn, and harsh girl who relied on herself and hated others helping her. But after being admonished by Glasan, reconciling with Hime, and finally realizing her errors, Iona begins to warm up strongly to others around her and can overcome her hatred and pain. She was also able to get herself under control.",
     "axes7": {
@@ -822,7 +838,10 @@
   {
     "name": "Hyuuga Saki",
     "url": "https://prettycure.fandom.com/wiki/Hyuuga_Saki",
-    "season": ["Futari wa Pretty Cure Splash Star", "Kibou no Chikara ~Otona Pretty Cure '23~"],
+    "season": [
+      "Futari wa Pretty Cure Splash Star",
+      "Kibou no Chikara ~Otona Pretty Cure '23~"
+    ],
     "themeColour": {
       "main": "Pink (Cure Bloom",
       "sub": "main) Yellow (Cure Bloom",
@@ -932,11 +951,16 @@
   {
     "name": "Izayoi Liko",
     "url": "https://prettycure.fandom.com/wiki/Izayoi_Liko",
-    "season": ["Mahou Tsukai Pretty Cure!", "Mahou Tsukai Pretty Cure!! ~MIRAI DAYS~"],
+    "season": [
+      "Mahou Tsukai Pretty Cure!",
+      "Mahou Tsukai Pretty Cure!! ~MIRAI DAYS~"
+    ],
     "themeColour": {
       "main": "Purple (Diamond and Alexandrite) Red (Ruby) Blue (Sapphire) Yellow (Topaz)",
       "sub": null,
-      "raw": ["Purple (Diamond and Alexandrite) Red (Ruby) Blue (Sapphire) Yellow (Topaz)"]
+      "raw": [
+        "Purple (Diamond and Alexandrite) Red (Ruby) Blue (Sapphire) Yellow (Topaz)"
+      ]
     },
     "personality": "Liko is a serious 13-year-old girl who attends a school in the magic world. She is great at studying but her magic is weak. She is insecure but hopes to become a respectable witch in the future like her sister. Liko is unsure of what she wants to do when she grows up and often worries about it, but after she lives with Mirai, her life becomes a little less worrisome and more bright.\n\nAs a teenager and later adult, Liko can sometimes be too overprotective of her loved ones, but gradually learns to loosen up for their sake.",
     "axes7": {
@@ -1112,7 +1136,10 @@
   {
     "name": "Kiryuu Kaoru",
     "url": "https://prettycure.fandom.com/wiki/Kiryuu_Kaoru",
-    "season": ["Futari wa Pretty Cure Splash Star", "Kibou no Chikara ~Otona Pretty Cure '23~"],
+    "season": [
+      "Futari wa Pretty Cure Splash Star",
+      "Kibou no Chikara ~Otona Pretty Cure '23~"
+    ],
     "themeColour": {
       "main": "Blue",
       "sub": null,
@@ -1132,7 +1159,10 @@
   {
     "name": "Kiryuu Michiru",
     "url": "https://prettycure.fandom.com/wiki/Kiryuu_Michiru",
-    "season": ["Futari wa Pretty Cure Splash Star", "Kibou no Chikara ~Otona Pretty Cure '23~"],
+    "season": [
+      "Futari wa Pretty Cure Splash Star",
+      "Kibou no Chikara ~Otona Pretty Cure '23~"
+    ],
     "themeColour": {
       "main": "Yellow",
       "sub": null,
@@ -1192,7 +1222,10 @@
   {
     "name": "Kujou Hikari",
     "url": "https://prettycure.fandom.com/wiki/Kujou_Hikari",
-    "season": ["Futari wa Pretty Cure Max Heart", "Kibou no Chikara ~Otona Pretty Cure '23~"],
+    "season": [
+      "Futari wa Pretty Cure Max Heart",
+      "Kibou no Chikara ~Otona Pretty Cure '23~"
+    ],
     "themeColour": {
       "main": "YellowPink",
       "sub": null,
@@ -1216,7 +1249,11 @@
     "themeColour": {
       "main": "Purple (Siren and Ellen",
       "sub": "Cure Beat",
-      "raw": ["Purple (Siren and Ellen", "Cure Beat", "sub-color) Blue (Cure Beat)"]
+      "raw": [
+        "Purple (Siren and Ellen",
+        "Cure Beat",
+        "sub-color) Blue (Cure Beat)"
+      ]
     },
     "personality": "Before her brainwashing, Siren was shown to be a very kind and caring cat who took care of Hummy and enjoyed her company. But when she began to get envious of others' achievements, she found herself growing cold towards Hummy and she took Mephisto up on his offer. In this time, she became cold, calculative, and kept to herself. She lacks sympathy and is unwilling to talk about her pain. However, it was obvious that she was still good deep down, and after Hummy was able to convince her that she was blindly following Mephisto and was letting him manipulate her, she broke free from his control.\n\nAfter becoming Ellen, she underwent a dramatic personality change. She has become more upbeat and cheerful and regained her kindness. However, she gained the naivety she used to show concern for Hummy having, shown fears that people consider childish or being emotional. She is excited to learn more about the new world she has been brought to, and she shows that she is a passionate and dedicated girl who desires to gain more knowledge and friendships.",
     "axes7": {
@@ -1372,7 +1409,11 @@
   {
     "name": "Milk",
     "url": "https://prettycure.fandom.com/wiki/Milk",
-    "season": ["Yes! Pretty Cure 5", "Yes! Pretty Cure 5 GoGo!", "Kibou no Chikara ~Otona Pretty Cure '23~"],
+    "season": [
+      "Yes! Pretty Cure 5",
+      "Yes! Pretty Cure 5 GoGo!",
+      "Kibou no Chikara ~Otona Pretty Cure '23~"
+    ],
     "themeColour": {
       "main": "Purple",
       "sub": null,
@@ -1450,7 +1491,13 @@
     "themeColour": {
       "main": "White (Egret",
       "sub": "main) Blue (Egret",
-      "raw": ["White (Egret", "main) Blue (Egret", "sub) Light Blue (Windy", "main) Pink (Windy", "sub)"]
+      "raw": [
+        "White (Egret",
+        "main) Blue (Egret",
+        "sub) Light Blue (Windy",
+        "main) Pink (Windy",
+        "sub)"
+      ]
     },
     "personality": "Mai is a calm, innocent, and serene young girl who is good at academics and attentive to the tiniest details around her. Not only is she enthusiastic about drawing, but she also loves science, which is highly influenced by both her parents being scientists. She likes to sketch things that have deep meanings to her, and always draws inspiration from the happy events around her.",
     "axes7": {
@@ -1466,7 +1513,11 @@
   {
     "name": "Misumi Nagisa",
     "url": "https://prettycure.fandom.com/wiki/Misumi_Nagisa",
-    "season": ["Futari wa Pretty Cure", "Futari wa Pretty Cure Max Heart", "Kibou no Chikara ~Otona Pretty Cure '23~"],
+    "season": [
+      "Futari wa Pretty Cure",
+      "Futari wa Pretty Cure Max Heart",
+      "Kibou no Chikara ~Otona Pretty Cure '23~"
+    ],
     "themeColour": {
       "main": "BlackPink",
       "sub": null,
@@ -1486,7 +1537,10 @@
   {
     "name": "Mofurun",
     "url": "https://prettycure.fandom.com/wiki/Mofurun",
-    "season": ["Mahou Tsukai Pretty Cure!", "Mahou Tsukai Pretty Cure!! ~MIRAI DAYS~"],
+    "season": [
+      "Mahou Tsukai Pretty Cure!",
+      "Mahou Tsukai Pretty Cure!! ~MIRAI DAYS~"
+    ],
     "themeColour": {
       "main": "YellowOrange",
       "sub": null,
@@ -1850,7 +1904,11 @@
     "themeColour": {
       "main": "Black (Queen Mirage",
       "sub": "main) White (Queen Mirage",
-      "raw": ["Black (Queen Mirage", "main) White (Queen Mirage", "sub) Red (Cure Mirage)"]
+      "raw": [
+        "Black (Queen Mirage",
+        "main) White (Queen Mirage",
+        "sub) Red (Cure Mirage)"
+      ]
     },
     "personality": "Queen Mirage is a cruel and ruthless queen who tries to conquer the\nBlue Sky Kingdom\n and send the generals to attack the Earth. She has no interest in love and relationships and makes everything suffer and despair. However, this is because she has become jaded after Blue abandoned her.\n\nAs a shrine maiden, she was interested in love after she fell in love with\nBlue\n before she became evil. After being purified, Mirage regains her kindness and happiness.",
     "axes7": {
@@ -2266,7 +2324,11 @@
   {
     "name": "Yukishiro Honoka",
     "url": "https://prettycure.fandom.com/wiki/Yukishiro_Honoka",
-    "season": ["Futari wa Pretty Cure", "Futari wa Pretty Cure Max Heart", "Kibou no Chikara ~Otona Pretty Cure '23~"],
+    "season": [
+      "Futari wa Pretty Cure",
+      "Futari wa Pretty Cure Max Heart",
+      "Kibou no Chikara ~Otona Pretty Cure '23~"
+    ],
     "themeColour": {
       "main": "WhiteBlue",
       "sub": null,
@@ -2286,7 +2348,11 @@
   {
     "name": "Yumehara Nozomi",
     "url": "https://prettycure.fandom.com/wiki/Yumehara_Nozomi",
-    "season": ["Yes! Pretty Cure 5", "Yes! Pretty Cure 5 GoGo!", "Kibou no Chikara ~Otona Pretty Cure '23~"],
+    "season": [
+      "Yes! Pretty Cure 5",
+      "Yes! Pretty Cure 5 GoGo!",
+      "Kibou no Chikara ~Otona Pretty Cure '23~"
+    ],
     "themeColour": {
       "main": "Pink",
       "sub": null,
