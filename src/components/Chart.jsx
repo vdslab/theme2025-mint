@@ -62,7 +62,7 @@ export default function Chart({ data, metric }) {
     const barArc = d3
       .arc()
       .innerRadius(barInner)
-      .outerRadius((d) => radius(d.axes7[metric]))
+      .outerRadius((d) => radius(d.scores[metric]))
       .startAngle((d) => angle(d.name))
       .endAngle((d) => angle(d.name) + angle.bandwidth());
 
