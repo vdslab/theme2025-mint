@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 import Chart from "./Chart";
 import PrecureColorRing from "./PrecureColorRing";
-import PrecureBarChart from "./PrecureBarChart";
+import PrecureAxisBarChart from "./PrecureAxisBarChart";
 import TransformationPlayer from "./TransformationPlayer";
 import PrecureIcon from "./PrecureIcon";
 import { PERSONALITY_METRICS } from "../constants/personality_metrics";
