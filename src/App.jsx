@@ -4,10 +4,11 @@ import Footer from './components/Footer.jsx';
 
 function App() {
   return (
-    <div>
-      <h1>PrecureVisualization</h1>
+    <>
+      <Header />
       <PrecureVisualization />
-    </div>
+      <Footer />
+    </>
   );
 }
 
