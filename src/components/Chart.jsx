@@ -1,18 +1,19 @@
-import { useRef } from 'react';
+import Nodes from './Nodes';
 import RadialBarChart from './RadialBarChart';
 
 export default function Chart({ data, metric }) {
   const size = 900;
 
+  const ringRadius = 340;
+
   const barInner = 350;
   const barOuterMax = 450;
-
-  const ref = useRef(null);
 
   return (
     <>
       <svg width={size} height={size}>
         <g transform={`translate(${size / 2}, ${size / 2})`}>
+          <Nodes data={data} radius={6} center={size / 2} ringRadius={ringRadius} />
           <RadialBarChart
             data={data}
             metric={metric}

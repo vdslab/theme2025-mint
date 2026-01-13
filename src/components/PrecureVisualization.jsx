@@ -29,9 +29,6 @@ export default function PrecureVisualization() {
       />
 
       <div className="relative w-[800px] h-[800px]">
-        {/* アイコン */}
-        <PrecureIcon />
-
         {/* 中央の YouTube */}
         <TransformationPlayer />
 
