@@ -1,5 +1,5 @@
-import { useEffect, useRef } from 'react';
-import RadialBars from './RadialBars';
+import { useRef } from 'react';
+import RadialBarChart from './RadialBarChart';
 
 export default function Chart({ data, metric }) {
   const size = 900;
@@ -13,7 +13,7 @@ export default function Chart({ data, metric }) {
     <>
       <svg width={size} height={size}>
         <g transform={`translate(${size / 2}, ${size / 2})`}>
-          <RadialBars
+          <RadialBarChart
             data={data}
             metric={metric}
             innerRadius={barInner}
