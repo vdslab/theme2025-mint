@@ -1,7 +1,13 @@
 import Nodes from './Nodes';
 import RadialBarChart from './RadialBarChart';
 
-export default function Chart({ data, metric, onNodeClick }) {
+export default function Chart({
+  data,
+  metric,
+  onNodeClick,
+  onNodeHover,
+  onNodeLeave,
+}) {
   const size = 900;
   const ringRadius = 340;
   const barInner = 355;
@@ -23,6 +29,8 @@ export default function Chart({ data, metric, onNodeClick }) {
         ringRadius={ringRadius}
         metric={metric}
         onNodeClick={onNodeClick}
+        onNodeHover={onNodeHover}
+        onNodeLeave={onNodeLeave}
       />
       <svg
         width={size}

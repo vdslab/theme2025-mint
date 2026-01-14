@@ -6,6 +6,8 @@ export default function Nodes({
   metric,
   ringRadius = 350,
   onNodeClick,
+  onNodeHover,
+  onNodeLeave,
 }) {
   const n = data.length;
   const offset = Math.PI / n; // ノード間隔半分のオフセット
@@ -54,10 +56,13 @@ export default function Nodes({
           <div
             key={i}
             style={nodeStyle}
-            className="group tooltip tooltip-top flex items-center justify-center rounded-full shadow-lg transition-transform duration-300 ease-in-out hover:scale-125 cursor-pointer pointer-events-auto"
-            data-tip={getTooltipText(d)}
+            className="group flex items-center justify-center rounded-full shadow-lg transition-transform duration-300 ease-in-out hover:scale-125 cursor-pointer pointer-events-auto"
             tabIndex="0"
             onClick={() => onNodeClick(d)}
+            onMouseEnter={(e) =>
+              onNodeHover(getTooltipText(d), { x: e.clientX, y: e.clientY })
+            }
+            onMouseLeave={onNodeLeave}
           ></div>
         );
       })}
