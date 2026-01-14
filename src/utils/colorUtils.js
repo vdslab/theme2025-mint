@@ -29,6 +29,8 @@ function isValidColorName(color) {
   return typeof color === 'string' && validColors.includes(color.toLowerCase());
 }
 
+const rainbowColors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
+
 /**
  * Creates a style object for a node based on its themeColour.
  * @param {string|string[]} themeColour - The theme color(s) for the node.
@@ -49,20 +51,16 @@ export function getNodeStyle(themeColour) {
 
   const colors = Array.isArray(themeColour) ? themeColour : [themeColour];
 
-  const sanitizedColors = colors
+  const expandedColors = colors.flatMap((c) =>
+    typeof c === 'string' && c.toLowerCase() === 'rainbow' ? rainbowColors : c,
+  );
+
+  const sanitizedColors = expandedColors
     .map((c) => (typeof c === 'string' ? c.split(' ')[0].toLowerCase() : null))
     .filter((c) => c && isValidColorName(c));
 
   if (sanitizedColors.length === 0) {
     return defaultStyle;
-  }
-
-  if (sanitizedColors.includes('rainbow')) {
-    return {
-      backgroundImage:
-        'conic-gradient(red, yellow, lime, aqua, blue, magenta, red)',
-      color: '#ffffff',
-    };
   }
 
   if (sanitizedColors.length === 1) {
@@ -78,10 +76,10 @@ export function getNodeStyle(themeColour) {
   }
 
   if (sanitizedColors.length >= 2) {
-    // Take the first two valid colors for the gradient
-    const gradientColors = sanitizedColors.slice(0, 2);
     return {
-      backgroundImage: `linear-gradient(to right, ${gradientColors.join(', ')})`,
+      backgroundImage: `linear-gradient(to right, ${sanitizedColors.join(
+        ', ',
+      )})`,
       color: '#ffffff',
     };
   }

@@ -380,7 +380,7 @@
     "cure": "キュアメロディ",
     "url": "https://prettycure.fandom.com/wiki/Hojo_Hibiki",
     "season": ["Suite Pretty Cure♪"],
-    "themeColour": ["Pink","White"],
+    "themeColour": ["Pink", "White"],
     "personality": "Hibiki is a bright, albeit somewhat klutzy girl who carries a strong sense of justice. She's very bold and outgoing, though she has a tendency for hot-bloodedness that often manifests as a dislike of losing. She has a distaste for underhanded tactics, believing hard work and effort must be put into things to get them right. She is also very honest. Though usually happy-go-lucky and energetic, when angered or faced with a tough situation, Hibiki has a tendency to become more subdued and serious.\n\nShe loves to eat sweets, especially the cakes from Kanade's family shop or those made by Kanade's school group. Although she is outstanding at sports, she loves too many to settle on a single club, preferring to provide aid to any team that needs her help instead. However, she is not very good at her studies or cooking.\n\nWith a music teacher father and violinist mother, Hibiki has an uninhibited personality much like her parents. Despite both her parents being musically-inclined, Hibiki initially thought that she had no musical talent at all, but she works hard at perfecting her piano playing. Over the series, her love of music is rekindled and she decides to pursue her original aspirations of becoming a pianist.\n\nShe succumbs easily to loneliness, and enemies have successfully used her naive and unpretentious nature against her. However, this single-mindedness has also allowed her great influence in bringing\nEllen\n and\nAko\n over to the Pretty Cure's side. As an only child, she is envious of Kanade, who has a little brother, and enthusiastically welcomes Ako into her circle of friends even before knowing that she is Cure Muse.",
     "scores": {
       "sociability": 9,
@@ -398,7 +398,7 @@
     "cure": "キュアリズム",
     "url": "https://prettycure.fandom.com/wiki/Minamino_Kanade",
     "season": ["Suite Pretty Cure♪"],
-    "themeColour": ["White","Pink"],
+    "themeColour": ["White", "Pink"],
     "personality": "Kanade excels at studies but isn't good at sports. She is popular at school and dreams of being a pâtissière when she grows up and taking over her parents' cupcake shop, the\nLucky Spoon\n. She also has a strong love for cats and an affinity for their paws.\n\nIn comparison to Hibiki, Kanade is shown to be mature and calm. She is naturally quiet, but not out of shyness; showing a temperamental side when flustered or annoyed. She is also very stubborn and struggles to admit to being wrong or at fault, and due to feelings of inadequacy, she can become competitive and set on difficult short-term goals.\n\nHowever, Kanade is also friendly and feminine. She loves to make others happy with her elegant, motherly approach to things. While she can be stern with those she cares about, her fussing incidentally pushes them away until realizing she means no harm. At times, she can also show a more girly personality, usually when dealing with her feelings for Ouji.",
     "scores": {
       "sociability": 7,
@@ -560,7 +560,7 @@
     "cure": "キュアダイヤモンド",
     "url": "https://prettycure.fandom.com/wiki/Hishikawa_Rikka",
     "season": ["Doki Doki! Pretty Cure"],
-    "themeColour": ["Blue","White"],
+    "themeColour": ["Blue", "White"],
     "personality": "Intelligent and introverted in comparison to the much livelier Mana, Rikka enjoys things like studying and is one of the top ten scoring students in the national trial exams. As noted by Mana in\nepisode 9\n, Rikka is at the top of the class and constantly placed as the first place in her school; however, if she becomes distracted by other things, like a current hobby, her grades are shown to suffer.\n\nWhile she is kind and usually calm-minded, Rikka can be bluntly stern and she's not afraid to speak her mind. She strives to lead a quiet school life, but is often dragged into various things by Mana, and as her childhood friend, she feels obligated to look out for her and keep her out of trouble. However, she also cares a lot about Mana and trusts her entirely as Mana has always protected her.",
     "scores": {
       "sociability": 4,
@@ -596,7 +596,7 @@
     "cure": "キュアエース",
     "url": "https://prettycure.fandom.com/wiki/Madoka_Aguri",
     "season": ["Doki Doki! Pretty Cure"],
-    "themeColour": ["Red","White"],
+    "themeColour": ["Red", "White"],
     "personality": "Aguri is composed, calm, and wise beyond her young years. She can be strict and expects others to follow the rules, so she can appear to be bossy and accidentally say hurtful things. However, she has an appreciation for good food, most notably sweets; such as a peach roll and Sebastian’s cake, both of which she described in great detail, and how she was a regular of a restaurant ever since being \"drawn\" in by their anmitsu.\n\nShe is known for speaking elegantly, such as saying \"bravo,\" when she eats something she thinks tastes good, and \"adieu\" when departing.",
     "scores": {
       "sociability": 4,
@@ -614,7 +614,7 @@
     "cure": "キュアロゼッタ",
     "url": "https://prettycure.fandom.com/wiki/Yotsuba_Alice",
     "season": ["Doki Doki! Pretty Cure"],
-    "themeColour": ["Yellow","Green"],
+    "themeColour": ["Yellow", "Green"],
     "personality": "Alice is the mistress and heiress of\nYotsuba Enterprises\n, an extremely successful business conglomerate. She is gentle and quiet, and has a somewhat bubbly manner and is always calm. Due to her upbringing, she is a girl of many talents, from music to martial arts to cooking. However, she sometimes says or does things which deviate from popular sentiment, shocking her friends, or just show it by going and introducing things and places owned by\nYotsuba Industries\n, and consequently, owned by her.\n\nDespite her quiet nature, her anger is something to be wary of. Though rare, she can have powerful releases of her rage, especially if someone makes fun of or hurts her friends' feelings, and is very capable of beating up the ones at fault. Once calm and in control, she later regrets hurting them.",
     "scores": {
       "sociability": 5,
@@ -1199,7 +1199,7 @@
     "cure": "キュアサマー",
     "url": "https://prettycure.fandom.com/wiki/Natsuumi_Manatsu",
     "season": ["Tropical-Rouge! Pretty Cure"],
-    "themeColour": "White × Rainbow",
+    "themeColour": ["White", "Rainbow"],
     "personality": "Manatsu is an extremely energetic and motivated 1st-year middle school student who moved from Minamino Island to Aozora City. She always acts before she thinks, and in any situation, Manatsu says \"I'll do what's important, right now!\" However, occasionally this recklessness tends to backfire on her. Although mostly enthusiastic and motivated, she doesn't like to study.",
     "scores": {
       "sociability": 10,

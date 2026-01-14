@@ -1,11 +1,6 @@
 import { getNodeStyle } from '../utils/colorUtils';
 
-export default function Nodes({
-  data,
-  radius = 6,
-  metric,
-  ringRadius = 350,
-}) {
+export default function Nodes({ data, radius = 6, metric, ringRadius = 350 }) {
   const n = data.length;
   const offset = Math.PI / n; // ノード間隔半分のオフセット
 
@@ -57,8 +52,7 @@ export default function Nodes({
             className="group tooltip tooltip-top flex items-center justify-center rounded-full shadow-lg transition-transform duration-300 ease-in-out hover:scale-125 cursor-pointer"
             data-tip={getTooltipText(d)}
             tabIndex="0"
-          >
-          </div>
+          ></div>
         );
       })}
     </div>
