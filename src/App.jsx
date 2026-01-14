@@ -4,7 +4,7 @@ import Footer from './components/Footer.jsx';
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-gray-100">
       <Header />
 
       <main className="flex-grow flex flex-col items-center py-8">
