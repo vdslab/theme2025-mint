@@ -4,8 +4,8 @@ import RadialBarChart from './RadialBarChart';
 export default function Chart({ data, metric, onNodeClick }) {
   const size = 900;
   const ringRadius = 340;
-  const barInner = 350;
-  const barOuterMax = 450;
+  const barInner = 355;
+  const barOuterMax = 455;
 
   return (
     <div
