@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 
 import MetricSelector from './MetricSelector';
-import PrecureIcon from './PrecureIcon';
 import TransformationPlayer from './TransformationPlayer';
 import Chart from './Chart';
 import { PERSONALITY_METRICS } from '../constants/personality_metrics';
