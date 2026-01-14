@@ -27,7 +27,7 @@ export default function PrecureVisualization() {
         setMetric={setMetric}
       />
 
-      <div className="relative w-[800px] h-[800px]">
+      <div className="relative w-[900px] h-[900px]">
         {/* 中央の YouTube */}
         <TransformationPlayer />
 
