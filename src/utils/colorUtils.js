@@ -109,3 +109,107 @@ export function getNodeStyle(themeColour) {
 
   return defaultStyle;
 }
+const COLOR_ORDER_MAP = {
+  Pink: 0,
+  Red: 1,
+  Orange: 2,
+  Yellow: 3,
+  Green: 4,
+  Blue: 5,
+  Purple: 6,
+  Black: 7,
+  White: 8,
+  Rainbow: 9, // Rainbowは特別扱いだが、順序としては末尾近くに
+  Unknown: 10,
+};
+
+//色名の正規化関数
+function normalizeColorName(colorStr) {
+  if (typeof colorStr !== 'string') return '';
+  return (
+    colorStr
+      .toLowerCase()
+      .replace(/[Ａ-Ｚａ-ｚ０-９]/g, (s) =>
+        String.fromCharCode(s.charCodeAt(0) - 0xfee0),
+      )
+      .replace(/[\s-]/g, '')
+      .replace(/^cure/, '')
+  );
+}
+
+// 主要な色カテゴリを決定する関数
+function getPrimaryColorCategory(themeColour) {
+  const rawColors = Array.isArray(themeColour)
+    ? themeColour
+    : themeColour
+      ? [themeColour]
+      : [];
+  if (rawColors.length === 0) return 'Unknown';
+
+  const firstRaw = rawColors[0];
+  const normalized = normalizeColorName(firstRaw);
+
+  if (normalized.includes('pink') || normalized.includes('magenta'))
+    return 'Pink';
+  if (normalized.includes('red')) return 'Red';
+  if (normalized.includes('orange')) return 'Orange';
+  if (normalized.includes('yellow') || normalized.includes('gold'))
+    return 'Yellow';
+  if (normalized.includes('green')) return 'Green';
+  if (
+    normalized.includes('blue') ||
+    normalized.includes('aqua') ||
+    normalized.includes('cyan')
+  )
+    return 'Blue';
+  if (
+    normalized.includes('purple') ||
+    normalized.includes('violet') ||
+    normalized.includes('lavender')
+  )
+    return 'Purple';
+  // Black/Whiteは他の色と混ざっている場合、そちらを優先するロジックのため後方に配置
+  if (normalized.includes('black')) return 'Black';
+  if (normalized.includes('white') || normalized.includes('silver'))
+    return 'White';
+  if (normalized.includes('rainbow')) return 'Rainbow';
+
+  return 'Unknown';
+}
+
+export function createColorSorter() {
+  const cache = new Map();
+
+  return (a, b) => {
+    if (!cache.has(a.name)) {
+      const categoryA = getPrimaryColorCategory(a.themeColour);
+      const orderIndexA = COLOR_ORDER_MAP[categoryA];
+      const subKeyA =
+        (Array.isArray(a.themeColour) ? a.themeColour[0] : a.themeColour) || '';
+      cache.set(a.name, {
+        category: categoryA,
+        orderIndex: orderIndexA,
+        subKey: subKeyA,
+      });
+    }
+    if (!cache.has(b.name)) {
+      const categoryB = getPrimaryColorCategory(b.themeColour);
+      const orderIndexB = COLOR_ORDER_MAP[categoryB];
+      const subKeyB =
+        (Array.isArray(b.themeColour) ? b.themeColour[0] : b.themeColour) || '';
+      cache.set(b.name, {
+        category: categoryB,
+        orderIndex: orderIndexB,
+        subKey: subKeyB,
+      });
+    }
+
+    const { orderIndex: orderA, subKey: subKeyA } = cache.get(a.name);
+    const { orderIndex: orderB, subKey: subKeyB } = cache.get(b.name);
+
+    if (orderA !== orderB) {
+      return orderA - orderB;
+    }
+    return subKeyA.localeCompare(subKeyB);
+  };
+}

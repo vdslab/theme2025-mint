@@ -6,6 +6,7 @@ import Chart from './Chart';
 import TooltipPortal from './TooltipPortal';
 import { PERSONALITY_METRICS } from '../constants/personality_metrics';
 import { normalizeYouTubeLinks } from '../utils/youtubeUtils';
+import { createColorSorter } from '../utils/colorUtils';
 
 export default function PrecureVisualization() {
   const [data, setData] = useState([]);
@@ -21,6 +22,10 @@ export default function PrecureVisualization() {
     fetch('/data/precure_profile.json')
       .then((res) => res.json())
       .then((json) => {
+        // 色に基づいたソートを実行
+        const colorSorter = createColorSorter();
+        json.sort(colorSorter);
+
         setData(json);
         const firstValidCharacter = json.find(
           (c) => c.YouTube && c.YouTube.length > 0,
