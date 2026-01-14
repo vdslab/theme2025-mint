@@ -1,6 +1,12 @@
 import { getNodeStyle } from '../utils/colorUtils';
 
-export default function Nodes({ data, radius = 6, metric, ringRadius = 350 }) {
+export default function Nodes({
+  data,
+  radius = 6,
+  metric,
+  ringRadius = 350,
+  onNodeClick,
+}) {
   const n = data.length;
   const offset = Math.PI / n; // ノード間隔半分のオフセット
 
@@ -29,11 +35,10 @@ export default function Nodes({ data, radius = 6, metric, ringRadius = 350 }) {
     width: `${ringRadius * 2}px`,
     height: `${ringRadius * 2}px`,
     transform: 'translate(-50%, -50%)',
-    zIndex: 1000,
   };
 
   return (
-    <div style={containerStyle}>
+    <div style={containerStyle} className="pointer-events-none">
       {nodesData.map((d, i) => {
         const nodeStyle = {
           position: 'absolute',
@@ -49,9 +54,10 @@ export default function Nodes({ data, radius = 6, metric, ringRadius = 350 }) {
           <div
             key={i}
             style={nodeStyle}
-            className="group tooltip tooltip-top flex items-center justify-center rounded-full shadow-lg transition-transform duration-300 ease-in-out hover:scale-125 cursor-pointer"
+            className="group tooltip tooltip-top flex items-center justify-center rounded-full shadow-lg transition-transform duration-300 ease-in-out hover:scale-125 cursor-pointer pointer-events-auto"
             data-tip={getTooltipText(d)}
             tabIndex="0"
+            onClick={() => onNodeClick(d)}
           ></div>
         );
       })}

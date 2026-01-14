@@ -1,25 +1,33 @@
 import Nodes from './Nodes';
 import RadialBarChart from './RadialBarChart';
 
-export default function Chart({ data, metric }) {
+export default function Chart({ data, metric, onNodeClick }) {
   const size = 900;
   const ringRadius = 340;
   const barInner = 350;
   const barOuterMax = 450;
 
   return (
-    <div style={{ position: 'relative', width: size, height: size }}>
+    <div
+      style={{
+        position: 'relative',
+        width: size,
+        height: size,
+        pointerEvents: 'none',
+      }}
+    >
       <Nodes
         data={data}
         radius={10}
         center={size / 2}
         ringRadius={ringRadius}
         metric={metric}
-      />{' '}
+        onNodeClick={onNodeClick}
+      />
       <svg
         width={size}
         height={size}
-        style={{ position: 'absolute', top: 0, left: 0 }}
+        style={{ position: 'absolute', top: 0, left: 0, pointerEvents: 'none' }}
       >
         <g transform={`translate(${size / 2}, ${size / 2})`}>
           <RadialBarChart
