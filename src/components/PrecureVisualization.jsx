@@ -10,7 +10,7 @@ export default function PrecureVisualization() {
   const [metric, setMetric] = useState(PERSONALITY_METRICS[0]);
 
   useEffect(() => {
-    fetch('/data/precure_profile_with_scores.json')
+    fetch('/data/precure_profile.json')
       .then((res) => res.json())
       .then((json) => setData(json));
   }, []);
