@@ -1,6 +1,14 @@
-// src/utils/colorUtils.js
+import * as d3 from 'd3';
+import { PERSONALITY_METRICS } from '../constants/personality_metrics';
 
-// src/utils/colorUtils.js
+const metricColorScale = d3
+  .scaleOrdinal()
+  .domain(PERSONALITY_METRICS)
+  .range(d3.schemeCategory10);
+
+export function getMetricColor(metric) {
+  return metricColorScale(metric);
+}
 
 // List of valid CSS color names
 const validColors = [

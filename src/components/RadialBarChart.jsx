@@ -1,4 +1,5 @@
 import * as d3 from 'd3';
+import { getMetricColor } from '../utils/colorUtils';
 
 export default function RadialBarChart({
   data,
@@ -24,10 +25,18 @@ export default function RadialBarChart({
     .startAngle((d) => angle(d.name))
     .endAngle((d) => angle(d.name) + angle.bandwidth());
 
+  // 現在選択されているメトリクスの色を取得
+  const currentMetricColor = getMetricColor(metric);
+
   return (
     <>
       {data.map((d, i) => (
-        <path key={i} d={arcGenerator(d)} fill="#facc15" opacity={0.9} />
+        <path
+          key={i}
+          d={arcGenerator(d)}
+          fill={currentMetricColor}
+          opacity={0.9}
+        />
       ))}
     </>
   );
