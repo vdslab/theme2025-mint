@@ -9,7 +9,7 @@ import { normalizeYouTubeLinks } from '../utils/youtubeUtils';
 
 export default function PrecureVisualization() {
   const [data, setData] = useState([]);
-  const [metric, setMetric] = useState(PERSONALITY_METRICS[0]);
+  const [metric, setMetric] = useState(PERSONALITY_METRICS[0].key);
   const [selectedCharacter, setSelectedCharacter] = useState(null);
   const [tooltip, setTooltip] = useState({
     visible: false,

@@ -4,13 +4,13 @@ export default function MetricSelector({ metricsList, metric, setMetric }) {
       <div className="flex flex-wrap gap-2 mb-6">
         {metricsList.map((m) => (
           <button
-            key={m}
+            key={m.key}
             className={`btn btn-sm ${
-              metric === m ? 'btn-primary' : 'btn-outline'
+              metric === m.key ? 'btn-primary' : 'btn-outline'
             }`}
-            onClick={() => setMetric(m)}
+            onClick={() => setMetric(m.key)}
           >
-            {m}
+            {m.label}
           </button>
         ))}
       </div>

@@ -3,7 +3,7 @@ import { PERSONALITY_METRICS } from '../constants/personality_metrics';
 
 const metricColorScale = d3
   .scaleOrdinal()
-  .domain(PERSONALITY_METRICS)
+  .domain(PERSONALITY_METRICS.map((m) => m.key))
   .range(d3.schemeCategory10);
 
 export function getMetricColor(metric) {

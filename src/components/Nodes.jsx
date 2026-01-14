@@ -1,4 +1,5 @@
 import { getNodeStyle } from '../utils/colorUtils';
+import { PERSONALITY_METRICS } from '../constants/personality_metrics';
 
 export default function Nodes({
   data,
@@ -27,7 +28,12 @@ export default function Nodes({
   const getTooltipText = (d) => {
     const cureName = d.cure || '（不明）';
     const score = d.scores?.[metric] ?? '—';
-    return `${cureName}\n${metric}: ${score}`;
+
+    // metric (key) に対応する日本語ラベルを検索
+    const metricLabel =
+      PERSONALITY_METRICS.find((m) => m.key === metric)?.label || metric;
+
+    return `${cureName}\n${metricLabel}: ${score}`;
   };
 
   const containerStyle = {
