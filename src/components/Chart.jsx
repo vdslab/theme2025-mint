@@ -9,7 +9,13 @@ export default function Chart({ data, metric }) {
 
   return (
     <div style={{ position: 'relative', width: size, height: size }}>
-                <Nodes data={data} radius={10} center={size / 2} ringRadius={ringRadius} />      <svg
+                <Nodes
+        data={data}
+        radius={10}
+        center={size / 2}
+        ringRadius={ringRadius}
+        metric={metric}
+      />      <svg
         width={size}
         height={size}
         style={{ position: 'absolute', top: 0, left: 0 }}
