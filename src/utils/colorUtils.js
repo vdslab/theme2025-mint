@@ -1,5 +1,7 @@
 // src/utils/colorUtils.js
 
+// src/utils/colorUtils.js
+
 // List of valid CSS color names
 const validColors = [
   'black',
@@ -29,13 +31,18 @@ function isValidColorName(color) {
   return typeof color === 'string' && validColors.includes(color.toLowerCase());
 }
 
-const rainbowColors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
+const rainbowRepresentativeColor = '#8b00ff'; // DarkViolet
 
-/**
- * Creates a style object for a node based on its themeColour.
- * @param {string|string[]} themeColour - The theme color(s) for the node.
- * @returns {object} - A CSS style object.
- */
+function getRepresentativeColor(color) {
+  if (typeof color !== 'string') return null;
+  const lowerColor = color.toLowerCase();
+  if (lowerColor === 'rainbow') {
+    return rainbowRepresentativeColor;
+  }
+  const sanitized = lowerColor.split(' ')[0];
+  return isValidColorName(sanitized) ? sanitized : null;
+}
+
 export function getNodeStyle(themeColour) {
   const defaultStyle = {
     backgroundColor: '#9ca3af', // gray-400
@@ -51,36 +58,44 @@ export function getNodeStyle(themeColour) {
 
   const colors = Array.isArray(themeColour) ? themeColour : [themeColour];
 
-  const expandedColors = colors.flatMap((c) =>
-    typeof c === 'string' && c.toLowerCase() === 'rainbow' ? rainbowColors : c,
-  );
-
-  const sanitizedColors = expandedColors
-    .map((c) => (typeof c === 'string' ? c.split(' ')[0].toLowerCase() : null))
-    .filter((c) => c && isValidColorName(c));
-
-  if (sanitizedColors.length === 0) {
-    return defaultStyle;
-  }
-
-  if (sanitizedColors.length === 1) {
+  if (
+    colors.length === 1 &&
+    typeof colors[0] === 'string' &&
+    colors[0].toLowerCase() === 'rainbow'
+  ) {
     return {
-      backgroundColor: sanitizedColors[0],
-      color:
-        sanitizedColors[0] === 'white' ||
-        sanitizedColors[0] === 'yellow' ||
-        sanitizedColors[0] === 'gold'
-          ? '#374151'
-          : '#ffffff',
+      backgroundImage:
+        'linear-gradient(to right, red, orange, yellow, green, blue, purple)',
+      color: '#ffffff',
     };
   }
 
-  if (sanitizedColors.length >= 2) {
+  const representativeColors = colors
+    .map(getRepresentativeColor)
+    .filter(Boolean);
+
+  if (representativeColors.length === 0) {
+    return defaultStyle;
+  }
+
+  if (representativeColors.length >= 2) {
+    const c1 = representativeColors[0];
+    const c2 = representativeColors[1];
     return {
-      backgroundImage: `linear-gradient(to right, ${sanitizedColors.join(
-        ', ',
-      )})`,
+      backgroundImage: `linear-gradient(90deg, ${c1} 0%, ${c1} 60%, ${c2} 95%, ${c2} 100%)`,
       color: '#ffffff',
+      textShadow: '0 0 3px rgba(0, 0, 0, 0.7)',
+    };
+  }
+
+  if (representativeColors.length === 1) {
+    const color = representativeColors[0];
+    return {
+      backgroundColor: color,
+      color:
+        color === 'white' || color === 'yellow' || color === 'gold'
+          ? '#374151'
+          : '#ffffff',
     };
   }
 
