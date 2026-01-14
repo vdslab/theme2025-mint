@@ -9,9 +9,10 @@ export default function Chart({
   onNodeLeave,
 }) {
   const size = 900;
-  const ringRadius = 340;
-  const barInner = 355;
-  const barOuterMax = 455;
+  // ラベルが見切れないように、全体的に半径を小さくする
+  const ringRadius = 315;
+  const barInner = 330;
+  const barOuterMax = 430;
 
   return (
     <div
