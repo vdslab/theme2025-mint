@@ -19,7 +19,10 @@
       "self_esteem": 4,
       "self_sacrifice": 7
     },
-    "YouTube": "https://youtu.be/maiX-2d4R3w?si=c53HnPAKPJ79V0FB"
+    "YouTube": [
+      "https://youtu.be/maiX-2d4R3w?si=c53HnPAKPJ79V0FB",
+      "https://youtu.be/Mt7LKJoHR1c?si=Gk8IXCuohwQbnPYr"
+    ]
   },
   {
     "name": "Yukishiro Honoka",
@@ -41,7 +44,10 @@
       "self_esteem": 8,
       "self_sacrifice": 7
     },
-    "YouTube": "https://youtu.be/maiX-2d4R3w?si=c53HnPAKPJ79V0FB"
+    "YouTube": [
+      "https://youtu.be/maiX-2d4R3w?si=c53HnPAKPJ79V0FB",
+      "https://youtu.be/Mt7LKJoHR1c?si=Gk8IXCuohwQbnPYr"
+    ]
   },
   {
     "name": "Kujou Hikari",
@@ -123,7 +129,10 @@
       "self_esteem": 5,
       "self_sacrifice": 8
     },
-    "YouTube": ["https://youtu.be/VX7mDa-rilM?si=-0lJ0MYbjRNeZkuX"]
+    "YouTube": [
+      "https://youtu.be/VX7mDa-rilM?si=-0lJ0MYbjRNeZkuX",
+      "https://youtu.be/8ZquUKkh1wQ?si=A_7WQA9v7sW2K9xK"
+    ]
   },
   {
     "name": "Natsuki Rin",
