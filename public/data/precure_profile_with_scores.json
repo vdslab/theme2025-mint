@@ -8,11 +8,7 @@
       "Futari wa Pretty Cure Max Heart",
       "Kibou no Chikara ~Otona Pretty Cure '23~"
     ],
-    "themeColour": {
-      "main": "BlackPink",
-      "sub": null,
-      "raw": ["BlackPink"]
-    },
+    "themeColour": ["Black", "Pink"],
     "personality": "Nagisa is a star lacrosse player at\nVerone Academy\n. She is very energetic and popular among other girls for her passionate nature, much to her dismay. She is weak with academics but her pure spirit makes up for it. She also has a large appetite and loves to eat chocolate,\nFujita Akane\n's takoyaki, and according to Honoka, food with the word \"yaki\" in it. She can be childish and easily angered and loves to go out and play when it's nice and sunny.\n\nDespite her sporty nature, Nagisa is actually very girly and self-conscious. She has a large collection of stuffed animals and loves to shop, although she tends to squander her money and usually doesn't have any when she really needs it. Nagisa also has a crush on Honoka's childhood friend,\nFujimura Shougo\n, and gets flustered whenever he is around. At times, she is shown to be envious of Honoka since she gets confessions and love letters from boys more than twice a month.\n\nDeep down, she can be sensitive, and she hates arguing with friends or seeing someone in pain above all else. Nagisa also has a great sense of justice, but it is hidden inside of her and only comes out when someone is in danger. She hates that innocent people get hurt for things they had nothing to do with.",
     "scores": {
       "sociability": 9,
@@ -22,7 +18,8 @@
       "curiosity": 7,
       "self_esteem": 4,
       "self_sacrifice": 7
-    }
+    },
+    "YouTube": "https://youtu.be/maiX-2d4R3w?si=c53HnPAKPJ79V0FB"
   },
   {
     "name": "Yukishiro Honoka",
@@ -33,11 +30,7 @@
       "Futari wa Pretty Cure Max Heart",
       "Kibou no Chikara ~Otona Pretty Cure '23~"
     ],
-    "themeColour": {
-      "main": "WhiteBlue",
-      "sub": null,
-      "raw": ["WhiteBlue"]
-    },
+    "themeColour": ["White", "Blue"],
     "personality": "Honoka is a gentle and understanding girl who always put others before herself. She is very smart, even being called the \"The Queen of Knowledge\n (\n知識の女王\n,\n\nChishiki no joō\n)\n\", \"The Queen of Intelligence\n (\n知性の女王\n,\n\nChisei no joō\n)\n\" or \"The Queen of Wisdom\n (\n叡智の女王\n,\n\nEichi no joō\n)\n\" by her classmates, and often uses this to help people. Due to this, she is very popular, having caught the attention of nearly every boy in school. She is not interested in most of them, but she has shown to care very much for a few boys, namely\nFujimura Shougo\n, her childhood friend, and\nKiriya\n, a new boy at school who she is helping understand people's feelings.\n\nAs she is serious about her passions, Honoka can be strict with others and can become forceful or scary if angered by other's laziness or lack of concern. However, she is shown to be this way out of care for said person and waning them to do their best. She can also be pushy in her attempts to help someone, and she has a surprisingly stubborn side. For the most part, she is usually easy-going and calm-tempered, not likely to be easily riled up in comparison to Nagisa.",
     "scores": {
       "sociability": 7,
@@ -47,7 +40,8 @@
       "curiosity": 7,
       "self_esteem": 8,
       "self_sacrifice": 7
-    }
+    },
+    "YouTube": "https://youtu.be/maiX-2d4R3w?si=c53HnPAKPJ79V0FB"
   },
   {
     "name": "Kujou Hikari",
@@ -57,11 +51,7 @@
       "Futari wa Pretty Cure Max Heart",
       "Kibou no Chikara ~Otona Pretty Cure '23~"
     ],
-    "themeColour": {
-      "main": "YellowPink",
-      "sub": null,
-      "raw": ["YellowPink"]
-    },
+    "themeColour": ["Yellow", "Pink"],
     "personality": "Having lost all memories of her life as the Queen, Hikari lives life as a passive human girl. Initially a blank state because of this, she comes off as naive, innocent, and wide-eyed while trying to adjust to her sudden life. She quickly befriended Nagisa and Honoka after formally meeting them. Hikari is nice and polite, and very considerate towards others. It's hard to get her upset, and her gentle disposition tends to worry others. She usually keeps things to herself to avoid worrying others or upsetting them.",
     "scores": {
       "sociability": 5,
@@ -71,7 +61,8 @@
       "curiosity": 4,
       "self_esteem": 5,
       "self_sacrifice": 8
-    }
+    },
+    "YouTube": "https://youtu.be/sR-dT4UMC-w?si=78wNW-_1-aLIQEkK"
   },
   {
     "name": "Hyuuga Saki",
@@ -81,11 +72,7 @@
       "Futari wa Pretty Cure Splash Star",
       "Kibou no Chikara ~Otona Pretty Cure '23~"
     ],
-    "themeColour": {
-      "main": "Pink",
-      "sub": "null",
-      "raw": ["Pink"]
-    },
+    "themeColour": "Pink",
     "personality": "Saki is a cheerful athletic girl and a member of\nYuunagi Middle School\n's girls' softball team. Her family runs the\nPANPAKA Pan Bakery\n. She is very energetic and optimistic girl whose hopeful nature often inspires or encourages others. She is bored easily on subjects she isn't interested in. She is selfless and kind but has a short temper at times. While she is good at baking delicious bread, she seems to struggle with making other things.\n\nAs an adult, Saki briefly has doubts about herself, as she does not want to let her loved ones down. However, she is encouraged by Mai to be honest with herself and others again.",
     "scores": {
       "sociability": 8,
@@ -95,72 +82,15 @@
       "curiosity": 5,
       "self_esteem": 7,
       "self_sacrifice": 8
-    }
-  },
-  {
-    "name": "Kiryuu Kaoru",
-    "cure": "キュアウィンディ",
-    "url": "https://prettycure.fandom.com/wiki/Kiryuu_Kaoru",
-    "season": [
-      "Futari wa Pretty Cure Splash Star",
-      "Kibou no Chikara ~Otona Pretty Cure '23~"
-    ],
-    "themeColour": {
-      "main": "Blue",
-      "sub": null,
-      "raw": ["Blue"]
     },
-    "personality": "Like Michiru, Kaoru is curious about the\nLand of Greenery\n due to being sheltered from the outside world. She initially serves as a\nDark Fall\n spy, but is conflicted about their purpose after becoming friends with the Cures. Kaoru acts cold and dismissive, but is also calmer and more rational than Michiru, though she may come across as too frank to others.",
-    "scores": {
-      "sociability": 3,
-      "empathy": 4,
-      "responsibility": 5,
-      "emotional_instability": 5,
-      "curiosity": 8,
-      "self_esteem": 7,
-      "self_sacrifice": 5
-    }
-  },
-  {
-    "name": "Kiryuu Michiru",
-    "cure": "キュアブライト",
-    "url": "https://prettycure.fandom.com/wiki/Kiryuu_Michiru",
-    "season": [
-      "Futari wa Pretty Cure Splash Star",
-      "Kibou no Chikara ~Otona Pretty Cure '23~"
-    ],
-    "themeColour": {
-      "main": "Yellow",
-      "sub": null,
-      "raw": ["Yellow"]
-    },
-    "personality": "At first, she seems cold-hearted, but after becoming friends with Saki and Mai, she mellows out and becomes a kinder person.\n\nLike her sister Kaoru, Michiru is curious about the\nLand of Greenery\n due to being sheltered from the outside world. She serves as a\nDark Fall\n spy but is conflicted about their purpose after becoming friends with the Cures. Compared to Kaoru, Michiru is more intrigued about the Land of Greenery and asks questions about the way people act.",
-    "scores": {
-      "sociability": 4,
-      "empathy": 5,
-      "responsibility": 5,
-      "emotional_instability": 5,
-      "curiosity": 9,
-      "self_esteem": 7,
-      "self_sacrifice": 5
-    }
+    "YouTube": "https://youtu.be/HcWHcS142Kw?si=BBcC4xzTwLdfr1-s"
   },
   {
     "name": "Mishou Mai",
     "cure": "キュアイーグレット／キュアウィンディ",
     "url": "https://prettycure.fandom.com/wiki/Mishou_Mai",
     "season": ["Futari wa Pretty Cure Splash Star"],
-    "themeColour": {
-      "main": "White (Egret",
-      "sub": "main) Blue (Egret",
-      "raw": [
-        "White (Egret",
-        "main) Blue (Egret",
-        "sub) Light Blue (Windy",
-        "main) Pink (Windy",
-        "sub)"
-      ]
-    },
+    "themeColour": "White",
     "personality": "Mai is a calm, innocent, and serene young girl who is good at academics and attentive to the tiniest details around her. Not only is she enthusiastic about drawing, but she also loves science, which is highly influenced by both her parents being scientists. She likes to sketch things that have deep meanings to her, and always draws inspiration from the happy events around her.",
     "scores": {
       "sociability": 5,
@@ -170,116 +100,8 @@
       "curiosity": 8,
       "self_esteem": 7,
       "self_sacrifice": 5
-    }
-  },
-  {
-    "name": "Kasugano Urara",
-    "cure": "キュアレモネード",
-    "url": "https://prettycure.fandom.com/wiki/Kasugano_Urara",
-    "season": ["Yes! Pretty Cure 5", "Yes! Pretty Cure 5 GoGo!"],
-    "themeColour": {
-      "main": "Yellow",
-      "sub": null,
-      "raw": ["Yellow"]
     },
-    "personality": "Urara is a bit materialistic, but she is also calm and polite, referring to most of her friends with the suffix \"-san\". Urara is naturally cheery and sweet, but while she normally shows this side to others without hesitation, she was actually very shy until she befriended\nYumehara Nozomi\n. She is somewhat similar to Nozomi in that they are both shown rushing head-first into things, and they love eating.\n\nShe can also be absent-minded and a little clumsy, but she has more self-confidence in comparison. She also takes her work very seriously and has a busy lifestyle.",
-    "scores": {
-      "sociability": 7,
-      "empathy": 7,
-      "responsibility": 8,
-      "emotional_instability": 5,
-      "curiosity": 5,
-      "self_esteem": 8,
-      "self_sacrifice": 4
-    }
-  },
-  {
-    "name": "Akimoto Komachi",
-    "cure": "キュアミント",
-    "url": "https://prettycure.fandom.com/wiki/Akimoto_Komachi",
-    "season": ["Yes! Pretty Cure 5", "Yes! Pretty Cure 5 GoGo!"],
-    "themeColour": {
-      "main": "Green",
-      "sub": null,
-      "raw": ["Green"]
-    },
-    "personality": "Komachi is known for her kind, gentle, and feminine personality. She is often lost in a daydream of romance and other fantasies while searching for inspiration for her future as a novelist. She is very kind towards others and retains a calm and peaceful nature, and is also shown to be wise and polite regardless of the situation or how angry she may be. She is also very delicate and can shut-down entirely if given even the smallest critique. She seeks approval from others and enjoys showing her work to those who are interested, using her writings to reflect her true feelings when she is unable to express them openly. Komachi can also become quite creepy when telling ghost stories, as seen in\nepisode 27\n and\nthe movie\n.",
-    "scores": {
-      "sociability": 4,
-      "empathy": 8,
-      "responsibility": 7,
-      "emotional_instability": 10,
-      "curiosity": 8,
-      "self_esteem": 3,
-      "self_sacrifice": 5
-    }
-  },
-  {
-    "name": "Minazuki Karen",
-    "cure": "キュアアクア",
-    "url": "https://prettycure.fandom.com/wiki/Minazuki_Karen",
-    "season": ["Yes! Pretty Cure 5", "Yes! Pretty Cure 5 GoGo!"],
-    "themeColour": {
-      "main": "Blue",
-      "sub": null,
-      "raw": ["Blue"]
-    },
-    "personality": "Karen is strongly admired for being calm and stoic, a mature young woman who has come to cover up her insecurities and feelings of loneliness. She dearly misses her parents as they are usually away, but out of obligation and feeling that everything rests on her shoulders she refuses to let it get to her, she has come to think she needs to do everything by herself. She was originally very enthusiastic about being class representative prior to meeting Komachi, but by the time it began wearing her down she was forced to keep going to be there for her. Because of her position, Karen is able to memorize all the names and faces of all the Cinq Lumières students, and also easily takes responsibility when something happens to the school, as seen in the\nsecond episode\n where she wants Nozomi to explain what happened to the library the other day.\n\nWhile usually calm in temperament, when pushed enough she can sometimes get to a point where she ends up saying hurtful or offensive things to other people, shown in\nepisode 23\n, where she called Komachi naïve and indecisive, even though she wasn't involved in the issue that upset her.\n\nIn\nepisode 5\n and\n6\n, Karen acted as though her time with the Pretty Cure had been a made up story. But with their company, she had a lot of fun. When she meets Coco, she was quite stunned and scared after they were attacked. She wanted to help her friends after they got hurt, but when the blue butterfly disappeared, she was shocked and held a lot of grief and depression. But encouraged by Nozomi and stunned by her hopes and friendship, she was happy and dealt with it the best she could. Finally, she became a Pretty Cure at the end of Episode 6 and the more she spends time with her teammates, the more she has fun with them. In\nepisode 29\n, Jii-ya was happy to see her making jokes, glad to see she's began to open up.",
-    "scores": {
-      "sociability": 5,
-      "empathy": 5,
-      "responsibility": 10,
-      "emotional_instability": 9,
-      "curiosity": 4,
-      "self_esteem": 7,
-      "self_sacrifice": 4
-    }
-  },
-  {
-    "name": "Milk",
-    "cure": "ミルキィローズ",
-    "url": "https://prettycure.fandom.com/wiki/Milk",
-    "season": [
-      "Yes! Pretty Cure 5",
-      "Yes! Pretty Cure 5 GoGo!",
-      "Kibou no Chikara ~Otona Pretty Cure '23~"
-    ],
-    "themeColour": {
-      "main": "Purple",
-      "sub": null,
-      "raw": ["Purple"]
-    },
-    "personality": "Milk is a strict, no-nonsense type of person when it comes to Coco and Nuts. She tries her best to watch over them so they don't make any foolish decisions. If she's unable to be with them, she starts to feel useless and worries a lot. She is unable to tolerate anyone who shows rudeness to either of the two. Initially, she would only show coldness towards anyone who was not them. She is also selfish and greedy, but as she begins to trust the Cures and befriend them, she acts less disrespectfully and learns to be kinder to others.\n\nHowever, Milk is also a lot like Nozomi. She can be childish most of the time and only causes problems for others, even if it isn't her intention. As a human, she displays a much more mature side though and appears to be very selfless. But at times she could be swept up in what the girls are doing at the time.",
-    "scores": {
-      "sociability": 7,
-      "empathy": 7,
-      "responsibility": 8,
-      "emotional_instability": 8,
-      "curiosity": 7,
-      "self_esteem": 5,
-      "self_sacrifice": 1
-    }
-  },
-  {
-    "name": "Natsuki Rin",
-    "cure": "キュアルージュ",
-    "url": "https://prettycure.fandom.com/wiki/Natsuki_Rin",
-    "season": ["Yes! Pretty Cure 5", "Yes! Pretty Cure 5 GoGo!"],
-    "themeColour": {
-      "main": "Red",
-      "sub": null,
-      "raw": ["Red"]
-    },
-    "personality": "Rin is a girl who displays both tomboyish and feminine traits. She has a passion for designing accessories and is responsible for creating the designs for\nNatts House\n. Rin is straightforward and down-to-earth in her personality, which contrasts with the cheerful and optimistic nature of her best friend,\nYumehara Nozomi\n. Rin takes on a nurturing role towards her and her own younger siblings, often acting as a big sister figure.\n\nAlthough Rin is usually straightforward, she can be hot-headed, impatient, and passionate at times, which can lead to clashes with more reserved and stubborn individuals. Rin's greatest fear is losing someone she loves, which is most noticeable in her attachment to Nozomi. Additionally, Rin has a fear of unnatural things\n, which stems from her childhood where it took her a long time to recover after being startled by such things.",
-    "scores": {
-      "sociability": 5,
-      "empathy": 7,
-      "responsibility": 7,
-      "emotional_instability": 9,
-      "curiosity": 5,
-      "self_esteem": 7,
-      "self_sacrifice": 7
-    }
+    "YouTube": "https://youtu.be/HcWHcS142Kw?si=BBcC4xzTwLdfr1-s"
   },
   {
     "name": "Yumehara Nozomi",
@@ -290,11 +112,7 @@
       "Yes! Pretty Cure 5 GoGo!",
       "Kibou no Chikara ~Otona Pretty Cure '23~"
     ],
-    "themeColour": {
-      "main": "Pink",
-      "sub": null,
-      "raw": ["Pink"]
-    },
+    "themeColour": "Pink",
     "personality": "Nozomi is a caring person with a big heart and an optimistic outlook on life. While realizing she may not be talented or have any usable skills, she makes up for it by being very friendly and kind towards others, even to her enemies. A bit of a late thinker, she sometimes gets distracted, especially when food is involved. She is also childish, loud, clumsy, and does not seem to make decisions rationally.\n\nAs Cure Dream, she is noticeably more serious. She also gains more strength and never hesitates to help others.",
     "scores": {
       "sociability": 9,
@@ -304,60 +122,121 @@
       "curiosity": 4,
       "self_esteem": 5,
       "self_sacrifice": 8
-    }
+    },
+    "YouTube": ["https://youtu.be/VX7mDa-rilM?si=-0lJ0MYbjRNeZkuX"]
   },
   {
-    "name": "Aono Miki",
-    "cure": "キュアベリー",
-    "url": "https://prettycure.fandom.com/wiki/Aono_Miki",
-    "season": ["Fresh Pretty Cure!"],
-    "themeColour": {
-      "main": "Blue",
-      "sub": null,
-      "raw": ["Blue"]
-    },
-    "personality": "Miki insists she is flawless, and carries herself with maturity and confidence. She is graceful, charming, and kind-hearted. Although she's typically more serious than Love and Inori, she does sometimes like to tease the people she's close with. She's very social, commanding the attention of those around her with ease. Since she was young, her dream has been to become a model.\n\nThough Miki is usually level-headed and a perfectionist, she can be riled up and sometimes lacks patience. She often becomes distressed when she encounters a situation she doesn't know how to handle, and can become somewhat abrasive when under stress.",
-    "scores": {
-      "sociability": 10,
-      "empathy": 7,
-      "responsibility": 8,
-      "emotional_instability": 7,
-      "curiosity": 7,
-      "self_esteem": 10,
-      "self_sacrifice": 4
-    }
-  },
-  {
-    "name": "Higashi Setsuna",
-    "cure": "キュアパッション",
-    "url": "https://prettycure.fandom.com/wiki/Higashi_Setsuna",
-    "season": ["Fresh Pretty Cure!"],
-    "themeColour": {
-      "main": "Red",
-      "sub": null,
-      "raw": ["Red"]
-    },
-    "personality": "As Eas, Setsuna initially had a cold and calculating personality. She was quick to anger and lacked any patience. She didn't care about others' feelings and was unwaveringly loyal to Moebius. However, after befriending Love, her personality began to change. The flaws in her character started to become apparent, and her stubbornness and pride made it difficult for her to admit when she was wrong.\n\nUpon being reborn as Cure Passion, she gradually transformed. Initially shy, reserved, and anxious after joining Pretty Cure, she started to open up more thanks to her friends. Over time, she became more cheerful and energetic. Setsuna eventually evolved into a kind, patient, and intelligent person who deeply cared for those close to her. However, she found it challenging to understand social cues and Earth's customs, often approaching situations with innocent naivety.\n\nShe was burdened by guilt over her past actions while working for Labyrinth, and even though she came to terms with it over time, the feeling never completely went away. Despite her transformation since her time as Eas, her seriousness and determination remained intact, now channeled into her battles as Cure Passion.",
+    "name": "Natsuki Rin",
+    "cure": "キュアルージュ",
+    "url": "https://prettycure.fandom.com/wiki/Natsuki_Rin",
+    "season": ["Yes! Pretty Cure 5", "Yes! Pretty Cure 5 GoGo!"],
+    "themeColour": "Red",
+    "personality": "Rin is a girl who displays both tomboyish and feminine traits. She has a passion for designing accessories and is responsible for creating the designs for\nNatts House\n. Rin is straightforward and down-to-earth in her personality, which contrasts with the cheerful and optimistic nature of her best friend,\nYumehara Nozomi\n. Rin takes on a nurturing role towards her and her own younger siblings, often acting as a big sister figure.\n\nAlthough Rin is usually straightforward, she can be hot-headed, impatient, and passionate at times, which can lead to clashes with more reserved and stubborn individuals. Rin's greatest fear is losing someone she loves, which is most noticeable in her attachment to Nozomi. Additionally, Rin has a fear of unnatural things\n, which stems from her childhood where it took her a long time to recover after being startled by such things.",
     "scores": {
       "sociability": 5,
-      "empathy": 8,
-      "responsibility": 8,
+      "empathy": 7,
+      "responsibility": 7,
       "emotional_instability": 9,
       "curiosity": 5,
-      "self_esteem": 4,
+      "self_esteem": 7,
       "self_sacrifice": 7
-    }
+    },
+    "YouTube": [
+      "https://youtu.be/xkU7u6aD8oE?si=5pyZcojPXsJC2VtH",
+      "https://youtu.be/5DdDfgf1az4?si=ds8S5txg4UmGpBI8"
+    ]
+  },
+  {
+    "name": "Kasugano Urara",
+    "cure": "キュアレモネード",
+    "url": "https://prettycure.fandom.com/wiki/Kasugano_Urara",
+    "season": ["Yes! Pretty Cure 5", "Yes! Pretty Cure 5 GoGo!"],
+    "themeColour": "Yellow",
+    "personality": "Urara is a bit materialistic, but she is also calm and polite, referring to most of her friends with the suffix \"-san\". Urara is naturally cheery and sweet, but while she normally shows this side to others without hesitation, she was actually very shy until she befriended\nYumehara Nozomi\n. She is somewhat similar to Nozomi in that they are both shown rushing head-first into things, and they love eating.\n\nShe can also be absent-minded and a little clumsy, but she has more self-confidence in comparison. She also takes her work very seriously and has a busy lifestyle.",
+    "scores": {
+      "sociability": 7,
+      "empathy": 7,
+      "responsibility": 8,
+      "emotional_instability": 5,
+      "curiosity": 5,
+      "self_esteem": 8,
+      "self_sacrifice": 4
+    },
+    "YouTube": [
+      "https://youtu.be/zWPcTRfzvZw?si=gknDSR3UPd6fEXUc",
+      "https://youtu.be/qqa8a5dTp94?si=G9GJORPA8Kel4x6v"
+    ]
+  },
+  {
+    "name": "Akimoto Komachi",
+    "cure": "キュアミント",
+    "url": "https://prettycure.fandom.com/wiki/Akimoto_Komachi",
+    "season": ["Yes! Pretty Cure 5", "Yes! Pretty Cure 5 GoGo!"],
+    "themeColour": "Green",
+    "personality": "Komachi is known for her kind, gentle, and feminine personality. She is often lost in a daydream of romance and other fantasies while searching for inspiration for her future as a novelist. She is very kind towards others and retains a calm and peaceful nature, and is also shown to be wise and polite regardless of the situation or how angry she may be. She is also very delicate and can shut-down entirely if given even the smallest critique. She seeks approval from others and enjoys showing her work to those who are interested, using her writings to reflect her true feelings when she is unable to express them openly. Komachi can also become quite creepy when telling ghost stories, as seen in\nepisode 27\n and\nthe movie\n.",
+    "scores": {
+      "sociability": 4,
+      "empathy": 8,
+      "responsibility": 7,
+      "emotional_instability": 10,
+      "curiosity": 8,
+      "self_esteem": 3,
+      "self_sacrifice": 5
+    },
+    "YouTube": [
+      "https://youtu.be/gCi0bE5YGi4?si=aiQKyk0ZyZR7CVHV",
+      "https://youtu.be/8QopbibCZoU?si=7qN9IX4IJ873HAlh"
+    ]
+  },
+  {
+    "name": "Minazuki Karen",
+    "cure": "キュアアクア",
+    "url": "https://prettycure.fandom.com/wiki/Minazuki_Karen",
+    "season": ["Yes! Pretty Cure 5", "Yes! Pretty Cure 5 GoGo!"],
+    "themeColour": "Blue",
+    "personality": "Karen is strongly admired for being calm and stoic, a mature young woman who has come to cover up her insecurities and feelings of loneliness. She dearly misses her parents as they are usually away, but out of obligation and feeling that everything rests on her shoulders she refuses to let it get to her, she has come to think she needs to do everything by herself. She was originally very enthusiastic about being class representative prior to meeting Komachi, but by the time it began wearing her down she was forced to keep going to be there for her. Because of her position, Karen is able to memorize all the names and faces of all the Cinq Lumières students, and also easily takes responsibility when something happens to the school, as seen in the\nsecond episode\n where she wants Nozomi to explain what happened to the library the other day.\n\nWhile usually calm in temperament, when pushed enough she can sometimes get to a point where she ends up saying hurtful or offensive things to other people, shown in\nepisode 23\n, where she called Komachi naïve and indecisive, even though she wasn't involved in the issue that upset her.\n\nIn\nepisode 5\n and\n6\n, Karen acted as though her time with the Pretty Cure had been a made up story. But with their company, she had a lot of fun. When she meets Coco, she was quite stunned and scared after they were attacked. She wanted to help her friends after they got hurt, but when the blue butterfly disappeared, she was shocked and held a lot of grief and depression. But encouraged by Nozomi and stunned by her hopes and friendship, she was happy and dealt with it the best she could. Finally, she became a Pretty Cure at the end of Episode 6 and the more she spends time with her teammates, the more she has fun with them. In\nepisode 29\n, Jii-ya was happy to see her making jokes, glad to see she's began to open up.",
+    "scores": {
+      "sociability": 5,
+      "empathy": 5,
+      "responsibility": 10,
+      "emotional_instability": 9,
+      "curiosity": 4,
+      "self_esteem": 7,
+      "self_sacrifice": 4
+    },
+    "YouTube": [
+      "https://youtu.be/cu1NGfrE7BI?si=0B8DoH69UQZVhDvl",
+      "https://youtu.be/oo1c4e3om2w?si=SdaG2Sz8p9f6ijrE"
+    ]
+  },
+  {
+    "name": "Milk",
+    "cure": "ミルキィローズ",
+    "url": "https://prettycure.fandom.com/wiki/Milk",
+    "season": [
+      "Yes! Pretty Cure 5",
+      "Yes! Pretty Cure 5 GoGo!",
+      "Kibou no Chikara ~Otona Pretty Cure '23~"
+    ],
+    "themeColour": "Purple",
+    "personality": "Milk is a strict, no-nonsense type of person when it comes to Coco and Nuts. She tries her best to watch over them so they don't make any foolish decisions. If she's unable to be with them, she starts to feel useless and worries a lot. She is unable to tolerate anyone who shows rudeness to either of the two. Initially, she would only show coldness towards anyone who was not them. She is also selfish and greedy, but as she begins to trust the Cures and befriend them, she acts less disrespectfully and learns to be kinder to others.\n\nHowever, Milk is also a lot like Nozomi. She can be childish most of the time and only causes problems for others, even if it isn't her intention. As a human, she displays a much more mature side though and appears to be very selfless. But at times she could be swept up in what the girls are doing at the time.",
+    "scores": {
+      "sociability": 7,
+      "empathy": 7,
+      "responsibility": 8,
+      "emotional_instability": 8,
+      "curiosity": 7,
+      "self_esteem": 5,
+      "self_sacrifice": 1
+    },
+    "YouTube": "https://youtu.be/16CWP7E_JrY?si=O87fFk11RFOnp7Wv"
   },
   {
     "name": "Momozono Love",
     "cure": "キュアピーチ",
     "url": "https://prettycure.fandom.com/wiki/Momozono_Love",
     "season": ["Fresh Pretty Cure!"],
-    "themeColour": {
-      "main": "Pink",
-      "sub": null,
-      "raw": ["Pink"]
-    },
+    "themeColour": "Pink",
     "personality": "Love is an energetic and cheery girl who's passionate about helping others get their happiness. She is shown to be highly empathetic, often putting the needs of others over herself, frequently to her own detriment. Even under the most dire of circumstances, Love still manages to maintain a sense of optimism and positivity.\n\nShe can also be temperamental and somewhat childish at times, though this is usually over trivial matters, such as her dislike of carrots. She can be somewhat clumsy and impulsive at times, and has also been shown to dislike sports and studying. She loves to dance, and is a huge fan of the dance group Trinity.",
     "scores": {
       "sociability": 8,
@@ -367,18 +246,33 @@
       "curiosity": 7,
       "self_esteem": 7,
       "self_sacrifice": 10
-    }
+    },
+    "YouTube": "https://youtu.be/6QHx5Hwdo6A?si=kal2-x9Dt1Yg7uKo"
+  },
+  {
+    "name": "Aono Miki",
+    "cure": "キュアベリー",
+    "url": "https://prettycure.fandom.com/wiki/Aono_Miki",
+    "season": ["Fresh Pretty Cure!"],
+    "themeColour": "Blue",
+    "personality": "Miki insists she is flawless, and carries herself with maturity and confidence. She is graceful, charming, and kind-hearted. Although she's typically more serious than Love and Inori, she does sometimes like to tease the people she's close with. She's very social, commanding the attention of those around her with ease. Since she was young, her dream has been to become a model.\n\nThough Miki is usually level-headed and a perfectionist, she can be riled up and sometimes lacks patience. She often becomes distressed when she encounters a situation she doesn't know how to handle, and can become somewhat abrasive when under stress.",
+    "scores": {
+      "sociability": 10,
+      "empathy": 7,
+      "responsibility": 8,
+      "emotional_instability": 7,
+      "curiosity": 7,
+      "self_esteem": 10,
+      "self_sacrifice": 4
+    },
+    "YouTube": "https://youtu.be/45WPIbovXAg?si=wBx043c7TkNfQHgf"
   },
   {
     "name": "Yamabuki Inori",
     "cure": "キュアパイン",
     "url": "https://prettycure.fandom.com/wiki/Yamabuki_Inori",
     "season": ["Fresh Pretty Cure!"],
-    "themeColour": {
-      "main": "Yellow",
-      "sub": null,
-      "raw": ["Yellow"]
-    },
+    "themeColour": "Yellow",
     "personality": "Inori is calm, gentle, quiet, and shy, making her stand out somewhat from the other three relatively rambunctious\nFresh!\n Cures. She tends to worry about what others think of her, and gets embarrassed easily. She is very protective of those she cares for, though she usually prefers to avoid disputes whenever possible. While she normally goes with the flow, she can also be quick-witted and nimble when the situation calls for it. She adores animals, and aspires to become a veterinarian like her parents when she is older.\n\nWhen she is first introduced, Inori is a reserved girl with low self-confidence; she seeks to improve on this aspect of herself, however, and over the course of the series is shown to grow more confident.",
     "scores": {
       "sociability": 3,
@@ -388,18 +282,105 @@
       "curiosity": 7,
       "self_esteem": 4,
       "self_sacrifice": 8
-    }
+    },
+    "YouTube": "https://youtu.be/7QGSIAOsI7Q?si=rBx6ydgRFuE4lKvL"
+  },
+  {
+    "name": "Higashi Setsuna",
+    "cure": "キュアパッション",
+    "url": "https://prettycure.fandom.com/wiki/Higashi_Setsuna",
+    "season": ["Fresh Pretty Cure!"],
+    "themeColour": "Red",
+    "personality": "As Eas, Setsuna initially had a cold and calculating personality. She was quick to anger and lacked any patience. She didn't care about others' feelings and was unwaveringly loyal to Moebius. However, after befriending Love, her personality began to change. The flaws in her character started to become apparent, and her stubbornness and pride made it difficult for her to admit when she was wrong.\n\nUpon being reborn as Cure Passion, she gradually transformed. Initially shy, reserved, and anxious after joining Pretty Cure, she started to open up more thanks to her friends. Over time, she became more cheerful and energetic. Setsuna eventually evolved into a kind, patient, and intelligent person who deeply cared for those close to her. However, she found it challenging to understand social cues and Earth's customs, often approaching situations with innocent naivety.\n\nShe was burdened by guilt over her past actions while working for Labyrinth, and even though she came to terms with it over time, the feeling never completely went away. Despite her transformation since her time as Eas, her seriousness and determination remained intact, now channeled into her battles as Cure Passion.",
+    "scores": {
+      "sociability": 5,
+      "empathy": 8,
+      "responsibility": 8,
+      "emotional_instability": 9,
+      "curiosity": 5,
+      "self_esteem": 4,
+      "self_sacrifice": 7
+    },
+    "YouTube": "https://youtu.be/tc0_bgHfWxM?si=usDLx3qn8o7lTXdK"
+  },
+  {
+    "name": "Hanasaki Tsubomi",
+    "cure": "キュアブロッサム",
+    "url": "https://prettycure.fandom.com/wiki/Hanasaki_Tsubomi",
+    "season": ["Heartcatch Pretty Cure!"],
+    "themeColour": "Pink",
+    "personality": "Tsubomi is a shy and timid introvert who usually keeps to herself, hesitant to speak openly unless approached first. She often worries over small things and is easily worked up, especially when scared or trying to handle more energetic people like Erika. She strongly wants to shed this aspect of herself and over the series manages to become more easygoing and willing to speak her mind thanks to Erika's friendship and encouragement, until she became confident enough to accept her negative qualities.\n\nTsubomi is a kind girl as well, and would never say anything to hurt anyone or make them feel as though she depended on them if it could make them unhappy. She loves flowers and dreams of becoming a botanist to spread flowers and make people happy.\n\nDue to her relationship and frequent visits with her grandmother, she has picked up her old-fashioned speech pattern.",
+    "scores": {
+      "sociability": 3,
+      "empathy": 8,
+      "responsibility": 7,
+      "emotional_instability": 8,
+      "curiosity": 6,
+      "self_esteem": 3,
+      "self_sacrifice": 7
+    },
+    "YouTube": "https://youtu.be/Lk9FRELldbA?si=87Yp1s5BWeqz_aaD"
+  },
+  {
+    "name": "Kurumi Erika",
+    "cure": "キュアマリン",
+    "url": "https://prettycure.fandom.com/wiki/Kurumi_Erika",
+    "season": ["Heartcatch Pretty Cure!"],
+    "themeColour": "Blue",
+    "personality": "Erika is a feminine young girl who loves fashion and dreams of becoming a fashion designer. Everything she loves revolves around fashion, and she has turned it into an art form capable of helping others open up and feel their best. She is able to tell their feelings or moods using the color therapy she is going through.\n She is also a very fast learner and shows that when she puts her mind to things she has some skill.\n\nUsually, she is cheery and energetic, but she has times when she can come off as selfish by acting lazy, childish, and immature. She has a short-temper and can be impatient, and she's pretty blunt and likely to be nosy when curious. This brash personality causes her to come off as abrasive towards more shy or reserved types, but at the same time she can become more mindful towards them and will always be there to comfort them should they need it. She cares deeply for her friends, even if she struggles to express it in a way that doesn't cause them further anxiety.\n\nDespite their similarities and shared interests, Erika is very jealous of Momoka and often ignores or pushes her away as her sister attempts to help her or make suggestions. She wishes to surpass Momoka someday and would rather do it on her own then ask her for help. But over time she gradually begins to open up to her sister and grows less hostile.",
+    "scores": {
+      "sociability": 9,
+      "empathy": 6,
+      "responsibility": 3,
+      "emotional_instability": 6,
+      "curiosity": 8,
+      "self_esteem": 7,
+      "self_sacrifice": 4
+    },
+    "YouTube": "https://youtu.be/-3pGOPLtnkI?si=CqenVqStjrL-oxhT"
+  },
+  {
+    "name": "Myoudouin Itsuki",
+    "cure": "キュアサンシャイン",
+    "url": "https://prettycure.fandom.com/wiki/Myoudouin_Itsuki",
+    "season": ["Heartcatch Pretty Cure!"],
+    "themeColour": ["Yellow", "Gold"],
+    "personality": "Befitting of her image and upbringing, Itsuki is a wise and princely young woman who is very formal with others. She is calm-tempered and kind, willing to help friends and strangers alike, but she can also be stern when it's necessary and has no problem stepping in to defend those weaker than her. She is brave and compassionate, but this will not stop her from unleashing rage on those who hurt the innocent. She is strongly admired by others for her strength in character and as a person, which played a part in her struggle to find a compromise between who she thought she had to be and who she wanted to be.\n\nItsuki has a fondness for anything cute and girly. While she is normally gentle and seems to be on the introverted side initially, she becomes excited by things like toys and clothing. When she realizes she can embrace this part of herself, she begins to show it more openly to others.",
+    "scores": {
+      "sociability": 4,
+      "empathy": 7,
+      "responsibility": 9,
+      "emotional_instability": 3,
+      "curiosity": 4,
+      "self_esteem": 8,
+      "self_sacrifice": 5
+    },
+    "YouTube": "https://youtu.be/LhFVFJnHPDQ?si=J0VpRu82j29-hduO"
+  },
+  {
+    "name": "Tsukikage Yuri",
+    "cure": "キュアムーンライト",
+    "url": "https://prettycure.fandom.com/wiki/Tsukikage_Yuri",
+    "season": ["Heartcatch Pretty Cure!"],
+    "themeColour": ["Purple", "Silver"],
+    "personality": "Yuri is calm and composed, well known for her cool attitude and her frequently chart-topping exam scores at school. She cares for little and is initially cold towards Tsubomi and Erika. After losing Cologne, she became quiet and withdrawn, fearful of causing others to feel burdened by her or risk losing someone else she cherishes. She believed it would be impossible for her to become a Pretty Cure again and was deeply saddened. Before this happened, she was shown to be overly confident and bold. She wouldn't listen to Cologne when she believed she didn't need a partner for help until Cologne died for her.\n\nHer true personality is one of contentment and maturity. She can be stubborn when she sets her mind to something but begins to open up as she spends more time with the group. She shows a more friendly side to herself by this point. Although generally mature, she can sometimes be oblivious to other's romantic feelings for her.",
+    "scores": {
+      "sociability": 4,
+      "empathy": 4,
+      "responsibility": 9,
+      "emotional_instability": 3,
+      "curiosity": 5,
+      "self_esteem": 8,
+      "self_sacrifice": 4
+    },
+    "YouTube": "https://youtu.be/Um0VdI4Dy2c?si=e6zmF6G5da4mYdQK"
   },
   {
     "name": "Hojo Hibiki",
     "cure": "キュアメロディ",
     "url": "https://prettycure.fandom.com/wiki/Hojo_Hibiki",
     "season": ["Suite Pretty Cure♪"],
-    "themeColour": {
-      "main": "PinkWhite",
-      "sub": null,
-      "raw": ["PinkWhite"]
-    },
+    "themeColour": "PinkWhite",
     "personality": "Hibiki is a bright, albeit somewhat klutzy girl who carries a strong sense of justice. She's very bold and outgoing, though she has a tendency for hot-bloodedness that often manifests as a dislike of losing. She has a distaste for underhanded tactics, believing hard work and effort must be put into things to get them right. She is also very honest. Though usually happy-go-lucky and energetic, when angered or faced with a tough situation, Hibiki has a tendency to become more subdued and serious.\n\nShe loves to eat sweets, especially the cakes from Kanade's family shop or those made by Kanade's school group. Although she is outstanding at sports, she loves too many to settle on a single club, preferring to provide aid to any team that needs her help instead. However, she is not very good at her studies or cooking.\n\nWith a music teacher father and violinist mother, Hibiki has an uninhibited personality much like her parents. Despite both her parents being musically-inclined, Hibiki initially thought that she had no musical talent at all, but she works hard at perfecting her piano playing. Over the series, her love of music is rekindled and she decides to pursue her original aspirations of becoming a pianist.\n\nShe succumbs easily to loneliness, and enemies have successfully used her naive and unpretentious nature against her. However, this single-mindedness has also allowed her great influence in bringing\nEllen\n and\nAko\n over to the Pretty Cure's side. As an only child, she is envious of Kanade, who has a little brother, and enthusiastically welcomes Ako into her circle of friends even before knowing that she is Cure Muse.",
     "scores": {
       "sociability": 9,
@@ -409,43 +390,15 @@
       "curiosity": 8,
       "self_esteem": 4,
       "self_sacrifice": 7
-    }
-  },
-  {
-    "name": "Kurokawa Ellen",
-    "cure": "キュアビート",
-    "url": "https://prettycure.fandom.com/wiki/Kurokawa_Ellen",
-    "season": ["Suite Pretty Cure♪"],
-    "themeColour": {
-      "main": "Purple (Siren and Ellen",
-      "sub": "Cure Beat",
-      "raw": [
-        "Purple (Siren and Ellen",
-        "Cure Beat",
-        "sub-color) Blue (Cure Beat)"
-      ]
     },
-    "personality": "Before her brainwashing, Siren was shown to be a very kind and caring cat who took care of Hummy and enjoyed her company. But when she began to get envious of others' achievements, she found herself growing cold towards Hummy and she took Mephisto up on his offer. In this time, she became cold, calculative, and kept to herself. She lacks sympathy and is unwilling to talk about her pain. However, it was obvious that she was still good deep down, and after Hummy was able to convince her that she was blindly following Mephisto and was letting him manipulate her, she broke free from his control.\n\nAfter becoming Ellen, she underwent a dramatic personality change. She has become more upbeat and cheerful and regained her kindness. However, she gained the naivety she used to show concern for Hummy having, shown fears that people consider childish or being emotional. She is excited to learn more about the new world she has been brought to, and she shows that she is a passionate and dedicated girl who desires to gain more knowledge and friendships.",
-    "scores": {
-      "sociability": 5,
-      "empathy": 5,
-      "responsibility": 4,
-      "emotional_instability": 9,
-      "curiosity": 8,
-      "self_esteem": 4,
-      "self_sacrifice": 4
-    }
+    "YouTube": "https://youtu.be/-fpro0EEgGY?si=h6CpmX0q0upvhjSe"
   },
   {
     "name": "Minamino Kanade",
     "cure": "キュアリズム",
     "url": "https://prettycure.fandom.com/wiki/Minamino_Kanade",
     "season": ["Suite Pretty Cure♪"],
-    "themeColour": {
-      "main": "WhitePink",
-      "sub": null,
-      "raw": ["WhitePink"]
-    },
+    "themeColour": "WhitePink",
     "personality": "Kanade excels at studies but isn't good at sports. She is popular at school and dreams of being a pâtissière when she grows up and taking over her parents' cupcake shop, the\nLucky Spoon\n. She also has a strong love for cats and an affinity for their paws.\n\nIn comparison to Hibiki, Kanade is shown to be mature and calm. She is naturally quiet, but not out of shyness; showing a temperamental side when flustered or annoyed. She is also very stubborn and struggles to admit to being wrong or at fault, and due to feelings of inadequacy, she can become competitive and set on difficult short-term goals.\n\nHowever, Kanade is also friendly and feminine. She loves to make others happy with her elegant, motherly approach to things. While she can be stern with those she cares about, her fussing incidentally pushes them away until realizing she means no harm. At times, she can also show a more girly personality, usually when dealing with her feelings for Ouji.",
     "scores": {
       "sociability": 7,
@@ -455,7 +408,26 @@
       "curiosity": 7,
       "self_esteem": 5,
       "self_sacrifice": 7
-    }
+    },
+    "YouTube": "https://youtu.be/-fpro0EEgGY?si=fthRykGUQLkjzx3z"
+  },
+  {
+    "name": "Kurokawa Ellen",
+    "cure": "キュアビート",
+    "url": "https://prettycure.fandom.com/wiki/Kurokawa_Ellen",
+    "season": ["Suite Pretty Cure♪"],
+    "themeColour": "Blue",
+    "personality": "Before her brainwashing, Siren was shown to be a very kind and caring cat who took care of Hummy and enjoyed her company. But when she began to get envious of others' achievements, she found herself growing cold towards Hummy and she took Mephisto up on his offer. In this time, she became cold, calculative, and kept to herself. She lacks sympathy and is unwilling to talk about her pain. However, it was obvious that she was still good deep down, and after Hummy was able to convince her that she was blindly following Mephisto and was letting him manipulate her, she broke free from his control.\n\nAfter becoming Ellen, she underwent a dramatic personality change. She has become more upbeat and cheerful and regained her kindness. However, she gained the naivety she used to show concern for Hummy having, shown fears that people consider childish or being emotional. She is excited to learn more about the new world she has been brought to, and she shows that she is a passionate and dedicated girl who desires to gain more knowledge and friendships.",
+    "scores": {
+      "sociability": 5,
+      "empathy": 5,
+      "responsibility": 4,
+      "emotional_instability": 9,
+      "curiosity": 8,
+      "self_esteem": 4,
+      "self_sacrifice": 4
+    },
+    "YouTube": "https://youtu.be/KJRAiwrvZAk?si=c90bsYTjr-jI9E-9"
   },
   {
     "name": "Shirabe Ako",
@@ -476,83 +448,15 @@
       "curiosity": 4,
       "self_esteem": 7,
       "self_sacrifice": 7
-    }
-  },
-  {
-    "name": "Aoki Reika",
-    "cure": "キュアビューティ",
-    "url": "https://prettycure.fandom.com/wiki/Aoki_Reika",
-    "season": ["Smile Pretty Cure!"],
-    "themeColour": {
-      "main": "Blue",
-      "sub": null,
-      "raw": ["Blue"]
     },
-    "personality": "When first introduced, Reika is elegant and quiet, though she is quite understanding. She is modest and dislikes inconveniencing others, even initially refusing any help. Reika is also shown to be calm and patient, not even appearing fazed as the others tell her about Pretty Cure. She tries to politely spare their feelings when refusing their request. She is very responsible and hardworking in her studies, clubs, and as a Pretty Cure. She manages to keep her fear in check and remain at ease, even if a little surprised.\n\nIn comparison to the other girls, she appeared to be the most accepting as her role as a Pretty Cure, not being surprised in the slightest. In battle, she is usually calm and focused, with her barely breaking a sweat when defeating her first\nAkanbe\n. She also, occasionally, displays an obsession with finding her \"path\" in life and appears to take her Pretty Cure duties quite seriously. She tends to trying determinedly to find an answer,\n or what to do to (achieve something).",
-    "scores": {
-      "sociability": 4,
-      "empathy": 7,
-      "responsibility": 10,
-      "emotional_instability": 2,
-      "curiosity": 5,
-      "self_esteem": 8,
-      "self_sacrifice": 5
-    }
-  },
-  {
-    "name": "Bad End Pretty Cure",
-    "cure": "バッドエンドプリキュア",
-    "url": "https://prettycure.fandom.com/wiki/Bad_End_Pretty_Cure",
-    "season": ["Smile Pretty Cure!"],
-    "themeColour": {
-      "main": "Dark Pink (Happy) Dark Orange (Sunny) Dark Yellow (Peace) Dark Green (March) Dark Blue (Beauty)",
-      "sub": null,
-      "raw": [
-        "Dark Pink (Happy) Dark Orange (Sunny) Dark Yellow (Peace) Dark Green (March) Dark Blue (Beauty)"
-      ]
-    },
-    "personality": "The Bad End Cures have very little personality. They were created by Joker to be weapons used against the Pretty Cures. They seek their own happiness and seek to destroy their good-doer counterparts. As a result, they consider themselves superior to the Cures and vigorously denigrate and mock them, warping their principles into something worse.",
-    "scores": {
-      "sociability": 4,
-      "empathy": 2,
-      "responsibility": 5,
-      "emotional_instability": 5,
-      "curiosity": 4,
-      "self_esteem": 7,
-      "self_sacrifice": 2
-    }
-  },
-  {
-    "name": "Hino Akane",
-    "cure": "キュアサニー",
-    "url": "https://prettycure.fandom.com/wiki/Hino_Akane",
-    "season": ["Smile Pretty Cure!"],
-    "themeColour": {
-      "main": "Orange",
-      "sub": null,
-      "raw": ["Orange"]
-    },
-    "personality": "Akane, who was born and raised in Osaka, speaks in the Kansai dialect and refers to herself as \"uchi\" instead of the usual \"watashi\". Her catchphrase is\naka~n\n (\nあか〜ん\n,\n\naka~n\n)\n, which is the Kansai equivalent of\n\"This won't do.\"\n (\n駄目だ\n,\n\n\"This won't do.\"\n)\n. Additionally, she often says\n\"It's my turn now!\"\n (\nうちの出番や!\n,\n\n\"It's my turn now!\"\n)\n She has a tomboyish personality, which is often reflected in the way she stands or sits. Despite her tomboyishness, she loves cute things and has a soft spot for gorillas.\n\nAkane is a passionate girl who loves making others laugh. The first impression she gives is that of the class jokester, always full of puns and jokes to make her classmates laugh. As such, she appears to be generally popular and well-liked. Her friends see her as an interesting girl who always manages to make them laugh. She has a habit of speaking her mind, which can get a little out of hand sometimes, such as when she introduced\nNao\n,\nReika\n, and\nYayoi\n to\nMiyuki\n as being a \"female gang leader\", \"Miss Popular\" and \"crybaby\" respectively, causing visible discomfort to the three.\n Yayoi, with her crybaby personality and fascination with superheroes, is often the target of Akane's jokes. However, there does not seem to be any ill-meaning behind the teasing, and the other girls seldom take offense.\n\nDespite all the teasing, Akane is extremely loyal to her friends. She also tends to act before she thinks. For example, when she witnessed Cure Happy being defeated by an\nAkanbe\n, she remembered how Miyuki had helped her out, and immediately went to help Happy even though she had no chance of winning against the Akanbe. Her strong wish to help her friend earned her the\nSmile Pact\n and allowed her to transform into Cure Sunny.\n\nConcerning being a Pretty Cure, Akane was initially against the idea, turning down Miyuki's bold invitation. When she did become a Cure, she seemed quite cool about the whole idea, ready to do her best in battle, though not overwhelmingly enthusiastic like Miyuki or Yayoi. Similar to Nao, she does not understand why Miyuki and Yayoi are so hyped up about being \"superheroes\", and gives Miyuki a cool reception when she insists on the group coming up with a signature phrase.\n Ironically, though she loves to make puns, she was initially embarrassed by the ones made in her Cure introductory speech.\n\nIn terms of sports, Akane is excellent at volleyball, easily beating her classmates in a friendly match. She aims to become the ace attacker of the school volleyball team and comes down hard on herself when she is unable to perform well. She is also an independent girl, as she told Miyuki that she does not normally allow others to help her out, but gave Miyuki a chance to help her with volleyball training due to her enthusiasm and willingness. She can also be extremely focused, as she turned down Miyuki's offer to become a Pretty Cure (or \"kiripura\" as she mistakenly calls it) as she wanted to focus more on her volleyball training.\n\nAkane's family runs an okonomiyaki restaurant, and it is shown that Akane enjoys cooking.",
-    "scores": {
-      "sociability": 9,
-      "empathy": 8,
-      "responsibility": 7,
-      "emotional_instability": 8,
-      "curiosity": 5,
-      "self_esteem": 7,
-      "self_sacrifice": 7
-    }
+    "YouTube": "https://youtu.be/2riN_8_ccts?si=NZCVznqw3-xdzf2U"
   },
   {
     "name": "Hoshizora Miyuki",
     "cure": "キュアハッピー",
     "url": "https://prettycure.fandom.com/wiki/Hoshizora_Miyuki",
     "season": ["Smile Pretty Cure!"],
-    "themeColour": {
-      "main": "Pink",
-      "sub": null,
-      "raw": ["Pink"]
-    },
+    "themeColour": "Pink",
     "personality": "Miyuki is a bright, kind-hearted, and energetic girl who loves fairytales. She is always happy and optimistic but seems occasionally naive. Miyuki is also really clumsy to the point where she sometimes ends up hurting herself when she gets overly excited, such as hitting her head after falling back. Multiple running gags in the series include Miyuki falling flat on her face after she randomly trips and her always getting hit in the face by random objects such as Candy and Pop's storybook.\n\nDuring her childhood, Miyuki was a quiet and timid girl who was too afraid to interact with others. She would often read story books to console herself until Tae, her grandmother, gave her a mirror necklace and told her to always put a smile on her face in front of it. An encounter with a mysterious girl results in her becoming who she is now. Despite being normally cheerful, she still shows notable signs of nervousness such as her class introduction, being on stage for the fashion concert, and finding the Akanbe frightening in her first battle. However, Miyuki gains confidence in her abilities and develops courage over time. Her enthusiasm, motivation, and determination often help her to lead the other Cures in battle.\n\nAs she loves fairy tales, her favorite activity is reading storybooks. Miyuki loves them because the happy endings to these stories always leave a warm and happy feeling inside her heart, which she summarizes as a feeling of being \"ultra happy!\", making her cherish happiness and smiles in high regard. She hates seeing others being sad or crying and does her best to cheer them up when they do. Miyuki eventually realizes what her own happiness is and wishes to share that kindness and feeling with others.",
     "scores": {
       "sociability": 8,
@@ -562,18 +466,33 @@
       "curiosity": 8,
       "self_esteem": 7,
       "self_sacrifice": 8
-    }
+    },
+    "YouTube": "https://youtu.be/JbWubomIKJE?si=7rVWwSqO7JiP1qEy"
+  },
+  {
+    "name": "Hino Akane",
+    "cure": "キュアサニー",
+    "url": "https://prettycure.fandom.com/wiki/Hino_Akane",
+    "season": ["Smile Pretty Cure!"],
+    "themeColour": "Orange",
+    "personality": "Akane, who was born and raised in Osaka, speaks in the Kansai dialect and refers to herself as \"uchi\" instead of the usual \"watashi\". Her catchphrase is\naka~n\n (\nあか〜ん\n,\n\naka~n\n)\n, which is the Kansai equivalent of\n\"This won't do.\"\n (\n駄目だ\n,\n\n\"This won't do.\"\n)\n. Additionally, she often says\n\"It's my turn now!\"\n (\nうちの出番や!\n,\n\n\"It's my turn now!\"\n)\n She has a tomboyish personality, which is often reflected in the way she stands or sits. Despite her tomboyishness, she loves cute things and has a soft spot for gorillas.\n\nAkane is a passionate girl who loves making others laugh. The first impression she gives is that of the class jokester, always full of puns and jokes to make her classmates laugh. As such, she appears to be generally popular and well-liked. Her friends see her as an interesting girl who always manages to make them laugh. She has a habit of speaking her mind, which can get a little out of hand sometimes, such as when she introduced\nNao\n,\nReika\n, and\nYayoi\n to\nMiyuki\n as being a \"female gang leader\", \"Miss Popular\" and \"crybaby\" respectively, causing visible discomfort to the three.\n Yayoi, with her crybaby personality and fascination with superheroes, is often the target of Akane's jokes. However, there does not seem to be any ill-meaning behind the teasing, and the other girls seldom take offense.\n\nDespite all the teasing, Akane is extremely loyal to her friends. She also tends to act before she thinks. For example, when she witnessed Cure Happy being defeated by an\nAkanbe\n, she remembered how Miyuki had helped her out, and immediately went to help Happy even though she had no chance of winning against the Akanbe. Her strong wish to help her friend earned her the\nSmile Pact\n and allowed her to transform into Cure Sunny.\n\nConcerning being a Pretty Cure, Akane was initially against the idea, turning down Miyuki's bold invitation. When she did become a Cure, she seemed quite cool about the whole idea, ready to do her best in battle, though not overwhelmingly enthusiastic like Miyuki or Yayoi. Similar to Nao, she does not understand why Miyuki and Yayoi are so hyped up about being \"superheroes\", and gives Miyuki a cool reception when she insists on the group coming up with a signature phrase.\n Ironically, though she loves to make puns, she was initially embarrassed by the ones made in her Cure introductory speech.\n\nIn terms of sports, Akane is excellent at volleyball, easily beating her classmates in a friendly match. She aims to become the ace attacker of the school volleyball team and comes down hard on herself when she is unable to perform well. She is also an independent girl, as she told Miyuki that she does not normally allow others to help her out, but gave Miyuki a chance to help her with volleyball training due to her enthusiasm and willingness. She can also be extremely focused, as she turned down Miyuki's offer to become a Pretty Cure (or \"kiripura\" as she mistakenly calls it) as she wanted to focus more on her volleyball training.\n\nAkane's family runs an okonomiyaki restaurant, and it is shown that Akane enjoys cooking.",
+    "scores": {
+      "sociability": 9,
+      "empathy": 8,
+      "responsibility": 7,
+      "emotional_instability": 8,
+      "curiosity": 5,
+      "self_esteem": 7,
+      "self_sacrifice": 7
+    },
+    "YouTube": "https://youtu.be/m9lrMWTMcLU?si=ozV0_PmMcZHFFubr"
   },
   {
     "name": "Kise Yayoi",
     "cure": "キュアピース",
     "url": "https://prettycure.fandom.com/wiki/Kise_Yayoi",
     "season": ["Smile Pretty Cure!"],
-    "themeColour": {
-      "main": "Yellow",
-      "sub": null,
-      "raw": ["Yellow"]
-    },
+    "themeColour": "Yellow",
     "personality": "Yayoi is a shy girl with a big heart. She was first depicted as a crybaby, \"crying over the slightest nudge\". Though she had a few friends, she mostly kept to herself due to her shy and modest nature. When\nMiyuki\n and\nAkane\n saw what potential she had in art, they managed to draw a more passionate fire out of her. When their lives were put in danger, she completely shed her babyish personality and showed her true strength.\n\nNow that she's made a few friends, Yayoi has become more outgoing and passionate about being a Pretty Cure, especially the superhero elements. She is quite bubbly and sweet, and while she may appear as a crybaby, she is actually quite strong when it comes to protecting her friends and making the right decision.",
     "scores": {
       "sociability": 5,
@@ -583,18 +502,15 @@
       "curiosity": 7,
       "self_esteem": 5,
       "self_sacrifice": 7
-    }
+    },
+    "YouTube": "https://youtu.be/qd83dvfcThU?si=J95Ue9HeqqHj9WnI"
   },
   {
     "name": "Midorikawa Nao",
     "cure": "キュアマーチ",
     "url": "https://prettycure.fandom.com/wiki/Midorikawa_Nao",
     "season": ["Smile Pretty Cure!"],
-    "themeColour": {
-      "main": "Green",
-      "sub": null,
-      "raw": ["Green"]
-    },
+    "themeColour": "Green",
     "personality": "Nao is said to have a strong sense of justice and does not easily forgive one's wrong actions. She is also known for her powerful courage, but despite her bravery, she has a big fear of insects and ghosts. At times she can become competitive when playing sports, and sometimes she may act forcefully around others, but she has a good heart and she is very popular for her kindness and talent.\n\nNao values her family very highly, as evidenced in her interactions with her parents and siblings. Her worst fear would be to lose them. She often takes care of her siblings when her parents cannot and she enjoys playing with them.",
     "scores": {
       "sociability": 7,
@@ -604,18 +520,33 @@
       "curiosity": 5,
       "self_esteem": 7,
       "self_sacrifice": 8
-    }
+    },
+    "YouTube": "https://youtu.be/jzXk3QgjNgg?si=li_dmAOdBdDC278Y"
+  },
+  {
+    "name": "Aoki Reika",
+    "cure": "キュアビューティ",
+    "url": "https://prettycure.fandom.com/wiki/Aoki_Reika",
+    "season": ["Smile Pretty Cure!"],
+    "themeColour": "Blue",
+    "personality": "When first introduced, Reika is elegant and quiet, though she is quite understanding. She is modest and dislikes inconveniencing others, even initially refusing any help. Reika is also shown to be calm and patient, not even appearing fazed as the others tell her about Pretty Cure. She tries to politely spare their feelings when refusing their request. She is very responsible and hardworking in her studies, clubs, and as a Pretty Cure. She manages to keep her fear in check and remain at ease, even if a little surprised.\n\nIn comparison to the other girls, she appeared to be the most accepting as her role as a Pretty Cure, not being surprised in the slightest. In battle, she is usually calm and focused, with her barely breaking a sweat when defeating her first\nAkanbe\n. She also, occasionally, displays an obsession with finding her \"path\" in life and appears to take her Pretty Cure duties quite seriously. She tends to trying determinedly to find an answer,\n or what to do to (achieve something).",
+    "scores": {
+      "sociability": 4,
+      "empathy": 7,
+      "responsibility": 10,
+      "emotional_instability": 2,
+      "curiosity": 5,
+      "self_esteem": 8,
+      "self_sacrifice": 5
+    },
+    "YouTube": "https://youtu.be/IHoMnG5KlYc?si=KdQRbVx7YOxXV29a"
   },
   {
     "name": "Aida Mana",
     "cure": "キュアハート",
     "url": "https://prettycure.fandom.com/wiki/Aida_Mana",
     "season": ["Doki Doki! Pretty Cure"],
-    "themeColour": {
-      "main": "Pink",
-      "sub": null,
-      "raw": ["Pink"]
-    },
+    "themeColour": "Pink",
     "personality": "Mana is a cheerful girl who is great at sports and her studies. Her kindness makes her popular at school, and she has the trust of not only the students, but adults as well. She often worries about other people, and takes on various problems on her own in order not to burden others. She is great at taking care of people, resolving conflicts, helping friends out with extracurricular activities, and solving problems. However, her selflessness can cause her to be reckless, and she often rushes into things before thinking it through. She is childhood friends with\nRikka\n, who is her secretary, and\nAlice\n. Also, she is a big fan of the idol\nKenzaki Makoto\n.\n\nMana is incredibly fast and if there is any problem to resolve, she shows that she is very competent. She makes friends very quickly and thinks about other people first. Also, she is very courageous, as she heads straight into danger to help people, as shown when she lectures a dangerous\nJikochuu\n. Mana is shown to be a very open and tolerant person, as she does not wonder about the existence of fairy mascots like\nSharuru\n, monsters like Jikochuus or her mysterious transformation into a Pretty Cure.",
     "scores": {
       "sociability": 10,
@@ -625,18 +556,15 @@
       "curiosity": 7,
       "self_esteem": 8,
       "self_sacrifice": 10
-    }
+    },
+    "YouTube": "https://youtu.be/DLxUOTavWIA?si=i9dMv64jDBFKM-uV"
   },
   {
     "name": "Hishikawa Rikka",
     "cure": "キュアダイヤモンド",
     "url": "https://prettycure.fandom.com/wiki/Hishikawa_Rikka",
     "season": ["Doki Doki! Pretty Cure"],
-    "themeColour": {
-      "main": "BlueWhite",
-      "sub": null,
-      "raw": ["BlueWhite"]
-    },
+    "themeColour": "BlueWhite",
     "personality": "Intelligent and introverted in comparison to the much livelier Mana, Rikka enjoys things like studying and is one of the top ten scoring students in the national trial exams. As noted by Mana in\nepisode 9\n, Rikka is at the top of the class and constantly placed as the first place in her school; however, if she becomes distracted by other things, like a current hobby, her grades are shown to suffer.\n\nWhile she is kind and usually calm-minded, Rikka can be bluntly stern and she's not afraid to speak her mind. She strives to lead a quiet school life, but is often dragged into various things by Mana, and as her childhood friend, she feels obligated to look out for her and keep her out of trouble. However, she also cares a lot about Mana and trusts her entirely as Mana has always protected her.",
     "scores": {
       "sociability": 4,
@@ -646,18 +574,15 @@
       "curiosity": 5,
       "self_esteem": 7,
       "self_sacrifice": 5
-    }
+    },
+    "YouTube": "https://youtu.be/Zgw-Kjjd0IY?si=EQmDF7e4aP3MpiYi"
   },
   {
     "name": "Kenzaki Makoto",
     "cure": "キュアソード",
     "url": "https://prettycure.fandom.com/wiki/Kenzaki_Makoto",
     "season": ["Doki Doki! Pretty Cure"],
-    "themeColour": {
-      "main": "Purple",
-      "sub": null,
-      "raw": ["Purple"]
-    },
+    "themeColour": "Purple",
     "personality": "Makoto is a stubborn girl with a strong sense of justice who is willing to defend others by sacrificing her own safety during battle. She dislikes violence and fighting and as such, prefers to stand alone to keep others out of harm's way. Deep down, she holds regret at not being able to defend the\nTrump Kingdom\n from the\nJikochuu\n, and wishes to find\nPrincess Marie Ange\n soon and return to save Trump Kingdom. Her true personality is often masked by how she acts and only\nDabyi\n knows what she is really thinking.\n\nDespite her rational and calm mind, she is shown to be completely clueless to how things work on Earth but she attempts to figure them out with dedication. She is also shown to be slightly flustered when shown kindness, and often does not like to admit her true feelings.",
     "scores": {
       "sociability": 4,
@@ -667,18 +592,15 @@
       "curiosity": 7,
       "self_esteem": 4,
       "self_sacrifice": 8
-    }
+    },
+    "YouTube": "https://youtu.be/s5MlMmXB_nA?si=bKgevAmvg2P_p9sc"
   },
   {
     "name": "Madoka Aguri",
     "cure": "キュアエース",
     "url": "https://prettycure.fandom.com/wiki/Madoka_Aguri",
     "season": ["Doki Doki! Pretty Cure"],
-    "themeColour": {
-      "main": "RedWhite",
-      "sub": null,
-      "raw": ["RedWhite"]
-    },
+    "themeColour": "RedWhite",
     "personality": "Aguri is composed, calm, and wise beyond her young years. She can be strict and expects others to follow the rules, so she can appear to be bossy and accidentally say hurtful things. However, she has an appreciation for good food, most notably sweets; such as a peach roll and Sebastian’s cake, both of which she described in great detail, and how she was a regular of a restaurant ever since being \"drawn\" in by their anmitsu.\n\nShe is known for speaking elegantly, such as saying \"bravo,\" when she eats something she thinks tastes good, and \"adieu\" when departing.",
     "scores": {
       "sociability": 4,
@@ -688,39 +610,15 @@
       "curiosity": 4,
       "self_esteem": 8,
       "self_sacrifice": 4
-    }
-  },
-  {
-    "name": "Regina",
-    "cure": "レジーナ",
-    "url": "https://prettycure.fandom.com/wiki/Regina",
-    "season": ["Doki Doki! Pretty Cure"],
-    "themeColour": {
-      "main": "BlackRed (normal",
-      "sub": "sub) Purple (evil",
-      "raw": ["BlackRed (normal", "sub) Purple (evil", "sub)"]
     },
-    "personality": "Regina is selfish, vain, and spoiled. She treats everyone like peasants and hates anyone who is more beautiful than her. She threatens the Selfish Trio if they don't do what she wants. She is also playful and tries to make\nMana\n play with her.\n\nAt the end of the season, Regina is no longer evil and has become a friendlier person, despite still being a bit clingy. She is still somewhat bratty, selfish, and childish, but truly cherishes her family and friends.",
-    "scores": {
-      "sociability": 5,
-      "empathy": 3,
-      "responsibility": 4,
-      "emotional_instability": 5,
-      "curiosity": 7,
-      "self_esteem": 7,
-      "self_sacrifice": 1
-    }
+    "YouTube": "https://youtu.be/_W3VXV3M-T0?si=W33Oq3gP8DwxcUm6"
   },
   {
     "name": "Yotsuba Alice",
     "cure": "キュアロゼッタ",
     "url": "https://prettycure.fandom.com/wiki/Yotsuba_Alice",
     "season": ["Doki Doki! Pretty Cure"],
-    "themeColour": {
-      "main": "YellowGreen",
-      "sub": null,
-      "raw": ["YellowGreen"]
-    },
+    "themeColour": "YellowGreen",
     "personality": "Alice is the mistress and heiress of\nYotsuba Enterprises\n, an extremely successful business conglomerate. She is gentle and quiet, and has a somewhat bubbly manner and is always calm. Due to her upbringing, she is a girl of many talents, from music to martial arts to cooking. However, she sometimes says or does things which deviate from popular sentiment, shocking her friends, or just show it by going and introducing things and places owned by\nYotsuba Industries\n, and consequently, owned by her.\n\nDespite her quiet nature, her anger is something to be wary of. Though rare, she can have powerful releases of her rage, especially if someone makes fun of or hurts her friends' feelings, and is very capable of beating up the ones at fault. Once calm and in control, she later regrets hurting them.",
     "scores": {
       "sociability": 5,
@@ -730,20 +628,15 @@
       "curiosity": 5,
       "self_esteem": 8,
       "self_sacrifice": 5
-    }
+    },
+    "YouTube": "https://youtu.be/ZenWkYp5OkY?si=ugaz72L1odt3kUJB"
   },
   {
     "name": "Aino Megumi",
     "cure": "キュアラブリー",
     "url": "https://prettycure.fandom.com/wiki/Aino_Megumi",
     "season": ["Happiness Charge Pretty Cure!"],
-    "themeColour": {
-      "main": "Pink (standard) Red (Cherry Flamenco) Yellow (Lollipop Hip Hop) White (Forever Lovely)",
-      "sub": null,
-      "raw": [
-        "Pink (standard) Red (Cherry Flamenco) Yellow (Lollipop Hip Hop) White (Forever Lovely)"
-      ]
-    },
+    "themeColour": "Pink",
     "personality": "Megumi is energetic, and has a big heart that is always looking for others' well-being. She loves to help out and when she finds someone troubled or feeling sad, she steps in to lend them a hand without hesitation. She is bold and brave, and keeps an upbeat attitude that helps lighten other's moods better. She can be clumsy at times, and while she admires fashion, her own sense of it was initially considered to be rather numb.\n\nDeep down, Megumi has some insecurities, but she covers them up fairly well. She often worries that her tendency to help others may come off as selfish, thinking she only does it for compliments, even though her friends assure her that this is untrue. She can also come off as being pushy and irritate others, such as Hime, without meaning to. She can also be somewhat lazy and she is bad at studying. Her desire to help and get to know\nBlue\n also led her to becoming too attached to him, giving\nRed\n an opportunity to use her during a low moment. Despite that, she cares deeply for others.",
     "scores": {
       "sociability": 8,
@@ -753,108 +646,15 @@
       "curiosity": 5,
       "self_esteem": 4,
       "self_sacrifice": 9
-    }
-  },
-  {
-    "name": "Hikawa Iona",
-    "cure": "キュアフォーチュン",
-    "url": "https://prettycure.fandom.com/wiki/Hikawa_Iona",
-    "season": ["Happiness Charge Pretty Cure!"],
-    "themeColour": {
-      "main": "PurpleTurquoise (Pine Arabian) Sky blue and pink (Anmitsu Komachi)",
-      "sub": null,
-      "raw": [
-        "PurpleTurquoise (Pine Arabian) Sky blue and pink (Anmitsu Komachi)"
-      ]
     },
-    "personality": "Iona is a compassionate and just person who helps the weak with gentleness. As a Cure, she possesses a strong sense of duty and exceptional combat abilities, enabling her to single-handedly defeat the Saiarks one by one. She is a serious, cool, capable girl who holds herself and others to high standards. Although she excels academically, she can be a bit of a perfectionist and reluctant to seek help from others, leading to occasional carelessness. Iona also has a stubborn nature and a dislike for losing, rarely displaying laughter.\n\nHowever, she has an aura that makes it difficult to approach her; thus she has few friends. She doesn't laugh because she is tense, but she wants to change her cool and stiff character. In fact, she loves to laugh, to the point of spitting out her drink after hearing a random gag. It's also worth noting that she strongly believes in the power of love, even if she isn't able to express that.\n\nInitially, Iona appeared as an extremely cold-hearted, stubborn, and harsh girl who relied on herself and hated others helping her. But after being admonished by Glasan, reconciling with Hime, and finally realizing her errors, Iona begins to warm up strongly to others around her and can overcome her hatred and pain. She was also able to get herself under control.",
-    "scores": {
-      "sociability": 3,
-      "empathy": 8,
-      "responsibility": 9,
-      "emotional_instability": 4,
-      "curiosity": 5,
-      "self_esteem": 7,
-      "self_sacrifice": 5
-    }
-  },
-  {
-    "name": "Hikawa Maria",
-    "cure": "キュアテンダー",
-    "url": "https://prettycure.fandom.com/wiki/Hikawa_Maria",
-    "season": ["Happiness Charge Pretty Cure!"],
-    "themeColour": {
-      "main": "Grey Black (Dark Tender)",
-      "sub": null,
-      "raw": ["Grey Black (Dark Tender)"]
-    },
-    "personality": "Maria is described as a kind, friendly, and courageous girl who always wants to protect everyone. She encourages people and is liked by everyone. According to\nGlasan\n, Maria has a mighty but gentle heart.\n\nWhen brainwashed, she addresses herself as\nQueen Mirage\n's loyal servant and tells\nOresky\n that he's useless for losing to weak attacks. She orders him to leave and he wastes no time accepting her command. In this form, she is bossy and cold, wasting no time in fulfilling Queen Mirage's commands.",
-    "scores": {
-      "sociability": 7,
-      "empathy": 5,
-      "responsibility": 7,
-      "emotional_instability": 5,
-      "curiosity": 4,
-      "self_esteem": 7,
-      "self_sacrifice": 5
-    }
-  },
-  {
-    "name": "Omori Yuko",
-    "cure": "キュアハニー",
-    "url": "https://prettycure.fandom.com/wiki/Omori_Yuko",
-    "season": ["Happiness Charge Pretty Cure!"],
-    "themeColour": {
-      "main": "YellowBlue (Popcorn Cheer) Orange (Coconuts Samba)",
-      "sub": null,
-      "raw": ["YellowBlue (Popcorn Cheer) Orange (Coconuts Samba)"]
-    },
-    "personality": "Yuko is a \"fluffy\", kind, and friendly girl known for her gentle nature. She is very loving and patient and never holds grudges against anyone who may have wronged her. Yuko enjoys cooking and sharing her food with others and enjoys caring for those around her. She is a humble and proud person who never shows off, and is always well-intentioned. Yuko also has a keen interest in romantic gossip and is often able to tell when a friend has a crush on someone else, but she keeps her suspicions to herself to avoid causing any embarrassment.",
-    "scores": {
-      "sociability": 7,
-      "empathy": 9,
-      "responsibility": 7,
-      "emotional_instability": 2,
-      "curiosity": 4,
-      "self_esteem": 7,
-      "self_sacrifice": 8
-    }
-  },
-  {
-    "name": "Queen Mirage",
-    "cure": "キュアミラージュ",
-    "url": "https://prettycure.fandom.com/wiki/Queen_Mirage",
-    "season": ["Happiness Charge Pretty Cure!"],
-    "themeColour": {
-      "main": "Black (Queen Mirage",
-      "sub": "main) White (Queen Mirage",
-      "raw": [
-        "Black (Queen Mirage",
-        "main) White (Queen Mirage",
-        "sub) Red (Cure Mirage)"
-      ]
-    },
-    "personality": "Queen Mirage is a cruel and ruthless queen who tries to conquer the\nBlue Sky Kingdom\n and send the generals to attack the Earth. She has no interest in love and relationships and makes everything suffer and despair. However, this is because she has become jaded after Blue abandoned her.\n\nAs a shrine maiden, she was interested in love after she fell in love with\nBlue\n before she became evil. After being purified, Mirage regains her kindness and happiness.",
-    "scores": {
-      "sociability": 5,
-      "empathy": 2,
-      "responsibility": 7,
-      "emotional_instability": 8,
-      "curiosity": 4,
-      "self_esteem": 4,
-      "self_sacrifice": 2
-    }
+    "YouTube": "https://youtu.be/z19Gi73QiTc?si=0uM9GsgKyP-ec8mx"
   },
   {
     "name": "Shirayuki Hime",
     "cure": "キュアプリンセス",
     "url": "https://prettycure.fandom.com/wiki/Shirayuki_Hime",
     "season": ["Happiness Charge Pretty Cure!"],
-    "themeColour": {
-      "main": "BlueIndigo (Sherbet Ballet) Green (Macadamia Hula Dance)",
-      "sub": null,
-      "raw": ["BlueIndigo (Sherbet Ballet) Green (Macadamia Hula Dance)"]
-    },
+    "themeColour": "Blue",
     "personality": "Hime is a spoiled fashionista who became a\nCure\n to save the\nBlue Sky Kingdom\n. Despite her brave decision, she is easily scared and tries to escape from danger in the middle of fights. Because of her shyness, she never had friends until meeting\nAino Megumi\n. Hime is also stubborn and headstrong, and can be impatient and determined, as shown in\nepisode 23\n, when she tries to persuade Iona to instantly accept their offer to join their team. She can also be forceful and at times selfish, once hurrying the girls back to the embassy due to being hungry.\n\nHime is often shown to have a wild imagination of sorts. In one instance, she imagines that Cure Lovely is splitting up the Happiness Charge Pretty Cure team in favor of a new partnership with Cure Fortune.\nShe also imagines Yuko, who was taking care of Phantom, hugging Phantom romantically when she eavesdrops on the two.",
     "scores": {
       "sociability": 4,
@@ -864,60 +664,51 @@
       "curiosity": 9,
       "self_esteem": 8,
       "self_sacrifice": 1
-    }
+    },
+    "YouTube": "https://prettycure.fandom.com/wiki/Shirayuki_Hime"
   },
   {
-    "name": "Akagi Towa",
-    "cure": "キュアスカーレット",
-    "url": "https://prettycure.fandom.com/wiki/Akagi_Towa",
-    "season": ["Go! Princess Pretty Cure"],
-    "themeColour": {
-      "main": "Black (Twilight) Red (Scarlet)",
-      "sub": null,
-      "raw": ["Black (Twilight) Red (Scarlet)"]
-    },
-    "personality": "As a little girl, Towa was very sweet and admired her older brother. She dreamed of becoming a Grand Princess for the sake of helping the land, but knowing that only a Princess Pretty Cure could become one eventually got to her when she became brainwashed by\nDyspear\n.\n\nAs Twilight, she seemed to take after her adoptive \"mother\" in terms of characteristics. In contrast to her child self, she believed that dreams are pitiful illusions that people believe in. Twilight also saw the Pretty Cures as fake princesses, and was ruthless and vain enough on calling herself \"\nNoble, Precious, and Beauteous\n\". While she would initially appear courteous around Haruka, she used their moments together to dishearten her after feeling threatened.\n\nAfter being purified, she is shown to be somewhat naive and awkward around others. While she is polite and formal, her upbringing gave her a lack of social grace as she wasn't used to the customs of Earth, like thinking that she could buy a castle and three housemaids. However, she remains kind, courageous, and helpful, and cares deeply for her friends. She begins to learn how to do her things independently without assistance, but she still heavily adores Kanata and admires her big brother.\n\nDue to being deceived by Dyspear before, she also became observant and perceptive, being able to discern and detect the presence of a suspicious person.",
+    "name": "Omori Yuko",
+    "cure": "キュアハニー",
+    "url": "https://prettycure.fandom.com/wiki/Omori_Yuko",
+    "season": ["Happiness Charge Pretty Cure!"],
+    "themeColour": "Yellow",
+    "personality": "Yuko is a \"fluffy\", kind, and friendly girl known for her gentle nature. She is very loving and patient and never holds grudges against anyone who may have wronged her. Yuko enjoys cooking and sharing her food with others and enjoys caring for those around her. She is a humble and proud person who never shows off, and is always well-intentioned. Yuko also has a keen interest in romantic gossip and is often able to tell when a friend has a crush on someone else, but she keeps her suspicions to herself to avoid causing any embarrassment.",
     "scores": {
-      "sociability": 5,
-      "empathy": 5,
+      "sociability": 7,
+      "empathy": 9,
       "responsibility": 7,
-      "emotional_instability": 8,
-      "curiosity": 8,
-      "self_esteem": 3,
-      "self_sacrifice": 5
-    }
+      "emotional_instability": 2,
+      "curiosity": 4,
+      "self_esteem": 7,
+      "self_sacrifice": 8
+    },
+    "YouTube": "https://youtu.be/T6y1BB6yod4?si=Rb9hmjdUU-JeggYM"
   },
   {
-    "name": "Amanogawa Kirara",
-    "cure": "キュアトゥインクル",
-    "url": "https://prettycure.fandom.com/wiki/Amanogawa_Kirara",
-    "season": ["Go! Princess Pretty Cure"],
-    "themeColour": {
-      "main": "YellowPurple",
-      "sub": null,
-      "raw": ["YellowPurple"]
-    },
-    "personality": "Kirara moves primarily at her own pace, but she is friendly and playful, especially with those she considers close. She handles herself maturely and is admired for her prettiness and charm. Despite being nice, she is strict with herself and always serious when working or handling her Pretty Cure duty. She even considered quitting her job as a model to solely focus on her responsibilities. Despite normally being sweet, she can be headstrong and sassy at times.\n\nInfluenced by her famous mother,\nAmanogawa Stella\n, she strives to be a top model, and she has the strength to pursue it head-on. Therefore, she is highly active as a model and appears in many magazines and fashion shows. Being a fashionista, she loves wearing new outfits to display herself, and she likes giving others advice.\n\nKirara has a bit of a sweet tooth, with her favorite sweet being Marble Doughnuts. She also has a tendency to give nicknames to her close friends.",
+    "name": "Hikawa Iona",
+    "cure": "キュアフォーチュン",
+    "url": "https://prettycure.fandom.com/wiki/Hikawa_Iona",
+    "season": ["Happiness Charge Pretty Cure!"],
+    "themeColour": "Purple",
+    "personality": "Iona is a compassionate and just person who helps the weak with gentleness. As a Cure, she possesses a strong sense of duty and exceptional combat abilities, enabling her to single-handedly defeat the Saiarks one by one. She is a serious, cool, capable girl who holds herself and others to high standards. Although she excels academically, she can be a bit of a perfectionist and reluctant to seek help from others, leading to occasional carelessness. Iona also has a stubborn nature and a dislike for losing, rarely displaying laughter.\n\nHowever, she has an aura that makes it difficult to approach her; thus she has few friends. She doesn't laugh because she is tense, but she wants to change her cool and stiff character. In fact, she loves to laugh, to the point of spitting out her drink after hearing a random gag. It's also worth noting that she strongly believes in the power of love, even if she isn't able to express that.\n\nInitially, Iona appeared as an extremely cold-hearted, stubborn, and harsh girl who relied on herself and hated others helping her. But after being admonished by Glasan, reconciling with Hime, and finally realizing her errors, Iona begins to warm up strongly to others around her and can overcome her hatred and pain. She was also able to get herself under control.",
     "scores": {
-      "sociability": 8,
-      "empathy": 7,
+      "sociability": 3,
+      "empathy": 8,
       "responsibility": 9,
-      "emotional_instability": 5,
-      "curiosity": 7,
-      "self_esteem": 8,
-      "self_sacrifice": 4
-    }
+      "emotional_instability": 4,
+      "curiosity": 5,
+      "self_esteem": 7,
+      "self_sacrifice": 5
+    },
+    "YouTube": "https://youtu.be/HLIaXLIA-_s?si=FZLAXjCGQx1EpRYk"
   },
   {
     "name": "Haruno Haruka",
     "cure": "キュアフローラ",
     "url": "https://prettycure.fandom.com/wiki/Haruno_Haruka",
     "season": ["Go! Princess Pretty Cure"],
-    "themeColour": {
-      "main": "Pink",
-      "sub": null,
-      "raw": ["Pink"]
-    },
+    "themeColour": "Pink",
     "personality": "Haruka is an energetic girl who is determined above all else to become a true princess. She is passionate and believes that for one to fulfill their dreams, one must first put in the effort and never give up. While she can become discouraged whenever her dream appears to be out of reach, she easily perks up and remains persistent. She has an infectious smile that eases others and manages to convince them to join her, and she enjoys helping out.\n\nHowever, she isn't very good at school and she's pretty clumsy, so her Princess lessons can take some time for her to get the hang of. She is also stubborn and reckless when it comes to trying new things.",
     "scores": {
       "sociability": 8,
@@ -927,18 +718,15 @@
       "curiosity": 8,
       "self_esteem": 5,
       "self_sacrifice": 7
-    }
+    },
+    "YouTube": "https://youtu.be/H8yJLP-9OeQ?si=qT2lgxxMjBBm3LmT"
   },
   {
     "name": "Kaido Minami",
     "cure": "キュアマーメイド",
     "url": "https://prettycure.fandom.com/wiki/Kaido_Minami",
     "season": ["Go! Princess Pretty Cure"],
-    "themeColour": {
-      "main": "Blue",
-      "sub": null,
-      "raw": ["Blue"]
-    },
+    "themeColour": "Blue",
     "personality": "As the \"\nAcademy Princess\n\", Minami is proper, noble, and has a strong sense of responsibility. She is wise and can come off as strict at times, but she has the personality of an older sister. She is fair and cares about others, as she is likely to worry about them if she sees anything to be concerned with, and she won't let them recklessly get into harm's way if she can help it. She dreams of becoming a respectable person who can be useful to others.\n\nMinami is very close to her family, and, as such, she struggled to tell them of her true dreams of becoming a Marine Veterinarian, rather than inheriting the family business. She sometimes struggles to make decisions if she thinks others won't like her choice. She was very worried that she was being selfish, but over time, she learned to learn to speak her mind and began making her own decisions that everyone could be happy with.",
     "scores": {
       "sociability": 4,
@@ -948,7 +736,44 @@
       "curiosity": 8,
       "self_esteem": 4,
       "self_sacrifice": 8
-    }
+    },
+    "YouTube": "https://youtu.be/IgYDcy-_dCw?si=gJSZhfCW-dhYNhNO"
+  },
+  {
+    "name": "Amanogawa Kirara",
+    "cure": "キュアトゥインクル",
+    "url": "https://prettycure.fandom.com/wiki/Amanogawa_Kirara",
+    "season": ["Go! Princess Pretty Cure"],
+    "themeColour": "Yellow",
+    "personality": "Kirara moves primarily at her own pace, but she is friendly and playful, especially with those she considers close. She handles herself maturely and is admired for her prettiness and charm. Despite being nice, she is strict with herself and always serious when working or handling her Pretty Cure duty. She even considered quitting her job as a model to solely focus on her responsibilities. Despite normally being sweet, she can be headstrong and sassy at times.\n\nInfluenced by her famous mother,\nAmanogawa Stella\n, she strives to be a top model, and she has the strength to pursue it head-on. Therefore, she is highly active as a model and appears in many magazines and fashion shows. Being a fashionista, she loves wearing new outfits to display herself, and she likes giving others advice.\n\nKirara has a bit of a sweet tooth, with her favorite sweet being Marble Doughnuts. She also has a tendency to give nicknames to her close friends.",
+    "scores": {
+      "sociability": 8,
+      "empathy": 7,
+      "responsibility": 9,
+      "emotional_instability": 5,
+      "curiosity": 7,
+      "self_esteem": 8,
+      "self_sacrifice": 4
+    },
+    "YouTube": "https://youtu.be/ImaPX_0Oxes?si=cNq6DbqgoE76BWcT"
+  },
+  {
+    "name": "Akagi Towa",
+    "cure": "キュアスカーレット",
+    "url": "https://prettycure.fandom.com/wiki/Akagi_Towa",
+    "season": ["Go! Princess Pretty Cure"],
+    "themeColour": "Red",
+    "personality": "As a little girl, Towa was very sweet and admired her older brother. She dreamed of becoming a Grand Princess for the sake of helping the land, but knowing that only a Princess Pretty Cure could become one eventually got to her when she became brainwashed by\nDyspear\n.\n\nAs Twilight, she seemed to take after her adoptive \"mother\" in terms of characteristics. In contrast to her child self, she believed that dreams are pitiful illusions that people believe in. Twilight also saw the Pretty Cures as fake princesses, and was ruthless and vain enough on calling herself \"\nNoble, Precious, and Beauteous\n\". While she would initially appear courteous around Haruka, she used their moments together to dishearten her after feeling threatened.\n\nAfter being purified, she is shown to be somewhat naive and awkward around others. While she is polite and formal, her upbringing gave her a lack of social grace as she wasn't used to the customs of Earth, like thinking that she could buy a castle and three housemaids. However, she remains kind, courageous, and helpful, and cares deeply for her friends. She begins to learn how to do her things independently without assistance, but she still heavily adores Kanata and admires her big brother.\n\nDue to being deceived by Dyspear before, she also became observant and perceptive, being able to discern and detect the presence of a suspicious person.",
+    "scores": {
+      "sociability": 5,
+      "empathy": 5,
+      "responsibility": 7,
+      "emotional_instability": 8,
+      "curiosity": 8,
+      "self_esteem": 3,
+      "self_sacrifice": 5
+    },
+    "YouTube": "https://youtu.be/R1QZ6mWLrZ8?si=_6V7BhvwGOainjdN"
   },
   {
     "name": "Asahina Mirai",
@@ -958,13 +783,7 @@
       "Mahou Tsukai Pretty Cure!",
       "Mahou Tsukai Pretty Cure!! ~MIRAI DAYS~"
     ],
-    "themeColour": {
-      "main": "Pink (Dia and Alexandrite) Red (Ruby) Blue (Sapphire) Yellow (Topaz)",
-      "sub": null,
-      "raw": [
-        "Pink (Dia and Alexandrite) Red (Ruby) Blue (Sapphire) Yellow (Topaz)"
-      ]
-    },
+    "themeColour": "Pink",
     "personality": "Mirai is a strange, funny, lovely and energetic girl who is interested in various things, and tends to think outside of the box. Her stuffed bear Mofurun that was given to her by her grandmother, Kanoko, is very important to her, and she admires Liko a lot. Her goal is to study magic she loves while trying to gain Liko's admiration. She is also scatterbrained, and gets distracted easily.\n\nAlthough sometimes rash, Mirai is extremely caring and selfless, as she will sacrifice herself for the friends she loves. She is also hardworking in order to attain the things she strives to accomplish, which is why she finds\nmagic\n exciting to learn.",
     "scores": {
       "sociability": 8,
@@ -974,31 +793,8 @@
       "curiosity": 10,
       "self_esteem": 5,
       "self_sacrifice": 9
-    }
-  },
-  {
-    "name": "Ha-chan",
-    "cure": "キュアフェリーチェ",
-    "url": "https://prettycure.fandom.com/wiki/Ha-chan",
-    "season": [
-      "Mahou Tsukai Pretty Cure!",
-      "Mahou Tsukai Pretty Cure!! ~MIRAI DAYS~"
-    ],
-    "themeColour": {
-      "main": "GreenPink",
-      "sub": null,
-      "raw": ["GreenPink"]
     },
-    "personality": "When Ha-chan was just a young fairy, she acted a lot like a normal toddler, always wanting to play, and getting rather moody when things don't go her way. She could get rather sleepy after eating or drinking something and usually returned to the Linkle Smartbook for rest.\n\nAs Ha-chan grows older and goes under the name Kotoha, she sometimes acts quite mature, yet still mostly cheerful, fun-loving, and sweet. Due to Mirai being full of curiosity and Liko being a hard worker, Kotoha has been strongly influenced by both of them and tends to exhibit extremely similar behavior that bears resemblance of their personalities. She is optimistic and always believes in the good of people, despite her naivety getting her into trouble. Although she has an innate gift of using\nMagic\n, Kotoha had no idea why or how she is talented at it, until she inherited the ultimate power of Mother RaPaPa.\n\nAt times, Kotoha is unsure about her own identity, mainly her role as the second Mother RaPaPa. However, she is able to accept herself as her own person when she remembers the positive experiences in her life.\n\nAs Cure Felice, she is more composed and mature. However, she still retains her kindness and optimism, and occasionally lets her more childish side slip.",
-    "scores": {
-      "sociability": 7,
-      "empathy": 8,
-      "responsibility": 4,
-      "emotional_instability": 8,
-      "curiosity": 7,
-      "self_esteem": 8,
-      "self_sacrifice": 5
-    }
+    "YouTube": "https://youtu.be/YBWBk0ETSvM?si=1qT4eG4Lf2iYNcIA"
   },
   {
     "name": "Izayoi Liko",
@@ -1008,13 +804,7 @@
       "Mahou Tsukai Pretty Cure!",
       "Mahou Tsukai Pretty Cure!! ~MIRAI DAYS~"
     ],
-    "themeColour": {
-      "main": "Purple (Diamond and Alexandrite) Red (Ruby) Blue (Sapphire) Yellow (Topaz)",
-      "sub": null,
-      "raw": [
-        "Purple (Diamond and Alexandrite) Red (Ruby) Blue (Sapphire) Yellow (Topaz)"
-      ]
-    },
+    "themeColour": "Purple",
     "personality": "Liko is a serious 13-year-old girl who attends a school in the magic world. She is great at studying but her magic is weak. She is insecure but hopes to become a respectable witch in the future like her sister. Liko is unsure of what she wants to do when she grows up and often worries about it, but after she lives with Mirai, her life becomes a little less worrisome and more bright.\n\nAs a teenager and later adult, Liko can sometimes be too overprotective of her loved ones, but gradually learns to loosen up for their sake.",
     "scores": {
       "sociability": 4,
@@ -1024,189 +814,36 @@
       "curiosity": 7,
       "self_esteem": 3,
       "self_sacrifice": 8
-    }
+    },
+    "YouTube": null
   },
   {
-    "name": "Mofurun",
-    "cure": "モフルン",
-    "url": "https://prettycure.fandom.com/wiki/Mofurun",
+    "name": "Ha-chan",
+    "cure": "キュアフェリーチェ",
+    "url": "https://prettycure.fandom.com/wiki/Ha-chan",
     "season": [
       "Mahou Tsukai Pretty Cure!",
       "Mahou Tsukai Pretty Cure!! ~MIRAI DAYS~"
     ],
-    "themeColour": {
-      "main": "YellowOrange",
-      "sub": null,
-      "raw": ["YellowOrange"]
-    },
-    "personality": "Mofurun is a warm-hearted, soft spoken companion. She can be curious, gluttonous, and simple-minded, and gets sad and worried during serious moments. She also has a responsible side, worrying about Mirai's well-being, looking after\nHa-chan\n, and helping out Mirai and Liko during their magic classes.",
+    "themeColour": "Green",
+    "personality": "When Ha-chan was just a young fairy, she acted a lot like a normal toddler, always wanting to play, and getting rather moody when things don't go her way. She could get rather sleepy after eating or drinking something and usually returned to the Linkle Smartbook for rest.\n\nAs Ha-chan grows older and goes under the name Kotoha, she sometimes acts quite mature, yet still mostly cheerful, fun-loving, and sweet. Due to Mirai being full of curiosity and Liko being a hard worker, Kotoha has been strongly influenced by both of them and tends to exhibit extremely similar behavior that bears resemblance of their personalities. She is optimistic and always believes in the good of people, despite her naivety getting her into trouble. Although she has an innate gift of using\nMagic\n, Kotoha had no idea why or how she is talented at it, until she inherited the ultimate power of Mother RaPaPa.\n\nAt times, Kotoha is unsure about her own identity, mainly her role as the second Mother RaPaPa. However, she is able to accept herself as her own person when she remembers the positive experiences in her life.\n\nAs Cure Felice, she is more composed and mature. However, she still retains her kindness and optimism, and occasionally lets her more childish side slip.",
     "scores": {
-      "sociability": 5,
+      "sociability": 7,
       "empathy": 8,
-      "responsibility": 7,
-      "emotional_instability": 7,
-      "curiosity": 7,
-      "self_esteem": 7,
-      "self_sacrifice": 7
-    }
-  },
-  {
-    "name": "Arisugawa Himari",
-    "cure": "キュアカスタード",
-    "url": "https://prettycure.fandom.com/wiki/Arisugawa_Himari",
-    "season": ["KiraKira☆Pretty Cure A La Mode"],
-    "themeColour": {
-      "main": "Yellow",
-      "sub": null,
-      "raw": ["Yellow"]
-    },
-    "personality": "Himari is a very shy and gentle person who tends to run away from strangers and gets nervous when she is in the spotlight or around a large number of people. However, she has a great passion for sweets and enjoys learning about the science behind them. She has spent a lot of time studying sweets-related books and has become quite knowledgeable. As a result, she has earned the nickname \"Sweets Doctor\" because she is capable of answering questions about various sweets and determining their effects on the body. When she talks about her favorite topic, she tends to chatter on and on, which has caused her to drive away others in the past. This makes her hesitant to speak up when she is around people she is not familiar with.",
-    "scores": {
-      "sociability": 3,
-      "empathy": 7,
-      "responsibility": 5,
-      "emotional_instability": 9,
-      "curiosity": 8,
-      "self_esteem": 4,
-      "self_sacrifice": 5
-    }
-  },
-  {
-    "name": "Kenjou Akira",
-    "cure": "キュアショコラ",
-    "url": "https://prettycure.fandom.com/wiki/Kenjou_Akira",
-    "season": ["KiraKira☆Pretty Cure A La Mode"],
-    "themeColour": {
-      "main": "RedBrown",
-      "sub": null,
-      "raw": ["RedBrown"]
-    },
-    "personality": "Akira is a kind and youthful high school student in her second year. She is fiercely loyal and always stands by her loved ones, with a strong sense of justice like a dog. Akira has a rational mind and knows her way around places, making her a reliable person.\n\nHer caring nature extends to her younger sister Miku, who is sick. Akira often gives her chocolate to cheer her up and once even sacrificed her own\nKirakiraru\n to rescue her. Despite being referred to as a boy by those around her, Akira doesn't mind\n and can even be a bit of a show-off at times.",
-    "scores": {
-      "sociability": 7,
-      "empathy": 9,
-      "responsibility": 8,
-      "emotional_instability": 4,
-      "curiosity": 5,
-      "self_esteem": 7,
-      "self_sacrifice": 10
-    }
-  },
-  {
-    "name": "Kirahoshi Ciel",
-    "cure": "キュアパルフェ",
-    "url": "https://prettycure.fandom.com/wiki/Kirahoshi_Ciel",
-    "season": ["KiraKira☆Pretty Cure A La Mode"],
-    "themeColour": {
-      "main": "Rainbow (officially) Turquoise",
-      "sub": null,
-      "raw": ["Rainbow (officially) Turquoise"]
-    },
-    "personality": "Sweet, lively, and generous, Ciel/Kirarin is said to be a genius patissière who wishes to make others happy through the sweets she makes. She is extremely diligent and always sought for improvement in order to become perfect as shown during her time as an apprentice in her fairy form, and her efforts paid off as she acquired the ability to transform into a human, which she goes under the name of Ciel.\n\nHowever, success soon blinded her, and she began to neglect to her brother\nPikario\n, which led to their estrangement. She was truly overwhelmed by her guilt and self-hatred of not understanding him like\nIchika\n does, which turned out to be her fatal weakness and begot to her loss of her dream after\nNoir\n thieved her\nKirakirarus\n, but fortunately she then overcame her sadness after tasting one of her brother's failed waffles and learned to understand Pikario. Her desire of achieving perfection by relying herself so as to avert embarrassment can also be an obstacle for her. For example, she refused to admit how she always revert into fairy form when extremely hungry, which ignited a chaos at school. However, over time, she begins to accept help from her friends and cooperate with them.\n\nOverall, Ciel is a caring and goodhearted girl who not only cares for her brother and friends, but also her enemies. For example, she treats\nBibury\n with kindness during her encounters with the latter and even rescuing the latter courageously.",
-    "scores": {
-      "sociability": 7,
-      "empathy": 9,
-      "responsibility": 9,
-      "emotional_instability": 10,
-      "curiosity": 7,
-      "self_esteem": 3,
-      "self_sacrifice": 7
-    }
-  },
-  {
-    "name": "Kotozume Yukari",
-    "cure": "キュアマカロン",
-    "url": "https://prettycure.fandom.com/wiki/Kotozume_Yukari",
-    "season": ["KiraKira☆Pretty Cure A La Mode"],
-    "themeColour": {
-      "main": "Purple",
-      "sub": null,
-      "raw": ["Purple"]
-    },
-    "personality": "Yukari is a clever and refined lady with a fickle personality, who is prone to teasing others to get different reactions out of them, mostly out of being egotistical. She is quite perceptive, being immediately able to tell that something was off with\nRio\n. Spending time with Ichika and the others and being a Cure makes every day an unpredictable experience, and this liveliness is something Yukari seeks. She also takes an interest in macarons after her own first batches fail, and she likes the idea of having something she can work on improving.\n\nAs a child, Yukari kept on trying out new things in order to find anything she would feel passionate about, but she was not able to. Being seen as \"perfect\" becomes depressingly dreary to her, and nobody wanting to look beyond that \"perfection\" makes her feel lonely. Since enjoyment cannot be given to her, she realizes that she needs to create enjoyable situations herself. She embraces this and herself in\nepisode 29\n, and admits she won't be able to erase her inner darkness and sadness, but being with her friends and surrounding herself with a \"colourful world\" makes her able to deal with it.",
-    "scores": {
-      "sociability": 5,
-      "empathy": 5,
-      "responsibility": 5,
-      "emotional_instability": 8,
-      "curiosity": 9,
-      "self_esteem": 4,
-      "self_sacrifice": 4
-    }
-  },
-  {
-    "name": "Lumière",
-    "cure": "キュアルミエール",
-    "url": "https://prettycure.fandom.com/wiki/Lumière",
-    "season": ["KiraKira☆Pretty Cure A La Mode"],
-    "themeColour": {
-      "main": "PinkWhite",
-      "sub": null,
-      "raw": ["PinkWhite"]
-    },
-    "personality": "Lumière is a kindhearted, selfless and generous woman, who devotes herself into making sweets to provide happiness for everyone. Despite her gentleness, she doesn't tolerate anyone who wants to selfishly possess sweets for themselves.",
-    "scores": {
-      "sociability": 5,
-      "empathy": 9,
-      "responsibility": 8,
-      "emotional_instability": 4,
-      "curiosity": 5,
-      "self_esteem": 7,
-      "self_sacrifice": 9
-    }
-  },
-  {
-    "name": "Pekorin",
-    "cure": "ペコリン",
-    "url": "https://prettycure.fandom.com/wiki/Pekorin",
-    "season": ["KiraKira☆Pretty Cure A La Mode"],
-    "themeColour": {
-      "main": "Pale PinkPale Yellow",
-      "sub": null,
-      "raw": ["Pale PinkPale Yellow"]
-    },
-    "personality": "Pekorin is a rather spoiled fairy and is a glutton who always seems to be hungry. She is passionate about making sweets, though she is also prone to making mistakes. She is usually goodhearted and amiable to her friends and will go to far lengths to help them by protecting their sweets.",
-    "scores": {
-      "sociability": 5,
-      "empathy": 7,
       "responsibility": 4,
       "emotional_instability": 8,
       "curiosity": 7,
-      "self_esteem": 5,
-      "self_sacrifice": 7
-    }
-  },
-  {
-    "name": "Tategami Aoi",
-    "cure": "キュアジェラート",
-    "url": "https://prettycure.fandom.com/wiki/Tategami_Aoi",
-    "season": ["KiraKira☆Pretty Cure A La Mode"],
-    "themeColour": {
-      "main": "Blue",
-      "sub": null,
-      "raw": ["Blue"]
+      "self_esteem": 8,
+      "self_sacrifice": 5
     },
-    "personality": "Aoi is an enthusiastic and bold individual, who is brave and passionate. Her strength seems boundless, and she is always eager to try new things. Above everything else, she desires freedom and feels stifled by the strict rules at home, which require her to behave and dress more appropriately. Initially, Aoi's competitive nature makes it hard for her to accept her own shortcomings, but she eventually learns to let go and embrace her personality, which is \"hard and chewy,\" and develops her own unique musical style.",
-    "scores": {
-      "sociability": 8,
-      "empathy": 7,
-      "responsibility": 5,
-      "emotional_instability": 7,
-      "curiosity": 10,
-      "self_esteem": 5,
-      "self_sacrifice": 4
-    }
+    "YouTube": "https://youtu.be/PLpZyFOshzM?si=EN-USeOIMas0FroO"
   },
   {
     "name": "Usami Ichika",
     "cure": "キュアホイップ",
     "url": "https://prettycure.fandom.com/wiki/Usami_Ichika",
     "season": ["KiraKira☆Pretty Cure A La Mode"],
-    "themeColour": {
-      "main": "Pink",
-      "sub": null,
-      "raw": ["Pink"]
-    },
+    "themeColour": "Pink",
     "personality": "Ichika is cheerful and upbeat, and she loves all kinds of sweets. She's very creative and excels at decorating and making animal-shaped sweets, as she's always coming up with new ideas. However, her cooking skills and schooling could use some improvement. Ichika has a way of making others smile through her pure and genuine feelings and the heart she puts into everything she does. She's usually very perky, and when she's really excited, she hops around much like a rabbit. Ichika can be clumsy at times and is fairly emotional.",
     "scores": {
       "sociability": 8,
@@ -1216,81 +853,105 @@
       "curiosity": 8,
       "self_esteem": 5,
       "self_sacrifice": 7
-    }
+    },
+    "YouTube": "https://youtu.be/qVW5aq00fW8?si=877bYcuXeT7VZ-Uc"
   },
   {
-    "name": "Aisaki Emiru",
-    "cure": "キュアマシェリ",
-    "url": "https://prettycure.fandom.com/wiki/Aisaki_Emiru",
-    "season": ["HUGtto! Pretty Cure"],
-    "themeColour": {
-      "main": "RedPink",
-      "sub": null,
-      "raw": ["RedPink"]
-    },
-    "personality": "Emiru is a girl who is very overprotective, but doesn't like being looked after herself. She admires the Pretty Cures and wishes to be a heroine herself but sometimes goes too far when trying to protect others. Despite her flaws, she is a caring friend who tries to cheer up her friends. Emiru also has a strong passion for singing and playing the guitar, even though her brother didn't support her at first. Like many young people, she still has some childish traits, such as sleeping with stuffed animals and needing evidence before believing anything. Emiru is also emotionally sensitive and once lost her voice because of this.",
+    "name": "Arisugawa Himari",
+    "cure": "キュアカスタード",
+    "url": "https://prettycure.fandom.com/wiki/Arisugawa_Himari",
+    "season": ["KiraKira☆Pretty Cure A La Mode"],
+    "themeColour": "Yellow",
+    "personality": "Himari is a very shy and gentle person who tends to run away from strangers and gets nervous when she is in the spotlight or around a large number of people. However, she has a great passion for sweets and enjoys learning about the science behind them. She has spent a lot of time studying sweets-related books and has become quite knowledgeable. As a result, she has earned the nickname \"Sweets Doctor\" because she is capable of answering questions about various sweets and determining their effects on the body. When she talks about her favorite topic, she tends to chatter on and on, which has caused her to drive away others in the past. This makes her hesitant to speak up when she is around people she is not familiar with.",
     "scores": {
-      "sociability": 7,
-      "empathy": 8,
+      "sociability": 3,
+      "empathy": 7,
       "responsibility": 5,
       "emotional_instability": 9,
       "curiosity": 8,
-      "self_esteem": 5,
-      "self_sacrifice": 8
-    }
+      "self_esteem": 4,
+      "self_sacrifice": 5
+    },
+    "YouTube": "https://youtu.be/iAGc1KdtikY?si=hZoQUSVH3Aj4GFJA"
   },
   {
-    "name": "Hugtan",
-    "cure": "キュアトゥモロー",
-    "url": "https://prettycure.fandom.com/wiki/Hugtan",
-    "season": ["HUGtto! Pretty Cure"],
-    "themeColour": {
-      "main": "Light pink",
-      "sub": null,
-      "raw": ["Light pink"]
+    "name": "Tategami Aoi",
+    "cure": "キュアジェラート",
+    "url": "https://prettycure.fandom.com/wiki/Tategami_Aoi",
+    "season": ["KiraKira☆Pretty Cure A La Mode"],
+    "themeColour": "Blue",
+    "personality": "Aoi is an enthusiastic and bold individual, who is brave and passionate. Her strength seems boundless, and she is always eager to try new things. Above everything else, she desires freedom and feels stifled by the strict rules at home, which require her to behave and dress more appropriately. Initially, Aoi's competitive nature makes it hard for her to accept her own shortcomings, but she eventually learns to let go and embrace her personality, which is \"hard and chewy,\" and develops her own unique musical style.",
+    "scores": {
+      "sociability": 8,
+      "empathy": 7,
+      "responsibility": 5,
+      "emotional_instability": 7,
+      "curiosity": 10,
+      "self_esteem": 5,
+      "self_sacrifice": 4
     },
-    "personality": "While Hugtan occasionally gets grumpy and hard to deal with, the majority of the time, she is cheerful and courageous. During a fight, she tries to do the best she can to help Pretty Cure out, even to the point of endangering herself. She is quick to comfort others when they're upset, patting them and saying, \"There, there\", in baby talk. Even though she had been de-aged to be a baby, she seems to retain some of her old memories, as she landed right in her mother's teenage self's arms and was comfortable towards her in her first arrival.\n\nAs Cure Tomorrow, she is more graceful and soft-spoken. No matter the difficulties she faces, she is determined to protect the future like her mother. Her kind nature allows her to calm Harry in his monster form, to the point that Harry chose to escape Criasu Corporation with her.",
+    "YouTube": "https://youtu.be/_wPxfMKu96c?si=YDt6HrGna11bY83z"
+  },
+  {
+    "name": "Kotozume Yukari",
+    "cure": "キュアマカロン",
+    "url": "https://prettycure.fandom.com/wiki/Kotozume_Yukari",
+    "season": ["KiraKira☆Pretty Cure A La Mode"],
+    "themeColour": "Purple",
+    "personality": "Yukari is a clever and refined lady with a fickle personality, who is prone to teasing others to get different reactions out of them, mostly out of being egotistical. She is quite perceptive, being immediately able to tell that something was off with\nRio\n. Spending time with Ichika and the others and being a Cure makes every day an unpredictable experience, and this liveliness is something Yukari seeks. She also takes an interest in macarons after her own first batches fail, and she likes the idea of having something she can work on improving.\n\nAs a child, Yukari kept on trying out new things in order to find anything she would feel passionate about, but she was not able to. Being seen as \"perfect\" becomes depressingly dreary to her, and nobody wanting to look beyond that \"perfection\" makes her feel lonely. Since enjoyment cannot be given to her, she realizes that she needs to create enjoyable situations herself. She embraces this and herself in\nepisode 29\n, and admits she won't be able to erase her inner darkness and sadness, but being with her friends and surrounding herself with a \"colourful world\" makes her able to deal with it.",
+    "scores": {
+      "sociability": 5,
+      "empathy": 5,
+      "responsibility": 5,
+      "emotional_instability": 8,
+      "curiosity": 9,
+      "self_esteem": 4,
+      "self_sacrifice": 4
+    },
+    "YouTube": "https://youtu.be/E7CEEfuengs?si=4XJIeXHPc7ikc7ea"
+  },
+  {
+    "name": "Kenjou Akira",
+    "cure": "キュアショコラ",
+    "url": "https://prettycure.fandom.com/wiki/Kenjou_Akira",
+    "season": ["KiraKira☆Pretty Cure A La Mode"],
+    "themeColour": "Red",
+    "personality": "Akira is a kind and youthful high school student in her second year. She is fiercely loyal and always stands by her loved ones, with a strong sense of justice like a dog. Akira has a rational mind and knows her way around places, making her a reliable person.\n\nHer caring nature extends to her younger sister Miku, who is sick. Akira often gives her chocolate to cheer her up and once even sacrificed her own\nKirakiraru\n to rescue her. Despite being referred to as a boy by those around her, Akira doesn't mind\n and can even be a bit of a show-off at times.",
     "scores": {
       "sociability": 7,
       "empathy": 9,
-      "responsibility": 7,
-      "emotional_instability": 7,
+      "responsibility": 8,
+      "emotional_instability": 4,
       "curiosity": 5,
       "self_esteem": 7,
-      "self_sacrifice": 9
-    }
+      "self_sacrifice": 10
+    },
+    "YouTube": "https://youtu.be/3U33hBJWXBs?si=z1qglO3kZ8bvMvjW"
   },
   {
-    "name": "Kagayaki Homare",
-    "cure": "キュアエトワール",
-    "url": "https://prettycure.fandom.com/wiki/Kagayaki_Homare",
-    "season": ["HUGtto! Pretty Cure"],
-    "themeColour": {
-      "main": "Yellow",
-      "sub": null,
-      "raw": ["Yellow"]
-    },
-    "personality": "Homare is a mature girl who excels at everything. However, she appears to have self-esteem issues, quitting figure skating after her failure to complete a jump during her childhood scarred her mentally. Fortunately, she regains the confidence to skate again after some encouragement from Hana and Saaya, which in turn granted her her Mirai Crystal, and she has become a more confident and resilient person onwards.\n\nShe also loves cute things, like her rabbit doll, babies, her dog, and ice cream.",
+    "name": "Kirahoshi Ciel",
+    "cure": "キュアパルフェ",
+    "url": "https://prettycure.fandom.com/wiki/Kirahoshi_Ciel",
+    "season": ["KiraKira☆Pretty Cure A La Mode"],
+    "themeColour": "Rainbow",
+    "personality": "Sweet, lively, and generous, Ciel/Kirarin is said to be a genius patissière who wishes to make others happy through the sweets she makes. She is extremely diligent and always sought for improvement in order to become perfect as shown during her time as an apprentice in her fairy form, and her efforts paid off as she acquired the ability to transform into a human, which she goes under the name of Ciel.\n\nHowever, success soon blinded her, and she began to neglect to her brother\nPikario\n, which led to their estrangement. She was truly overwhelmed by her guilt and self-hatred of not understanding him like\nIchika\n does, which turned out to be her fatal weakness and begot to her loss of her dream after\nNoir\n thieved her\nKirakirarus\n, but fortunately she then overcame her sadness after tasting one of her brother's failed waffles and learned to understand Pikario. Her desire of achieving perfection by relying herself so as to avert embarrassment can also be an obstacle for her. For example, she refused to admit how she always revert into fairy form when extremely hungry, which ignited a chaos at school. However, over time, she begins to accept help from her friends and cooperate with them.\n\nOverall, Ciel is a caring and goodhearted girl who not only cares for her brother and friends, but also her enemies. For example, she treats\nBibury\n with kindness during her encounters with the latter and even rescuing the latter courageously.",
     "scores": {
-      "sociability": 5,
-      "empathy": 4,
-      "responsibility": 8,
-      "emotional_instability": 9,
-      "curiosity": 4,
+      "sociability": 7,
+      "empathy": 9,
+      "responsibility": 9,
+      "emotional_instability": 10,
+      "curiosity": 7,
       "self_esteem": 3,
-      "self_sacrifice": 4
-    }
+      "self_sacrifice": 7
+    },
+    "YouTube": "https://youtu.be/Ue5NVmoHKyg?si=C35NJ1dYGGgXIm39"
   },
   {
     "name": "Nono Hana",
     "cure": "キュアエール",
     "url": "https://prettycure.fandom.com/wiki/Nono_Hana",
     "season": ["HUGtto! Pretty Cure"],
-    "themeColour": {
-      "main": "Pink",
-      "sub": null,
-      "raw": ["Pink"]
-    },
+    "themeColour": "Pink",
     "personality": "Hana is an energetic optimist who aims to become someone who is like a big sister or an adult, but often fails at most things she wants to do mostly because of her childishness. However, she does have moments where she becomes disheartened because of her failures and would conceal her sadness by trying to be happy, mainly because of her being bullied in the past. She also tends to act before she thinks. Flaws aside, she is brave, caring, supportive, and forgiving towards others.",
     "scores": {
       "sociability": 8,
@@ -1300,60 +961,15 @@
       "curiosity": 9,
       "self_esteem": 4,
       "self_sacrifice": 8
-    }
-  },
-  {
-    "name": "Ruru Amour",
-    "cure": "キュアアムール",
-    "url": "https://prettycure.fandom.com/wiki/Ruru_Amour",
-    "season": ["HUGtto! Pretty Cure"],
-    "themeColour": {
-      "main": "Purple",
-      "sub": null,
-      "raw": ["Purple"]
     },
-    "personality": "Ruru was at first emotionless and followed instructions from Criasu faithfully. She then used her strong analyzing abilities to gather data on the Cures, but began developing emotions and free will during her investigations. She is also extremely analytical and calculable thanks to her programming, resulting in precise advice and the ability to remain calm in almost any situation. She also feels guilt for her past actions and she is very self-aware, but she slowly accepts her flaws later on.",
-    "scores": {
-      "sociability": 3,
-      "empathy": 8,
-      "responsibility": 9,
-      "emotional_instability": 6,
-      "curiosity": 4,
-      "self_esteem": 4,
-      "self_sacrifice": 9
-    }
-  },
-  {
-    "name": "Wakamiya Henri",
-    "cure": "キュアアンフィニ",
-    "url": "https://prettycure.fandom.com/wiki/Wakamiya_Henri",
-    "season": ["HUGtto! Pretty Cure"],
-    "themeColour": {
-      "main": "WhiteGreenTeal",
-      "sub": null,
-      "raw": ["WhiteGreenTeal"]
-    },
-    "personality": "Henri is generally friendly towards others. He is shown to have a preference for feminine clothing. Despite being mocked by others for this choice, Henri is adamant and is not swayed by their words of mockery. However, Henri is shown to be insecure with the passing of time as it continues to advance quickly, until he learns to accept it thanks to his friends supporting him. He can be stubborn, as when he tried to convince Homare to come to Russia with him.",
-    "scores": {
-      "sociability": 6,
-      "empathy": 7,
-      "responsibility": 8,
-      "emotional_instability": 7,
-      "curiosity": 6,
-      "self_esteem": 6,
-      "self_sacrifice": 8
-    }
+    "YouTube": "https://youtu.be/Ym5_kEPYmwQ?si=Ry1AG2_l733RE9ll"
   },
   {
     "name": "Yakushiji Saaya",
     "cure": "キュアアンジュ",
     "url": "https://prettycure.fandom.com/wiki/Yakushiji_Saaya",
     "season": ["HUGtto! Pretty Cure"],
-    "themeColour": {
-      "main": "BlueWhite",
-      "sub": null,
-      "raw": ["BlueWhite"]
-    },
+    "themeColour": ["Blue", "White"],
     "personality": "Saaya is a kind girl who is gentle and soft-spoken. She acts like an angel towards everyone. Despite having been a famous child actor, she was once lost and uncertain of her own future until she realizes her hidden dream of becoming a doctor. She also has some peculiar interests, like a love for spicy foods and enthusiasm towards sets of tools. She also has a hidden competitive streak.",
     "scores": {
       "sociability": 7,
@@ -1363,60 +979,69 @@
       "curiosity": 7,
       "self_esteem": 7,
       "self_sacrifice": 5
-    }
+    },
+    "YouTube": "https://youtu.be/1pXB5cD9OOA?si=N_ds1KMLdcOlbE_n"
   },
   {
-    "name": "Amamiya Elena",
-    "cure": "キュアソレイユ",
-    "url": "https://prettycure.fandom.com/wiki/Amamiya_Elena",
-    "season": ["Star☆Twinkle Pretty Cure"],
-    "themeColour": {
-      "main": "YellowOrange",
-      "sub": null,
-      "raw": ["YellowOrange"]
-    },
-    "personality": "Elena is a third-year student with a radiant smile. She's very popular and sporty to the point that she is known as \"The Sun of Mihoshi Town\". She often looks after her 5 younger siblings when her parents are off working at the florist store\nSonrisa\n, which her family runs. On the report of\nAI\n's evaluations, Elena can be defined as the challenger type due to her excellent sportiness and is suitable for helping to carry heavy objects as the muscle of the team. She could be emotionally fragile because of her past when she felt she couldn't fit in because of her skin color, but learned that bringing peace to the universe can bring smiles in return. She used to be too occupied by looking after her family than figuring out her own career, but learned to find a balance and be honest to herself.",
+    "name": "Kagayaki Homare",
+    "cure": "キュアエトワール",
+    "url": "https://prettycure.fandom.com/wiki/Kagayaki_Homare",
+    "season": ["HUGtto! Pretty Cure"],
+    "themeColour": "Yellow",
+    "personality": "Homare is a mature girl who excels at everything. However, she appears to have self-esteem issues, quitting figure skating after her failure to complete a jump during her childhood scarred her mentally. Fortunately, she regains the confidence to skate again after some encouragement from Hana and Saaya, which in turn granted her her Mirai Crystal, and she has become a more confident and resilient person onwards.\n\nShe also loves cute things, like her rabbit doll, babies, her dog, and ice cream.",
     "scores": {
-      "sociability": 10,
-      "empathy": 8,
+      "sociability": 5,
+      "empathy": 4,
       "responsibility": 8,
-      "emotional_instability": 8,
-      "curiosity": 5,
+      "emotional_instability": 9,
+      "curiosity": 4,
+      "self_esteem": 3,
+      "self_sacrifice": 4
+    },
+    "YouTube": "https://youtu.be/K1NuJ45sDc8?si=w1IRdPeSjTMxmI_q"
+  },
+  {
+    "name": "Aisaki Emiru",
+    "cure": "キュアマシェリ",
+    "url": "https://prettycure.fandom.com/wiki/Aisaki_Emiru",
+    "season": ["HUGtto! Pretty Cure"],
+    "themeColour": ["red", "pink"],
+    "personality": "Emiru is a girl who is very overprotective, but doesn't like being looked after herself. She admires the Pretty Cures and wishes to be a heroine herself but sometimes goes too far when trying to protect others. Despite her flaws, she is a caring friend who tries to cheer up her friends. Emiru also has a strong passion for singing and playing the guitar, even though her brother didn't support her at first. Like many young people, she still has some childish traits, such as sleeping with stuffed animals and needing evidence before believing anything. Emiru is also emotionally sensitive and once lost her voice because of this.",
+    "scores": {
+      "sociability": 7,
+      "empathy": 8,
+      "responsibility": 5,
+      "emotional_instability": 9,
+      "curiosity": 8,
       "self_esteem": 5,
       "self_sacrifice": 8
-    }
+    },
+    "YouTube": "https://youtu.be/-NqHiXW-vP4?si=1IiIV6MthOABK46z"
   },
   {
-    "name": "Hagoromo Lala",
-    "cure": "キュアミルキー",
-    "url": "https://prettycure.fandom.com/wiki/Hagoromo_Lala",
-    "season": ["Star☆Twinkle Pretty Cure"],
-    "themeColour": {
-      "main": "Green",
-      "sub": null,
-      "raw": ["Green"]
-    },
-    "personality": "Lala is a serious girl who is treated like an adult back at home. She has a strong sense of responsibility, which originated from her family pointing out her flaws rather than her strengths, but she sometimes makes mistakes. According to\nAI\n, she has the skills for operating complicated tasks. Initially, she comes across as stubborn and insists that analysis should be considered before taking action, but she eventually grows out of it. By the end of the season, she has grown up to be a confident person who influences the culture of Saman for the better.",
+    "name": "Ruru Amour",
+    "cure": "キュアアムール",
+    "url": "https://prettycure.fandom.com/wiki/Ruru_Amour",
+    "season": ["HUGtto! Pretty Cure"],
+    "themeColour": "Purple",
+    "personality": "Ruru was at first emotionless and followed instructions from Criasu faithfully. She then used her strong analyzing abilities to gather data on the Cures, but began developing emotions and free will during her investigations. She is also extremely analytical and calculable thanks to her programming, resulting in precise advice and the ability to remain calm in almost any situation. She also feels guilt for her past actions and she is very self-aware, but she slowly accepts her flaws later on.",
     "scores": {
-      "sociability": 4,
-      "empathy": 4,
+      "sociability": 3,
+      "empathy": 8,
       "responsibility": 9,
-      "emotional_instability": 5,
-      "curiosity": 5,
-      "self_esteem": 8,
-      "self_sacrifice": 4
-    }
+      "emotional_instability": 6,
+      "curiosity": 4,
+      "self_esteem": 4,
+      "self_sacrifice": 9
+    },
+    "YouTube": null
   },
   {
     "name": "Hoshina Hikaru",
     "cure": "キュアスター",
     "url": "https://prettycure.fandom.com/wiki/Hoshina_Hikaru",
     "season": ["Star☆Twinkle Pretty Cure"],
-    "themeColour": {
-      "main": "Pink",
-      "sub": null,
-      "raw": ["Pink"]
-    },
+    "themeColour": "Pink",
     "personality": "Hikaru is an imaginative and curious second-year student who loves constellations and space. She can be rather stubborn too, in which she will investigate anything that interests her thoroughly and acts on intuition. She is also ecstatic and has a tendency to drag people into certain activities she finds intriguing, unaware that her enthusiasm can be disrespectful to others. She is also supportive and caring towards others. She does, however, have moments where she can become deeply upset. According to\nSorami Ryoutarou\n, Hikaru used to be selfish because she would go along with things as long as she believed it was fun, but now she considers her friends much more than before.",
     "scores": {
       "sociability": 9,
@@ -1426,18 +1051,51 @@
       "curiosity": 10,
       "self_esteem": 6,
       "self_sacrifice": 7
-    }
+    },
+    "YouTube": "https://youtu.be/Qz39EUJly24?si=IVoj5zNn1rjy1Fh7"
+  },
+  {
+    "name": "Hagoromo Lala",
+    "cure": "キュアミルキー",
+    "url": "https://prettycure.fandom.com/wiki/Hagoromo_Lala",
+    "season": ["Star☆Twinkle Pretty Cure"],
+    "themeColour": "Green",
+    "personality": "Lala is a serious girl who is treated like an adult back at home. She has a strong sense of responsibility, which originated from her family pointing out her flaws rather than her strengths, but she sometimes makes mistakes. According to\nAI\n, she has the skills for operating complicated tasks. Initially, she comes across as stubborn and insists that analysis should be considered before taking action, but she eventually grows out of it. By the end of the season, she has grown up to be a confident person who influences the culture of Saman for the better.",
+    "scores": {
+      "sociability": 4,
+      "empathy": 4,
+      "responsibility": 9,
+      "emotional_instability": 5,
+      "curiosity": 5,
+      "self_esteem": 8,
+      "self_sacrifice": 4
+    },
+    "YouTube": null
+  },
+  {
+    "name": "Amamiya Elena",
+    "cure": "キュアソレイユ",
+    "url": "https://prettycure.fandom.com/wiki/Amamiya_Elena",
+    "season": ["Star☆Twinkle Pretty Cure"],
+    "themeColour": ["Yellow", "Orange"],
+    "personality": "Elena is a third-year student with a radiant smile. She's very popular and sporty to the point that she is known as \"The Sun of Mihoshi Town\". She often looks after her 5 younger siblings when her parents are off working at the florist store\nSonrisa\n, which her family runs. On the report of\nAI\n's evaluations, Elena can be defined as the challenger type due to her excellent sportiness and is suitable for helping to carry heavy objects as the muscle of the team. She could be emotionally fragile because of her past when she felt she couldn't fit in because of her skin color, but learned that bringing peace to the universe can bring smiles in return. She used to be too occupied by looking after her family than figuring out her own career, but learned to find a balance and be honest to herself.",
+    "scores": {
+      "sociability": 10,
+      "empathy": 8,
+      "responsibility": 8,
+      "emotional_instability": 8,
+      "curiosity": 5,
+      "self_esteem": 5,
+      "self_sacrifice": 8
+    },
+    "YouTube": "https://youtu.be/suwOG2_VaS8?si=UjFbEvvAGIHKnsvz"
   },
   {
     "name": "Kaguya Madoka",
     "cure": "キュアセレーネ",
     "url": "https://prettycure.fandom.com/wiki/Kaguya_Madoka",
     "season": ["Star☆Twinkle Pretty Cure"],
-    "themeColour": {
-      "main": "Purple",
-      "sub": null,
-      "raw": ["Purple"]
-    },
+    "themeColour": "Purple",
     "personality": "Madoka is a third-year student who tries her best to be ladylike. She is from a family with a storied history; her father works in the government while her mother is a famous pianist. She, herself, holds national championship titles in piano, archery, flower arranging, and tea ceremonies seamlessly, and gets excellent grades in academics. As the student council president, she's known as \"The Moon of Mihoshi Town\". According to\nAI\n's evaluations, she is mostly a composed leader type who is befitting for issuing orders.\n\nMadoka initially forces herself to be perfect in her talents thanks to her father's high expectations, which resulted in her stressing out easily, but she learns to cope with it and to lower her standards thanks to her friends. She can also be indecisive, but soon learns how to make her own choices.",
     "scores": {
       "sociability": 4,
@@ -1447,18 +1105,15 @@
       "curiosity": 5,
       "self_esteem": 9,
       "self_sacrifice": 4
-    }
+    },
+    "YouTube": "https://youtu.be/J38EySjlRSI?si=aOYWPh9MPzmLgLF3"
   },
   {
     "name": "Yuni",
     "cure": "キュアコスモ",
     "url": "https://prettycure.fandom.com/wiki/Yuni",
     "season": ["Star☆Twinkle Pretty Cure"],
-    "themeColour": {
-      "main": "BlueRainbow",
-      "sub": null,
-      "raw": ["BlueRainbow"]
-    },
+    "themeColour": ["Blue", "Rainbow"],
     "personality": "As Mao, she is very friendly and acts cutesy towards others. As it turns out, it was merely an act she puts on to conceal her true identity as a thief.\n\nAs Blue Cat, she is shown to be cunning, by using the bright fireworks to make her break with the Princess Star Color Pen and Madoka's plan to use the star donuts as bargaining chips to win the pen at the Auction. According to Lala, she always gets what she seeks.\n\nAs Yuni, she is a lone wolf and generally holds a strong responsibility for herself. This is mainly rooted from the guilt she has of being unable to save Planet Rainbow, causing her to reject her friends' kind offers and assistance in the beginning, and blaming herself when she fails to accomplish her goals. However, she gradually warms up to them as the series goes on. Despite all this, Yuni is still kindhearted, and she would help and rescue the needy, and has since grown to give up her prejudice, particularly toward Aiwarn.\n\nDespite being a major heroine, Yuni is overall a morally gray character; on one hand, she is learning to be heroic enough to save the universe, but on the other hand, she still thieves the plundered treasures of Planet Rainbow.",
     "scores": {
       "sociability": 5,
@@ -1468,39 +1123,15 @@
       "curiosity": 9,
       "self_esteem": 7,
       "self_sacrifice": 3
-    }
-  },
-  {
-    "name": "Fuurin Asumi",
-    "cure": "キュアアース",
-    "url": "https://prettycure.fandom.com/wiki/Fuurin_Asumi",
-    "season": ["Healin' Good♥Pretty Cure"],
-    "themeColour": {
-      "main": "Purple",
-      "sub": null,
-      "raw": ["Purple"]
     },
-    "personality": "Due to being a spirit, Asumi knows absolutely nothing about being human, so she lacks common sense. She also has a one-track mind, as she believes her only purpose is to serve and protect Latte, causing her to be somewhat overprotective towards the latter. As time passes, Asumi begins to learn to adapt to her new life and understand what emotions are.",
-    "scores": {
-      "sociability": 4,
-      "empathy": 6,
-      "responsibility": 8,
-      "emotional_instability": 4,
-      "curiosity": 5,
-      "self_esteem": 7,
-      "self_sacrifice": 5
-    }
+    "YouTube": "https://youtu.be/hJj-J7fSqj4?si=6wwEyv2E53xn3z2a"
   },
   {
     "name": "Hanadera Nodoka",
     "cure": "キュアグレース",
     "url": "https://prettycure.fandom.com/wiki/Hanadera_Nodoka",
     "season": ["Healin' Good♥Pretty Cure"],
-    "themeColour": {
-      "main": "Pink",
-      "sub": null,
-      "raw": ["Pink"]
-    },
+    "themeColour": "Pink",
     "personality": "Nodoka is a calm second-year middle school student who strives to try many different things. However, she lacks the athletic ability to accomplish most of them. Despite this, she has a kind heart and wants to help others. She was prone to illnesses as a child and wants to spread the same kindness she received back then to those around her. At times, Nodoka can be reckless and underestimate a severe situation, mainly because of her desire to protect something she considers valuable, which can cloud her judgment, and she may overexert herself when trying to become better at something.",
     "scores": {
       "sociability": 6,
@@ -1510,39 +1141,15 @@
       "curiosity": 5,
       "self_esteem": 4,
       "self_sacrifice": 9
-    }
-  },
-  {
-    "name": "Hiramitsu Hinata",
-    "cure": "キュアスパークル",
-    "url": "https://prettycure.fandom.com/wiki/Hiramitsu_Hinata",
-    "season": ["Healin' Good♥Pretty Cure"],
-    "themeColour": {
-      "main": "Yellow",
-      "sub": null,
-      "raw": ["Yellow"]
     },
-    "personality": "Hinata is a bright, cheerful, outgoing, and friendly second-year middle school student who isn't good at studying. She tends to speak her mind, relevant or not, but she always apologizes once she realizes she did something wrong. She absolutely loves fashion and cosmetics. Although mostly hasty, rash, and easily sidetracked, Hinata cares for her friends a lot and will do anything to help them if they're in a pinch. Sometimes, Hinata has doubts about herself, but gradually learns to come to terms with herself.",
-    "scores": {
-      "sociability": 9,
-      "empathy": 7,
-      "responsibility": 4,
-      "emotional_instability": 6,
-      "curiosity": 7,
-      "self_esteem": 6,
-      "self_sacrifice": 5
-    }
+    "YouTube": "https://youtu.be/Pky79MYpwJ0?si=qNmbAVjkjQW9WTci"
   },
   {
     "name": "Sawaizumi Chiyu",
     "cure": "キュアフォンテーヌ",
     "url": "https://prettycure.fandom.com/wiki/Sawaizumi_Chiyu",
     "season": ["Healin' Good♥Pretty Cure"],
-    "themeColour": {
-      "main": "Blue",
-      "sub": null,
-      "raw": ["Blue"]
-    },
+    "themeColour": "Blue",
     "personality": "Chiyu is a second-year middle school student who lives a hygienic and cheerful lifestyle. As an older sister type, she will do anything to help those in need. She's also very serious with a strong sense of responsibility and will try to do everything herself. She is sporty, being the ace of the school's track and field team, and smart as well, especially when it comes to science. Despite usually being focused, Chiyu finds puns quite humorous and will laugh whenever someone makes her one.\n\nWhen she was young, Chiyu was amazed by the sky and ocean, as they look like a single scenery while she was swimming. This experience inspired her to become a high-jumping athlete, where she constantly tries to improve herself.",
     "scores": {
       "sociability": 4,
@@ -1552,81 +1159,51 @@
       "curiosity": 4,
       "self_esteem": 8,
       "self_sacrifice": 6
-    }
+    },
+    "YouTube": "https://youtu.be/xH0EOBINdMk?si=lnkATX5LM-iQBirl"
   },
   {
-    "name": "Cure Oasis",
-    "cure": "キュアオアシス",
-    "url": "https://prettycure.fandom.com/wiki/Cure_Oasis",
-    "season": ["Tropical-Rouge! Pretty Cure"],
-    "themeColour": {
-      "main": "Green",
-      "sub": null,
-      "raw": ["Green"]
-    },
-    "personality": "Aunete was a kindhearted girl, and always did her best to help the needy. She also deeply cared for the\nWitch of Delays\n.",
+    "name": "Hiramitsu Hinata",
+    "cure": "キュアスパークル",
+    "url": "https://prettycure.fandom.com/wiki/Hiramitsu_Hinata",
+    "season": ["Healin' Good♥Pretty Cure"],
+    "themeColour": "Yellow",
+    "personality": "Hinata is a bright, cheerful, outgoing, and friendly second-year middle school student who isn't good at studying. She tends to speak her mind, relevant or not, but she always apologizes once she realizes she did something wrong. She absolutely loves fashion and cosmetics. Although mostly hasty, rash, and easily sidetracked, Hinata cares for her friends a lot and will do anything to help them if they're in a pinch. Sometimes, Hinata has doubts about herself, but gradually learns to come to terms with herself.",
     "scores": {
-      "sociability": 5,
+      "sociability": 9,
+      "empathy": 7,
+      "responsibility": 4,
+      "emotional_instability": 6,
+      "curiosity": 7,
+      "self_esteem": 6,
+      "self_sacrifice": 5
+    },
+    "YouTube": "https://youtu.be/Y3AFCf2hTSw?si=x6mFLRys-DwGW8Ch"
+  },
+  {
+    "name": "Fuurin Asumi",
+    "cure": "キュアアース",
+    "url": "https://prettycure.fandom.com/wiki/Fuurin_Asumi",
+    "season": ["Healin' Good♥Pretty Cure"],
+    "themeColour": "Purple",
+    "personality": "Due to being a spirit, Asumi knows absolutely nothing about being human, so she lacks common sense. She also has a one-track mind, as she believes her only purpose is to serve and protect Latte, causing her to be somewhat overprotective towards the latter. As time passes, Asumi begins to learn to adapt to her new life and understand what emotions are.",
+    "scores": {
+      "sociability": 4,
       "empathy": 6,
       "responsibility": 8,
       "emotional_instability": 4,
-      "curiosity": 3,
+      "curiosity": 5,
       "self_esteem": 7,
       "self_sacrifice": 5
-    }
-  },
-  {
-    "name": "Ichinose Minori",
-    "cure": "キュアパパイア",
-    "url": "https://prettycure.fandom.com/wiki/Ichinose_Minori",
-    "season": ["Tropical-Rouge! Pretty Cure"],
-    "themeColour": {
-      "main": "Yellow",
-      "sub": null,
-      "raw": ["Yellow"]
     },
-    "personality": "Minori is an intelligent 2nd year middle school student who loves to read. She's an honor student with the best grades in her class. She has a poker face, so she struggles to show any emotions. However, she has a strong sense of self. She has loved the fairytale\nThe Little Mermaid\n since she was a child, and she knows a lot of stories about mermaids.\n\nOriginally, she does not believe in herself after her story got rejected and criticized, but gradually learns to have more faith in herself. Minori is also reluctant when people insist on reading her own written works, though she eventually becomes more open-minded about her friends' praise for them. She has also learned that sometimes it is important to try something new by herself and not just rely on book knowledge.\n\nAs Cure Papaya, she is more energetic compared to her usual self. She also displays more emotions and confidence.",
-    "scores": {
-      "sociability": 3,
-      "empathy": 6,
-      "responsibility": 7,
-      "emotional_instability": 5,
-      "curiosity": 8,
-      "self_esteem": 5,
-      "self_sacrifice": 4
-    }
-  },
-  {
-    "name": "Laura",
-    "cure": "キュアラメール",
-    "url": "https://prettycure.fandom.com/wiki/Laura",
-    "season": ["Tropical-Rouge! Pretty Cure"],
-    "themeColour": {
-      "main": "BluePink",
-      "sub": null,
-      "raw": ["BluePink"]
-    },
-    "personality": "Laura is very self confident, and is the type of person who will honestly say whatever is on her mind. She wants to become the next queen of Grand Ocean. She also loves to sing. She tends to have a short temper, usually when things don't go her way or someone claims mermaids don't exist. Before becoming a human, she would feel left out when the rest of the Tropical Club did their activities. She can't keep secrets.",
-    "scores": {
-      "sociability": 7,
-      "empathy": 4,
-      "responsibility": 7,
-      "emotional_instability": 6,
-      "curiosity": 6,
-      "self_esteem": 9,
-      "self_sacrifice": 3
-    }
+    "YouTube": "https://youtu.be/63GeJL8OqqY?si=8ooaEGDspmyVGVK-"
   },
   {
     "name": "Natsuumi Manatsu",
     "cure": "キュアサマー",
     "url": "https://prettycure.fandom.com/wiki/Natsuumi_Manatsu",
     "season": ["Tropical-Rouge! Pretty Cure"],
-    "themeColour": {
-      "main": "White × RainbowPink",
-      "sub": null,
-      "raw": ["White × RainbowPink"]
-    },
+    "themeColour": "White × Rainbow",
     "personality": "Manatsu is an extremely energetic and motivated 1st-year middle school student who moved from Minamino Island to Aozora City. She always acts before she thinks, and in any situation, Manatsu says \"I'll do what's important, right now!\" However, occasionally this recklessness tends to backfire on her. Although mostly enthusiastic and motivated, she doesn't like to study.",
     "scores": {
       "sociability": 10,
@@ -1636,18 +1213,15 @@
       "curiosity": 8,
       "self_esteem": 7,
       "self_sacrifice": 5
-    }
+    },
+    "YouTube": "https://youtu.be/bYnc8Z9e8GI?si=7rDb7pIcuBRpcQA1"
   },
   {
     "name": "Suzumura Sango",
     "cure": "キュアコーラル",
     "url": "https://prettycure.fandom.com/wiki/Suzumura_Sango",
     "season": ["Tropical-Rouge! Pretty Cure"],
-    "themeColour": {
-      "main": "Purple",
-      "sub": null,
-      "raw": ["Purple"]
-    },
+    "themeColour": "Purple",
     "personality": "Sango is a stylish 1st-year middle school student who loves cute things. She's very kind and can get along with anyone. Her family owns a beauty parlor, so she knows a lot about makeup and cosmetics. Despite her kindness, she lacks self-confidence and usually just goes with the flow, but gradually learns to believe in herself.",
     "scores": {
       "sociability": 6,
@@ -1657,18 +1231,33 @@
       "curiosity": 5,
       "self_esteem": 5,
       "self_sacrifice": 6
-    }
+    },
+    "YouTube": "https://youtu.be/Xp3_mStZrhs?si=T-2SLeK5gV0hFvdk"
+  },
+  {
+    "name": "Ichinose Minori",
+    "cure": "キュアパパイア",
+    "url": "https://prettycure.fandom.com/wiki/Ichinose_Minori",
+    "season": ["Tropical-Rouge! Pretty Cure"],
+    "themeColour": "Yellow",
+    "personality": "Minori is an intelligent 2nd year middle school student who loves to read. She's an honor student with the best grades in her class. She has a poker face, so she struggles to show any emotions. However, she has a strong sense of self. She has loved the fairytale\nThe Little Mermaid\n since she was a child, and she knows a lot of stories about mermaids.\n\nOriginally, she does not believe in herself after her story got rejected and criticized, but gradually learns to have more faith in herself. Minori is also reluctant when people insist on reading her own written works, though she eventually becomes more open-minded about her friends' praise for them. She has also learned that sometimes it is important to try something new by herself and not just rely on book knowledge.\n\nAs Cure Papaya, she is more energetic compared to her usual self. She also displays more emotions and confidence.",
+    "scores": {
+      "sociability": 3,
+      "empathy": 6,
+      "responsibility": 7,
+      "emotional_instability": 5,
+      "curiosity": 8,
+      "self_esteem": 5,
+      "self_sacrifice": 4
+    },
+    "YouTube": "https://youtu.be/eYkOawlPvW0?si=5EVnYoJhdFevnYXb"
   },
   {
     "name": "Takizawa Asuka",
     "cure": "キュアフラミンゴ",
     "url": "https://prettycure.fandom.com/wiki/Takizawa_Asuka",
     "season": ["Tropical-Rouge! Pretty Cure"],
-    "themeColour": {
-      "main": "Red",
-      "sub": null,
-      "raw": ["Red"]
-    },
+    "themeColour": "Red",
     "personality": "Asuka is an athletic 3rd year middle school student with a strong sense of justice. At first glance, she appears to be cool and unapproachable, especially towards Yuriko. However, she is actually a very reliable big sister type. In fact, she really loves to cook and play cute animal games.\n\nDespite normally being a sisterly figure to her younger friends, Asuka can be extremely reckless and sometimes has a short temper, which make conflicts arise that she usually doesn't intend to cause.",
     "scores": {
       "sociability": 4,
@@ -1678,81 +1267,33 @@
       "curiosity": 3,
       "self_esteem": 8,
       "self_sacrifice": 6
-    }
+    },
+    "YouTube": "https://youtu.be/NSkP0mCiKy4?si=GDTEo8ZWSuxYcn1F"
   },
   {
-    "name": "Fuwa Kokone",
-    "cure": "キュアスパイシー",
-    "url": "https://prettycure.fandom.com/wiki/Fuwa_Kokone",
-    "season": ["Delicious Party♡Pretty Cure"],
-    "themeColour": {
-      "main": "Blue",
-      "sub": null,
-      "raw": ["Blue"]
-    },
-    "personality": "Kokone is a fashionable, cool beauty. She's a 2nd year middle school student who loves make-up and cute things. She is admired by many people, but she prefers to be alone, and doesn't speak much. She is, however, sympathetic and kindhearted.\n\nInitially, Kokone struggles to communicate comfortably with others, but with the help of her friends, she is able to open up and be comfortable around others. She also gradually learns to be honest with her parents about her own feelings.",
+    "name": "Laura",
+    "cure": "キュアラメール",
+    "url": "https://prettycure.fandom.com/wiki/Laura",
+    "season": ["Tropical-Rouge! Pretty Cure"],
+    "themeColour": ["Blue", "Pink"],
+    "personality": "Laura is very self confident, and is the type of person who will honestly say whatever is on her mind. She wants to become the next queen of Grand Ocean. She also loves to sing. She tends to have a short temper, usually when things don't go her way or someone claims mermaids don't exist. Before becoming a human, she would feel left out when the rest of the Tropical Club did their activities. She can't keep secrets.",
     "scores": {
-      "sociability": 3,
-      "empathy": 7,
+      "sociability": 7,
+      "empathy": 4,
       "responsibility": 7,
-      "emotional_instability": 8,
-      "curiosity": 5,
-      "self_esteem": 4,
-      "self_sacrifice": 6
-    }
-  },
-  {
-    "name": "Hanamichi Ran",
-    "cure": "キュアヤムヤム",
-    "url": "https://prettycure.fandom.com/wiki/Hanamichi_Ran",
-    "season": ["Delicious Party♡Pretty Cure"],
-    "themeColour": {
-      "main": "YellowOrange",
-      "sub": null,
-      "raw": ["YellowOrange"]
+      "emotional_instability": 6,
+      "curiosity": 6,
+      "self_esteem": 9,
+      "self_sacrifice": 3
     },
-    "personality": "Ran is a cute and energetic 2nd-year middle school student who loves to talk. She is very curious about food, and when she gets excited, she can't stop talking, which embarrasses her sometimes. She secretly posts about food on \"\nCureSta\n\" under the username \"Chururin\". However, she is quite gullible and simple-minded. She sometimes refers to herself in the third person. Ran can be self-conscious about how people view her, but she later learns to accept her uniqueness. She also learns how to be less stubborn and more open-minded.",
-    "scores": {
-      "sociability": 8,
-      "empathy": 6,
-      "responsibility": 4,
-      "emotional_instability": 7,
-      "curiosity": 8,
-      "self_esteem": 6,
-      "self_sacrifice": 4
-    }
-  },
-  {
-    "name": "Kasai Amane",
-    "cure": "キュアフィナーレ",
-    "url": "https://prettycure.fandom.com/wiki/Kasai_Amane",
-    "season": ["Delicious Party♡Pretty Cure"],
-    "themeColour": {
-      "main": "GoldPurpleBlack (as Gentlu",
-      "sub": "formerly)",
-      "raw": ["GoldPurpleBlack (as Gentlu", "formerly)"]
-    },
-    "personality": "Gentlu is calm and collected, rarely showing emotion. She dislikes using violent methods, as they go against her principles. Gentlu prefers to carry out her missions without the Cures noticing and is quite sly and selfish, capable of easily deceiving her victims with clever words. However, when she feels stressed, she can become impulsive.\n\nAmane is a refined, diligent, kind, and thoughtful person. She genuinely cares about everyone around her and can be very stubborn. Known for her strong sense of justice, Amane wishes to make everyone smile, much like a parfait. However, she often deems herself unworthy of being a Pretty Cure or a student council president due to her past actions as Gentlu. Since putting her trust in her friends, she has managed to overcome her self-doubt. Even after joining the team, she still harbors some darkness in her heart, but she learns not to waver when those emotions begin to take over.",
-    "scores": {
-      "sociability": 4,
-      "empathy": 6,
-      "responsibility": 8,
-      "emotional_instability": 7,
-      "curiosity": 4,
-      "self_esteem": 5,
-      "self_sacrifice": 6
-    }
+    "YouTube": "https://youtu.be/KW7Ee1No5YE?si=vhlMHvBGgYT-s3o6"
   },
   {
     "name": "Nagomi Yui",
     "cure": "キュアプレシャス",
     "url": "https://prettycure.fandom.com/wiki/Nagomi_Yui",
     "season": ["Delicious Party♡Pretty Cure"],
-    "themeColour": {
-      "main": "Pink",
-      "sub": null,
-      "raw": ["Pink"]
-    },
+    "themeColour": "Pink",
     "personality": "Yui is a straightforward and energetic 2nd year middle school student. She has outstanding physical drive and gets hungry quickly. Yui cherishes her grandmother's motto, \"food is smiles\". She also likes doing her best to help others. She tends to be absent-minded, often misquoting idioms or phrases, and is rather oblivious about anyone's romantic feelings towards her. When Yui is worried about something, she becomes incredibly hungry, and won't stop eating until she has resolved the issue that is bothering her.",
     "scores": {
       "sociability": 7,
@@ -1762,102 +1303,69 @@
       "curiosity": 5,
       "self_esteem": 6,
       "self_sacrifice": 8
-    }
+    },
+    "YouTube": "https://youtu.be/4Hs1p97Ufjg?si=PNmTHcZCCDHklYrj"
   },
   {
-    "name": "Ellee-chan",
-    "cure": "キュアマジェスティ",
-    "url": "https://prettycure.fandom.com/wiki/Ellee-chan",
-    "season": ["Hirogaru Sky! Pretty Cure"],
-    "themeColour": {
-      "main": "Purple",
-      "sub": null,
-      "raw": ["Purple"]
-    },
-    "personality": "Ellee-chan is a cheerful child who expresses her distress through loud crying. She can also be particular about her preferences. However, under the guidance of the other Cures, she slowly develops independence and courage.\n\nAs Cure Majesty, Ellee-chan appears more mature and brave, exuding a calm demeanor. Nonetheless, she still retains some of her playful and childish traits.",
+    "name": "Fuwa Kokone",
+    "cure": "キュアスパイシー",
+    "url": "https://prettycure.fandom.com/wiki/Fuwa_Kokone",
+    "season": ["Delicious Party♡Pretty Cure"],
+    "themeColour": "Blue",
+    "personality": "Kokone is a fashionable, cool beauty. She's a 2nd year middle school student who loves make-up and cute things. She is admired by many people, but she prefers to be alone, and doesn't speak much. She is, however, sympathetic and kindhearted.\n\nInitially, Kokone struggles to communicate comfortably with others, but with the help of her friends, she is able to open up and be comfortable around others. She also gradually learns to be honest with her parents about her own feelings.",
     "scores": {
-      "sociability": 5,
-      "empathy": 8,
-      "responsibility": 2,
-      "emotional_instability": 6,
-      "curiosity": 6,
-      "self_esteem": 7,
-      "self_sacrifice": 7
-    }
-  },
-  {
-    "name": "Hijiri Ageha",
-    "cure": "キュアバタフライ",
-    "url": "https://prettycure.fandom.com/wiki/Hijiri_Ageha",
-    "season": ["Hirogaru Sky! Pretty Cure"],
-    "themeColour": {
-      "main": "Pink",
-      "sub": null,
-      "raw": ["Pink"]
-    },
-    "personality": "Ageha is a cheerful, fashionable, reliable older sister type, who has a soft spot for younger children. She is hardworking with a lot of confidence in her own abilities. She is quick to befriend anyone because of her easygoing nature. She can sometimes be a little pushy when she gets excited.",
-    "scores": {
-      "sociability": 8,
-      "empathy": 7,
-      "responsibility": 6,
-      "emotional_instability": 5,
-      "curiosity": 7,
-      "self_esteem": 8,
-      "self_sacrifice": 5
-    }
-  },
-  {
-    "name": "Nijigaoka Mashiro",
-    "cure": "キュアプリズム",
-    "url": "https://prettycure.fandom.com/wiki/Nijigaoka_Mashiro",
-    "season": ["Hirogaru Sky! Pretty Cure"],
-    "themeColour": {
-      "main": "WhitePink",
-      "sub": null,
-      "raw": ["WhitePink"]
-    },
-    "personality": "Mashiro is a kind and thoughtful girl, who knows a lot about cooking and nature. However, she panics easily when experiencing unfamiliar things. Mashiro doesn't have a lot of confidence in herself, but slowly starts to change.",
-    "scores": {
-      "sociability": 5,
+      "sociability": 3,
       "empathy": 7,
       "responsibility": 7,
-      "emotional_instability": 9,
-      "curiosity": 4,
-      "self_esteem": 3,
-      "self_sacrifice": 5
-    }
+      "emotional_instability": 8,
+      "curiosity": 5,
+      "self_esteem": 4,
+      "self_sacrifice": 6
+    },
+    "YouTube": "https://youtu.be/lMEBaRBZBD0?si=2kY95TFtZf6d8SBR"
   },
   {
-    "name": "Princess Elleelain",
-    "cure": "キュアマジェスティ",
-    "url": "https://prettycure.fandom.com/wiki/Princess_Elleelain",
-    "season": ["Hirogaru Sky! Pretty Cure"],
-    "themeColour": {
-      "main": "Purple",
-      "sub": null,
-      "raw": ["Purple"]
-    },
-    "personality": "Elleelain is a noble princess, who loves and cares for her people. However, she is reckless and doesn't think her decisions through.",
+    "name": "Hanamichi Ran",
+    "cure": "キュアヤムヤム",
+    "url": "https://prettycure.fandom.com/wiki/Hanamichi_Ran",
+    "season": ["Delicious Party♡Pretty Cure"],
+    "themeColour": ["Yellow", "Orange"],
+    "personality": "Ran is a cute and energetic 2nd-year middle school student who loves to talk. She is very curious about food, and when she gets excited, she can't stop talking, which embarrasses her sometimes. She secretly posts about food on \"\nCureSta\n\" under the username \"Chururin\". However, she is quite gullible and simple-minded. She sometimes refers to herself in the third person. Ran can be self-conscious about how people view her, but she later learns to accept her uniqueness. She also learns how to be less stubborn and more open-minded.",
     "scores": {
-      "sociability": 5,
-      "empathy": 8,
-      "responsibility": 3,
-      "emotional_instability": 5,
+      "sociability": 8,
+      "empathy": 6,
+      "responsibility": 4,
+      "emotional_instability": 7,
+      "curiosity": 8,
+      "self_esteem": 6,
+      "self_sacrifice": 4
+    },
+    "YouTube": "https://youtu.be/q0YWPi68Exw?si=YMLAczK8busxg5GH"
+  },
+  {
+    "name": "Kasai Amane",
+    "cure": "キュアフィナーレ",
+    "url": "https://prettycure.fandom.com/wiki/Kasai_Amane",
+    "season": ["Delicious Party♡Pretty Cure"],
+    "themeColour": ["Gold", "Purple"],
+    "personality": "Gentlu is calm and collected, rarely showing emotion. She dislikes using violent methods, as they go against her principles. Gentlu prefers to carry out her missions without the Cures noticing and is quite sly and selfish, capable of easily deceiving her victims with clever words. However, when she feels stressed, she can become impulsive.\n\nAmane is a refined, diligent, kind, and thoughtful person. She genuinely cares about everyone around her and can be very stubborn. Known for her strong sense of justice, Amane wishes to make everyone smile, much like a parfait. However, she often deems herself unworthy of being a Pretty Cure or a student council president due to her past actions as Gentlu. Since putting her trust in her friends, she has managed to overcome her self-doubt. Even after joining the team, she still harbors some darkness in her heart, but she learns not to waver when those emotions begin to take over.",
+    "scores": {
+      "sociability": 4,
+      "empathy": 6,
+      "responsibility": 8,
+      "emotional_instability": 7,
       "curiosity": 4,
-      "self_esteem": 8,
-      "self_sacrifice": 7
-    }
+      "self_esteem": 5,
+      "self_sacrifice": 6
+    },
+    "YouTube": "https://youtu.be/5Fnz_f1dtuM?si=xKwwtRieA1DmLtqr"
   },
   {
     "name": "Sora Harewataru",
     "cure": "キュアスカイ",
     "url": "https://prettycure.fandom.com/wiki/Sora_Harewataru",
     "season": ["Hirogaru Sky! Pretty Cure"],
-    "themeColour": {
-      "main": "Blue",
-      "sub": null,
-      "raw": ["Blue"]
-    },
+    "themeColour": "Blue",
     "personality": "Sora is a highly athletic individual who always gives her best, no matter the obstacles she faces. She has dedicated herself to rigorous training every day in pursuit of becoming a hero, inspired by\na person\n who once saved her when she was a child. Despite her commitment to heroism, Sora also displays a polite and kind demeanor, particularly towards children. However, her strong sense of justice and good-hearted nature can sometimes lead to recklessness, causing her to overlook the bigger picture. Sora is also very honest and tends to share too much personal information. While she can be a bit overly protective, she is capable of recognizing when she has made assumptions that go too far.\n\nDue to struggles with social skills since childhood, Sora is somewhat socially awkward. But with the support of her friends, she is learning to adapt to new environments.",
     "scores": {
       "sociability": 7,
@@ -1867,18 +1375,33 @@
       "curiosity": 5,
       "self_esteem": 7,
       "self_sacrifice": 7
-    }
+    },
+    "YouTube": "https://youtu.be/uOrSsajNt_w?si=dTkYmMi4Ramp18wc"
+  },
+  {
+    "name": "Nijigaoka Mashiro",
+    "cure": "キュアプリズム",
+    "url": "https://prettycure.fandom.com/wiki/Nijigaoka_Mashiro",
+    "season": ["Hirogaru Sky! Pretty Cure"],
+    "themeColour": ["White", "Pink"],
+    "personality": "Mashiro is a kind and thoughtful girl, who knows a lot about cooking and nature. However, she panics easily when experiencing unfamiliar things. Mashiro doesn't have a lot of confidence in herself, but slowly starts to change.",
+    "scores": {
+      "sociability": 5,
+      "empathy": 7,
+      "responsibility": 7,
+      "emotional_instability": 9,
+      "curiosity": 4,
+      "self_esteem": 3,
+      "self_sacrifice": 5
+    },
+    "YouTube": "https://youtu.be/2FLWU4sQhLg?si=O6afSJcgCBc-GzLb"
   },
   {
     "name": "Yuunagi Tsubasa",
     "cure": "キュアウィング",
     "url": "https://prettycure.fandom.com/wiki/Yuunagi_Tsubasa",
     "season": ["Hirogaru Sky! Pretty Cure"],
-    "themeColour": {
-      "main": "Orange",
-      "sub": null,
-      "raw": ["Orange"]
-    },
+    "themeColour": "Orange",
     "personality": "Tsubasa is a hard worker who cares about Ellee-chan. Tsubasa dreams of being able to fly, so he studies very hard to make it happen. He struggles to express his emotions and doesn't like being pushed around. However, Tsubasa trusts those who have faith in him.",
     "scores": {
       "sociability": 4,
@@ -1888,144 +1411,51 @@
       "curiosity": 9,
       "self_esteem": 5,
       "self_sacrifice": 7
-    }
+    },
+    "YouTube": "https://youtu.be/VV4pxPstV0c?si=wF8dpp3MrQ2QC2t0"
   },
   {
-    "name": "Aokaze Nana",
-    "cure": "キュアウィンク",
-    "url": "https://prettycure.fandom.com/wiki/Aokaze_Nana",
-    "season": ["Kimi to Idol Pretty Cure♪"],
-    "themeColour": {
-      "main": "Blue",
-      "sub": null,
-      "raw": ["Blue"]
+    "name": "Hijiri Ageha",
+    "cure": "キュアバタフライ",
+    "url": "https://prettycure.fandom.com/wiki/Hijiri_Ageha",
+    "season": ["Hirogaru Sky! Pretty Cure"],
+    "themeColour": "Pink",
+    "personality": "Ageha is a cheerful, fashionable, reliable older sister type, who has a soft spot for younger children. She is hardworking with a lot of confidence in her own abilities. She is quick to befriend anyone because of her easygoing nature. She can sometimes be a little pushy when she gets excited.",
+    "scores": {
+      "sociability": 8,
+      "empathy": 7,
+      "responsibility": 6,
+      "emotional_instability": 5,
+      "curiosity": 7,
+      "self_esteem": 8,
+      "self_sacrifice": 5
     },
-    "personality": "Nana is a very kind and intelligent girl, who is good at playing the piano. She's also very polite to a fault, as she finds it difficult to address a person's name without the use of honorifics, even if the person is younger than her. Nana treasures what's truly important and puts in great effort for the sake of others. At first, Nana had a fear of failing to meet others' expectations, but she eventually learns to regain her passion for music and self-confidence. Nana is very earnest, which is why she thinks and deliberates a lot before finally taking action.\n\nNana also has a lot of determination and resolve when taking a step towards something, which allows her to try new things for instance when learning that she doesn't have to just play the piano. However, it can cause her to act strangely around others than who she usually is at times. When she finds something that she really likes, she makes up dramatic poems about them on the spot.\n\nNana is very considerate and selfless, being very caring to other people, regardless of if they oppose her, such as being supportive of Meroron's feelings for Purirun. This considerate nature even extends to her enemies, as she helped Zakkuri after finding him lying under the hot sun. She's also very shy and quite humble, as she's quick to blush whenever someone compliments her or a fan announces that they like Cure Wink.",
+    "YouTube": "https://youtu.be/-fYapXYdG6w?si=Xl4E1cdyhyixQ3vd"
+  },
+  {
+    "name": "Ellee-chan",
+    "cure": "キュアマジェスティ",
+    "url": "https://prettycure.fandom.com/wiki/Ellee-chan",
+    "season": ["Hirogaru Sky! Pretty Cure"],
+    "themeColour": "Purple",
+    "personality": "Ellee-chan is a cheerful child who expresses her distress through loud crying. She can also be particular about her preferences. However, under the guidance of the other Cures, she slowly develops independence and courage.\n\nAs Cure Majesty, Ellee-chan appears more mature and brave, exuding a calm demeanor. Nonetheless, she still retains some of her playful and childish traits.",
     "scores": {
       "sociability": 5,
       "empathy": 8,
-      "responsibility": 9,
-      "emotional_instability": 3,
-      "curiosity": 4,
-      "self_esteem": 7,
-      "self_sacrifice": 7
-    }
-  },
-  {
-    "name": "Dark Pretty Cure",
-    "cure": "ダークプリキュア",
-    "url": "https://prettycure.fandom.com/wiki/Dark_Pretty_Cure",
-    "season": ["Heartcatch Pretty Cure!"],
-    "themeColour": {
-      "main": "Black",
-      "sub": null,
-      "raw": ["Black"]
-    },
-    "personality": "Dark Pretty Cure has a fierce rivalry with Cure Moonlight, driven by a deep desire to defeat her once and for all. She is mysterious and composed, yet deadly in battle.",
-    "scores": {
-      "sociability": 2,
-      "empathy": 1,
-      "responsibility": 6,
-      "emotional_instability": 8,
-      "curiosity": 3,
-      "self_esteem": 7,
-      "self_sacrifice": 1
-    }
-  },
-  {
-    "name": "Hanasaki Kaoruko",
-    "cure": "非プリキュア",
-    "url": "https://prettycure.fandom.com/wiki/Hanasaki_Kaoruko",
-    "season": ["Heartcatch Pretty Cure!"],
-    "themeColour": {
-      "main": "WhitePink",
-      "sub": null,
-      "raw": ["WhitePink"]
-    },
-    "personality": "Kaoruko is wise and kind and cares deeply for her granddaughter and other loved ones. Her old-fashioned speech patterns influenced Tsubomi's way of speaking.",
-    "scores": {
-      "sociability": 6,
-      "empathy": 9,
-      "responsibility": 6,
-      "emotional_instability": 4,
-      "curiosity": 4,
-      "self_esteem": 8,
-      "self_sacrifice": 9
-    }
-  },
-  {
-    "name": "Hanasaki Tsubomi",
-    "cure": "キュアブロッサム",
-    "url": "https://prettycure.fandom.com/wiki/Hanasaki_Tsubomi",
-    "season": ["Heartcatch Pretty Cure!"],
-    "themeColour": {
-      "main": "Pink",
-      "sub": null,
-      "raw": ["Pink"]
-    },
-    "personality": "Tsubomi is a shy and timid introvert who usually keeps to herself, hesitant to speak openly unless approached first. She often worries over small things and is easily worked up, especially when scared or trying to handle more energetic people like Erika. She strongly wants to shed this aspect of herself and over the series manages to become more easygoing and willing to speak her mind thanks to Erika's friendship and encouragement, until she became confident enough to accept her negative qualities.\n\nTsubomi is a kind girl as well, and would never say anything to hurt anyone or make them feel as though she depended on them if it could make them unhappy. She loves flowers and dreams of becoming a botanist to spread flowers and make people happy.\n\nDue to her relationship and frequent visits with her grandmother, she has picked up her old-fashioned speech pattern.",
-    "scores": {
-      "sociability": 3,
-      "empathy": 8,
-      "responsibility": 7,
-      "emotional_instability": 8,
-      "curiosity": 6,
-      "self_esteem": 3,
-      "self_sacrifice": 7
-    }
-  },
-  {
-    "name": "Hibiki Kaito",
-    "cure": "キュアズキューン",
-    "url": "https://prettycure.fandom.com/wiki/Hibiki_Kaito",
-    "season": ["Kimi to Idol Pretty Cure♪"],
-    "themeColour": {
-      "main": "TurquoiseWhite",
-      "sub": null,
-      "raw": ["TurquoiseWhite"]
-    },
-    "personality": "Kaito is kind and very helpful, as well as highly skilled in the arts, particularly in singing and acting. He can sometimes be critical and harsh, but he means well.\n\nWhen he was younger, Kaito was shy and lacked confidence in his talents until Kazuma encouraged him. Kaito regrets not being able to reach out to Kazuma and wishes to reconcile with him one day.",
-    "scores": {
-      "sociability": 6,
-      "empathy": 4,
-      "responsibility": 5,
-      "emotional_instability": 5,
+      "responsibility": 2,
+      "emotional_instability": 6,
       "curiosity": 6,
       "self_esteem": 7,
-      "self_sacrifice": 2
-    }
-  },
-  {
-    "name": "Inukai Iroha",
-    "cure": "キュアフレンディ",
-    "url": "https://prettycure.fandom.com/wiki/Inukai_Iroha",
-    "season": ["Wonderful Pretty Cure!"],
-    "themeColour": {
-      "main": "Purple",
-      "sub": null,
-      "raw": ["Purple"]
+      "self_sacrifice": 7
     },
-    "personality": "Iroha loves animals so much that it's her goal to be friends with all the animals in the world. Iroha is eager when encountering any animal, and won't hesitate to help them in times of need. Her daily routine is taking Komugi for morning walks. She has many friends who she loves to help out, and is well-liked by animals. She is very honest and sporty. However, Iroha can be honest to a fault, as keeping secrets from anyone she holds dear overwhelms her, thus causing her to be a bad liar in the process. When given shocking information, she can be slow to process her own feelings on the matter, although she figures it out in the end.",
-    "scores": {
-      "sociability": 7,
-      "empathy": 9,
-      "responsibility": 6,
-      "emotional_instability": 5,
-      "curiosity": 4,
-      "self_esteem": 6,
-      "self_sacrifice": 8
-    }
+    "YouTube": "https://youtu.be/uzgA78iUwDI?si=z0J5xUy1uP-Z5zj7"
   },
   {
     "name": "Inukai Komugi",
     "cure": "キュアワンダフル",
     "url": "https://prettycure.fandom.com/wiki/Inukai_Komugi",
     "season": ["Wonderful Pretty Cure!"],
-    "themeColour": {
-      "main": "Pink",
-      "sub": null,
-      "raw": ["Pink"]
-    },
+    "themeColour": "Pink",
     "personality": "Komugi is full of curiosity, and is a glutton. She is athletic, and loves going for walks. Komugi dislikes being left alone, and prefers to be with Iroha constantly. She can be very stubborn. She is also naive, while being optimistic and able to see the good in everyone and anyone. When she hears Gaou's views on humans, she becomes determined to prove that humans and wolves can coexist.\n\nCompared to\nYuki\n, Komugi has less control over her canine instincts, which often gets her into trouble. Like Iroha, Komugi is bad at keeping secrets.\n\nWhen Komugi was a younger puppy, she was shyer and a light eater, until she became bolder under Iroha's care.",
     "scores": {
       "sociability": 9,
@@ -2035,102 +1465,33 @@
       "curiosity": 7,
       "self_esteem": 7,
       "self_sacrifice": 4
-    }
-  },
-  {
-    "name": "Kurumi Erika",
-    "cure": "キュアマリン",
-    "url": "https://prettycure.fandom.com/wiki/Kurumi_Erika",
-    "season": ["Heartcatch Pretty Cure!"],
-    "themeColour": {
-      "main": "Blue",
-      "sub": null,
-      "raw": ["Blue"]
     },
-    "personality": "Erika is a feminine young girl who loves fashion and dreams of becoming a fashion designer. Everything she loves revolves around fashion, and she has turned it into an art form capable of helping others open up and feel their best. She is able to tell their feelings or moods using the color therapy she is going through.\n She is also a very fast learner and shows that when she puts her mind to things she has some skill.\n\nUsually, she is cheery and energetic, but she has times when she can come off as selfish by acting lazy, childish, and immature. She has a short-temper and can be impatient, and she's pretty blunt and likely to be nosy when curious. This brash personality causes her to come off as abrasive towards more shy or reserved types, but at the same time she can become more mindful towards them and will always be there to comfort them should they need it. She cares deeply for her friends, even if she struggles to express it in a way that doesn't cause them further anxiety.\n\nDespite their similarities and shared interests, Erika is very jealous of Momoka and often ignores or pushes her away as her sister attempts to help her or make suggestions. She wishes to surpass Momoka someday and would rather do it on her own then ask her for help. But over time she gradually begins to open up to her sister and grows less hostile.",
-    "scores": {
-      "sociability": 9,
-      "empathy": 6,
-      "responsibility": 3,
-      "emotional_instability": 6,
-      "curiosity": 8,
-      "self_esteem": 7,
-      "self_sacrifice": 4
-    }
+    "YouTube": "https://youtu.be/O26FZbMeptw?si=aSBmlFKtXzmTzstZ"
   },
   {
-    "name": "Meroron",
-    "cure": "キュアキッス",
-    "url": "https://prettycure.fandom.com/wiki/Meroron",
-    "season": ["Kimi to Idol Pretty Cure♪"],
-    "themeColour": {
-      "main": "BlackFuchsia",
-      "sub": null,
-      "raw": ["BlackFuchsia"]
-    },
-    "personality": "Meroron is strong-willed and cheeky, but she is actually lonely. She deeply cares about Purirun, and has a habit of reciting poetic phrases about her. Her love for Purirun is so strong that she can get jealous and one-sidedly sees the Idol Pretty Cure as rivals. However, she has a soft side, as shown when she spoke to\na little girl\n who was lost as well.\n\nMeroron has an interest in cooking and will go above and beyond when she makes meals for Purirun. She is very persistent and possessive, and she will stop at nothing to make Purirun notice her. She dislikes those who try to spend time with Purirun so she'll have more time with her. She views others trying to spend time with Purirun as \"stealing\", especially in regards to Uta. She also dislikes being considered as \"friends\" with those she isn't close to. This gives her emotional distress and she believes she can only rely on Purirun, thus contributing to her possessive attitude and how she isolates herself from the girls. This is especially when Purirun lost her memories, where Meroron often took her away. She is also precocious. However, over time, she regrets her past actions and grows into wanting to befriend the girls, especially when Nana gave her support and that she can depend on others.\n\nDue to being born as \"the one who knows darkness\", Meroron was initially unable to make any friends due to knowing the feeling of loss and darkness. However, in the end, she's able to befriend the Idol Pretty Cure after learning to be honest with her own wish.\n\nAs Cure Kiss, she is more mature and formal, but she still cares about Purirun. She is also more task-oriented, but she is still eloquent and poetic regarding Purirun. She gains more courage to fight with others and not just Zukyoon after being moved by Wink's advice. Meroron is more familiar with things from Earth, so she often helps Purirun recognize things around the environment.",
-    "scores": {
-      "sociability": 4,
-      "empathy": 7,
-      "responsibility": 5,
-      "emotional_instability": 7,
-      "curiosity": 6,
-      "self_esteem": 4,
-      "self_sacrifice": 7
-    }
-  },
-  {
-    "name": "Myoudouin Itsuki",
-    "cure": "キュアサンシャイン",
-    "url": "https://prettycure.fandom.com/wiki/Myoudouin_Itsuki",
-    "season": ["Heartcatch Pretty Cure!"],
-    "themeColour": {
-      "main": "YellowGold",
-      "sub": null,
-      "raw": ["YellowGold"]
-    },
-    "personality": "Befitting of her image and upbringing, Itsuki is a wise and princely young woman who is very formal with others. She is calm-tempered and kind, willing to help friends and strangers alike, but she can also be stern when it's necessary and has no problem stepping in to defend those weaker than her. She is brave and compassionate, but this will not stop her from unleashing rage on those who hurt the innocent. She is strongly admired by others for her strength in character and as a person, which played a part in her struggle to find a compromise between who she thought she had to be and who she wanted to be.\n\nItsuki has a fondness for anything cute and girly. While she is normally gentle and seems to be on the introverted side initially, she becomes excited by things like toys and clothing. When she realizes she can embrace this part of herself, she begins to show it more openly to others.",
-    "scores": {
-      "sociability": 4,
-      "empathy": 7,
-      "responsibility": 9,
-      "emotional_instability": 3,
-      "curiosity": 4,
-      "self_esteem": 8,
-      "self_sacrifice": 5
-    }
-  },
-  {
-    "name": "Nekoyashiki Mayu",
-    "cure": "キュアリリアン",
-    "url": "https://prettycure.fandom.com/wiki/Nekoyashiki_Mayu",
+    "name": "Inukai Iroha",
+    "cure": "キュアフレンディ",
+    "url": "https://prettycure.fandom.com/wiki/Inukai_Iroha",
     "season": ["Wonderful Pretty Cure!"],
-    "themeColour": {
-      "main": "Green",
-      "sub": null,
-      "raw": ["Green"]
-    },
-    "personality": "Mayu is a socially awkward girl who wants to make lots of friends but runs away from any social interaction. She is good at applying make-up, and sewing. Although initially timid, Mayu becomes braver due to her desire to help her friends. Mayu tends to get hyperfocused whenever she is knitting or performing a task, to the point that she doesn't even hear whenever someone is talking to her.\n\nOnce Mayu has opened up to her friends, it's revealed Mayu can be quite mischievous, teasing Satoru about his crush on Iroha. Mayu is also very kind and patient, always willing to slowly help Yuki overcome her lone-wolf tendencies. Mayu even has a stubborn side, as shown when she refuses to let go of a Sea Turtle Garugaru, as she so desperately wants to help calm it down.",
+    "themeColour": "Purple",
+    "personality": "Iroha loves animals so much that it's her goal to be friends with all the animals in the world. Iroha is eager when encountering any animal, and won't hesitate to help them in times of need. Her daily routine is taking Komugi for morning walks. She has many friends who she loves to help out, and is well-liked by animals. She is very honest and sporty. However, Iroha can be honest to a fault, as keeping secrets from anyone she holds dear overwhelms her, thus causing her to be a bad liar in the process. When given shocking information, she can be slow to process her own feelings on the matter, although she figures it out in the end.",
     "scores": {
-      "sociability": 3,
-      "empathy": 6,
+      "sociability": 7,
+      "empathy": 9,
       "responsibility": 6,
-      "emotional_instability": 7,
-      "curiosity": 5,
-      "self_esteem": 4,
-      "self_sacrifice": 5
-    }
+      "emotional_instability": 5,
+      "curiosity": 4,
+      "self_esteem": 6,
+      "self_sacrifice": 8
+    },
+    "YouTube": "https://youtu.be/yM1MFux5j90?si=HZVNvsoLIvWvSM-2"
   },
   {
     "name": "Nekoyashiki Yuki",
     "cure": "キュアニャミー",
     "url": "https://prettycure.fandom.com/wiki/Nekoyashiki_Yuki",
     "season": ["Wonderful Pretty Cure!"],
-    "themeColour": {
-      "main": "BlueWhite",
-      "sub": null,
-      "raw": ["BlueWhite"]
-    },
+    "themeColour": ["Blue", "White"],
     "personality": "Yuki is typically gentle when she's in a good mood, but can also be aloof and judgmental. She is very intelligent, and prefers to take things at her own pace. She also enjoys napping. She can control her feline instincts much better than Komugi, but there are times when they slip, like when it comes to her fear of water.\n\nYuki can be grumpy at her worst and doesn't bother to rebuke anyone who questions her authority. However, she always makes it clear that she loves Mayu, and will do anything to keep her owner safe. Sometimes, she is so overprotective of Mayu that she would easily drive herself to the brink of humiliating Mayu publicly, but she rarely expresses her concern for her well-being wherever Mayu goes. However, she learns to open herself up after understanding that Mayu is capable of protecting her.\n\nDue to her feline instincts, she is more aggressive than the others when fighting a Garugaru. This prevents them from being purified properly. She prefers to work alone and initially rejects the other Pretty Cures' offers to help, as she warns them of the consequences she will inflict on them if their ongoing conflict with the Garugaru doesn't stop due to them being too inexperienced to protect life. Fortunately, she starts easing up on the Garugarus after understanding their loneliness when being controlled. As time goes on, she begins to form a closer bond with the other Pretty Cure.",
     "scores": {
       "sociability": 5,
@@ -2140,39 +1501,33 @@
       "curiosity": 6,
       "self_esteem": 6,
       "self_sacrifice": 4
-    }
+    },
+    "YouTube": "https://youtu.be/pI655Qi10Dk?si=5Kdd5XryNRPDB-w7"
   },
   {
-    "name": "Purirun",
-    "cure": "キュアズキューン",
-    "url": "https://prettycure.fandom.com/wiki/Purirun",
-    "season": ["Kimi to Idol Pretty Cure♪"],
-    "themeColour": {
-      "main": "WhiteGreen",
-      "sub": null,
-      "raw": ["WhiteGreen"]
-    },
-    "personality": "Purirun is laid-back and easygoing. When she blinks, sparkling lights can be seen. Purirun is also stubborn and knows how to get what she wants with her cuteness. She can also be very impulsive and oblivious. Purirun has a huge appetite, and can be a glutton, as she is able to eat a whole hot dog and a pot of mackerel curry at once without being noticed. She also can get lonely at times and likes wearing accessories that match with the Idol Pretty Cure.\n\nDespite this, Purirun cares deeply about her friends, especially Uta, and will do anything to protect them. Purirun is also unfamiliar with things from Earth, such as during her first day at school, where Meroron has to help her recognize things around the environment.\n\nAs Cure Zukyoon, she is more mature and composed, but remains sweet and friendly. She also retains her love of food.",
+    "name": "Nekoyashiki Mayu",
+    "cure": "キュアリリアン",
+    "url": "https://prettycure.fandom.com/wiki/Nekoyashiki_Mayu",
+    "season": ["Wonderful Pretty Cure!"],
+    "themeColour": "Green",
+    "personality": "Mayu is a socially awkward girl who wants to make lots of friends but runs away from any social interaction. She is good at applying make-up, and sewing. Although initially timid, Mayu becomes braver due to her desire to help her friends. Mayu tends to get hyperfocused whenever she is knitting or performing a task, to the point that she doesn't even hear whenever someone is talking to her.\n\nOnce Mayu has opened up to her friends, it's revealed Mayu can be quite mischievous, teasing Satoru about his crush on Iroha. Mayu is also very kind and patient, always willing to slowly help Yuki overcome her lone-wolf tendencies. Mayu even has a stubborn side, as shown when she refuses to let go of a Sea Turtle Garugaru, as she so desperately wants to help calm it down.",
     "scores": {
-      "sociability": 6,
-      "empathy": 8,
-      "responsibility": 4,
-      "emotional_instability": 6,
-      "curiosity": 6,
-      "self_esteem": 5,
-      "self_sacrifice": 7
-    }
+      "sociability": 3,
+      "empathy": 6,
+      "responsibility": 6,
+      "emotional_instability": 7,
+      "curiosity": 5,
+      "self_esteem": 4,
+      "self_sacrifice": 5
+    },
+    "YouTube": "https://youtu.be/_AxmCdRsHAA?si=LFIpzf35GkIYkumk"
   },
   {
     "name": "Sakura Uta",
     "cure": "キュアアイドル",
     "url": "https://prettycure.fandom.com/wiki/Sakura_Uta",
     "season": ["Kimi to Idol Pretty Cure♪"],
-    "themeColour": {
-      "main": "Pink Red (Idol Heart Ribbon and God Idol styles)",
-      "sub": null,
-      "raw": ["Pink Red (Idol Heart Ribbon and God Idol styles)"]
-    },
+    "themeColour": "Pink",
     "personality": "Uta is a bright and energetic girl who loves to sing. It's common for her to sing her feelings on the spot. She loves things that are sparkling, lively, and full of smiles, which give off a \"Kirakilala\" feeling. Uta is also straightforward with her thoughts but can often come off as tactless. Uta is a terrible liar and struggles to keep her ego in check when she hears people praising her Cure Idol alias.\n\nUta can be very slow when it comes to processing ideas, but with the help of her friends, she is able to come to good conclusions. She is also prone to thinking too hard. However, she is able to visualize what gives her a positive feeling.\n\nWhen Uta feels jealous, she tends to sulk a lot. However, she is able to reflect on her negative qualities and overcome them. Uta can get emotional and may let her feelings show in public places. Uta isn't good at math\n, and is bad at playing the piano\n and drawing.\n She also dislikes studying and ghosts.",
     "scores": {
       "sociability": 9,
@@ -2182,18 +1537,33 @@
       "curiosity": 7,
       "self_esteem": 5,
       "self_sacrifice": 4
-    }
+    },
+    "YouTube": "https://youtu.be/J6kReLJr-GM?si=MgWtdfRZSZmafDcU"
+  },
+  {
+    "name": "Aokaze Nana",
+    "cure": "キュアウィンク",
+    "url": "https://prettycure.fandom.com/wiki/Aokaze_Nana",
+    "season": ["Kimi to Idol Pretty Cure♪"],
+    "themeColour": "Blue",
+    "personality": "Nana is a very kind and intelligent girl, who is good at playing the piano. She's also very polite to a fault, as she finds it difficult to address a person's name without the use of honorifics, even if the person is younger than her. Nana treasures what's truly important and puts in great effort for the sake of others. At first, Nana had a fear of failing to meet others' expectations, but she eventually learns to regain her passion for music and self-confidence. Nana is very earnest, which is why she thinks and deliberates a lot before finally taking action.\n\nNana also has a lot of determination and resolve when taking a step towards something, which allows her to try new things for instance when learning that she doesn't have to just play the piano. However, it can cause her to act strangely around others than who she usually is at times. When she finds something that she really likes, she makes up dramatic poems about them on the spot.\n\nNana is very considerate and selfless, being very caring to other people, regardless of if they oppose her, such as being supportive of Meroron's feelings for Purirun. This considerate nature even extends to her enemies, as she helped Zakkuri after finding him lying under the hot sun. She's also very shy and quite humble, as she's quick to blush whenever someone compliments her or a fan announces that they like Cure Wink.",
+    "scores": {
+      "sociability": 5,
+      "empathy": 8,
+      "responsibility": 9,
+      "emotional_instability": 3,
+      "curiosity": 4,
+      "self_esteem": 7,
+      "self_sacrifice": 7
+    },
+    "YouTube": "https://youtu.be/nWwih1sLB4c?si=bRoFo-MBXTFcPSq4"
   },
   {
     "name": "Shigure Kokoro",
     "cure": "キュアキュンキュン",
     "url": "https://prettycure.fandom.com/wiki/Shigure_Kokoro",
     "season": ["Kimi to Idol Pretty Cure♪"],
-    "themeColour": {
-      "main": "Purple",
-      "sub": null,
-      "raw": ["Purple"]
-    },
+    "themeColour": "Purple",
     "personality": "Kokoro is an enthusiastic and energetic girl with a talent for dancing. Due to her insecurities about her skills, she hides them from others. Kokoro sometimes doubts herself and suppresses her own feelings, but she gradually learns to be more honest with herself. Kokoro endures everything on her own, but she has a sensitive and vulnerable side. Because she is a huge fan of the Idol Pretty Cure, Kokoro acts as if she is infatuated with them. Kokoro is very polite to her elders, especially around Uta and Nana, whom Kokoro refers to as \"senpai\".\n\nKokoro is also quite intuitive, such as when she is able to perceive Zakkuri as a fan of Cure Wink just by the way he acts. She can be rather smug about it. Kokoro is also very good at suggesting activities that the Idol Pretty Cure can do. She often keeps the group informed about the latest events.",
     "scores": {
       "sociability": 7,
@@ -2203,27 +1573,43 @@
       "curiosity": 4,
       "self_esteem": 3,
       "self_sacrifice": 7
-    }
+    },
+    "YouTube": "https://youtu.be/ATmDeeFstqU?si=N6gnfPG1UHCzkjdP"
   },
   {
-    "name": "Tsukikage Yuri",
-    "cure": "キュアムーンライト",
-    "url": "https://prettycure.fandom.com/wiki/Tsukikage_Yuri",
-    "season": ["Heartcatch Pretty Cure!"],
-    "themeColour": {
-      "main": "PurpleSilver",
-      "sub": null,
-      "raw": ["PurpleSilver"]
+    "name": "Purirun",
+    "cure": "キュアズキューン",
+    "url": "https://prettycure.fandom.com/wiki/Purirun",
+    "season": ["Kimi to Idol Pretty Cure♪"],
+    "themeColour": ["White", "Green"],
+    "personality": "Purirun is laid-back and easygoing. When she blinks, sparkling lights can be seen. Purirun is also stubborn and knows how to get what she wants with her cuteness. She can also be very impulsive and oblivious. Purirun has a huge appetite, and can be a glutton, as she is able to eat a whole hot dog and a pot of mackerel curry at once without being noticed. She also can get lonely at times and likes wearing accessories that match with the Idol Pretty Cure.\n\nDespite this, Purirun cares deeply about her friends, especially Uta, and will do anything to protect them. Purirun is also unfamiliar with things from Earth, such as during her first day at school, where Meroron has to help her recognize things around the environment.\n\nAs Cure Zukyoon, she is more mature and composed, but remains sweet and friendly. She also retains her love of food.",
+    "scores": {
+      "sociability": 6,
+      "empathy": 8,
+      "responsibility": 4,
+      "emotional_instability": 6,
+      "curiosity": 6,
+      "self_esteem": 5,
+      "self_sacrifice": 7
     },
-    "personality": "Yuri is calm and composed, well known for her cool attitude and her frequently chart-topping exam scores at school. She cares for little and is initially cold towards Tsubomi and Erika. After losing Cologne, she became quiet and withdrawn, fearful of causing others to feel burdened by her or risk losing someone else she cherishes. She believed it would be impossible for her to become a Pretty Cure again and was deeply saddened. Before this happened, she was shown to be overly confident and bold. She wouldn't listen to Cologne when she believed she didn't need a partner for help until Cologne died for her.\n\nHer true personality is one of contentment and maturity. She can be stubborn when she sets her mind to something but begins to open up as she spends more time with the group. She shows a more friendly side to herself by this point. Although generally mature, she can sometimes be oblivious to other's romantic feelings for her.",
+    "YouTube": "https://youtu.be/WJfDOvdzakQ?si=iId9i-8pxgzmw5ek"
+  },
+  {
+    "name": "Meroron",
+    "cure": "キュアキッス",
+    "url": "https://prettycure.fandom.com/wiki/Meroron",
+    "season": ["Kimi to Idol Pretty Cure♪"],
+    "themeColour": ["Black", "Fuchsia"],
+    "personality": "Meroron is strong-willed and cheeky, but she is actually lonely. She deeply cares about Purirun, and has a habit of reciting poetic phrases about her. Her love for Purirun is so strong that she can get jealous and one-sidedly sees the Idol Pretty Cure as rivals. However, she has a soft side, as shown when she spoke to\na little girl\n who was lost as well.\n\nMeroron has an interest in cooking and will go above and beyond when she makes meals for Purirun. She is very persistent and possessive, and she will stop at nothing to make Purirun notice her. She dislikes those who try to spend time with Purirun so she'll have more time with her. She views others trying to spend time with Purirun as \"stealing\", especially in regards to Uta. She also dislikes being considered as \"friends\" with those she isn't close to. This gives her emotional distress and she believes she can only rely on Purirun, thus contributing to her possessive attitude and how she isolates herself from the girls. This is especially when Purirun lost her memories, where Meroron often took her away. She is also precocious. However, over time, she regrets her past actions and grows into wanting to befriend the girls, especially when Nana gave her support and that she can depend on others.\n\nDue to being born as \"the one who knows darkness\", Meroron was initially unable to make any friends due to knowing the feeling of loss and darkness. However, in the end, she's able to befriend the Idol Pretty Cure after learning to be honest with her own wish.\n\nAs Cure Kiss, she is more mature and formal, but she still cares about Purirun. She is also more task-oriented, but she is still eloquent and poetic regarding Purirun. She gains more courage to fight with others and not just Zukyoon after being moved by Wink's advice. Meroron is more familiar with things from Earth, so she often helps Purirun recognize things around the environment.",
     "scores": {
       "sociability": 4,
-      "empathy": 4,
-      "responsibility": 9,
-      "emotional_instability": 3,
-      "curiosity": 5,
-      "self_esteem": 8,
-      "self_sacrifice": 4
-    }
+      "empathy": 7,
+      "responsibility": 5,
+      "emotional_instability": 7,
+      "curiosity": 6,
+      "self_esteem": 4,
+      "self_sacrifice": 7
+    },
+    "YouTube": "https://youtu.be/WJfDOvdzakQ?si=nD0TSVQTjmqRJPqU"
   }
 ]
