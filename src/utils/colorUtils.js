@@ -126,15 +126,13 @@ const COLOR_ORDER_MAP = {
 //色名の正規化関数
 function normalizeColorName(colorStr) {
   if (typeof colorStr !== 'string') return '';
-  return (
-    colorStr
-      .toLowerCase()
-      .replace(/[Ａ-Ｚａ-ｚ０-９]/g, (s) =>
-        String.fromCharCode(s.charCodeAt(0) - 0xfee0),
-      )
-      .replace(/[\s-]/g, '')
-      .replace(/^cure/, '')
-  );
+  return colorStr
+    .toLowerCase()
+    .replace(/[Ａ-Ｚａ-ｚ０-９]/g, (s) =>
+      String.fromCharCode(s.charCodeAt(0) - 0xfee0),
+    )
+    .replace(/[\s-]/g, '')
+    .replace(/^cure/, '');
 }
 
 // 主要な色カテゴリを決定する関数
