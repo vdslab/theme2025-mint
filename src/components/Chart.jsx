@@ -8,11 +8,11 @@ export default function Chart({
   onNodeHover,
   onNodeLeave,
 }) {
-  const size = 900;
+  const size = 700;
   // ラベルが見切れないように、全体的に半径を小さくする
-  const ringRadius = 315;
-  const barInner = 330;
-  const barOuterMax = 430;
+  const ringRadius = 240;
+  const barInner = 250;
+  const barOuterMax = 350;
 
   return (
     <div
@@ -25,7 +25,7 @@ export default function Chart({
     >
       <Nodes
         data={data}
-        radius={10}
+        radius={8}
         center={size / 2}
         ringRadius={ringRadius}
         metric={metric}

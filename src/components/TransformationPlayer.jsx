@@ -25,7 +25,7 @@ export default function TransformationPlayer({ videoLinks = [] }) {
   if (videoLinks.length === 1) {
     return (
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="aspect-video w-full max-w-[420px] overflow-hidden rounded-lg shadow-xl">
+        <div className="aspect-video w-full max-w-[350px] overflow-hidden rounded-lg shadow-xl">
           <IframePlayer embedUrl={embedUrl} />
         </div>
       </div>
@@ -53,7 +53,7 @@ export default function TransformationPlayer({ videoLinks = [] }) {
           </a>
         ))}
       </div>
-      <div className="aspect-video w-full max-w-[420px] overflow-hidden rounded-lg shadow-xl">
+      <div className="aspect-video w-full max-w-[350px] overflow-hidden rounded-lg shadow-xl ">
         <IframePlayer embedUrl={embedUrl} />
       </div>
     </div>

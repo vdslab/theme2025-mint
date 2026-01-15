@@ -61,13 +61,8 @@ export default function PrecureVisualization() {
   return (
     <>
       <TooltipPortal {...tooltip} />
-      <MetricSelector
-        metricsList={PERSONALITY_METRICS}
-        metric={metric}
-        setMetric={setMetric}
-      />
 
-      <div className="relative w-[900px] h-[900px]">
+      <div className="relative w-[700px] h-[700px]">
         {/* 中央の YouTube */}
         {/* videoLinksプロパティとして正規化済みのデータを渡す */}
         <TransformationPlayer videoLinks={videoLinks} />
@@ -81,6 +76,11 @@ export default function PrecureVisualization() {
           onNodeLeave={handleNodeLeave}
         />
       </div>
+      <MetricSelector
+        metricsList={PERSONALITY_METRICS}
+        metric={metric}
+        setMetric={setMetric}
+      />
     </>
   );
 }

@@ -15,7 +15,7 @@ export default function RadialBarChart({
 
   const radius = d3
     .scaleLinear()
-    .domain([0, 10])
+    .domain([0, 12])
     .range([innerRadius, outerRadius]);
 
   // 目盛りの定義

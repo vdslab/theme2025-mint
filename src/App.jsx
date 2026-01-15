@@ -5,13 +5,13 @@ import Footer from './components/Footer.jsx';
 function App() {
   return (
     <div className="flex flex-col min-h-screen bg-gray-100">
-      <Header />
+      {/* <Header /> */}
 
       <main className="flex-grow flex flex-col items-center py-8">
         <PrecureVisualization />
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
