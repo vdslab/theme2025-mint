@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useCallback } from 'react';
 import * as d3 from 'd3';
 import { getMetricColor } from '../utils/colorUtils';
 import { PERSONALITY_METRICS } from '../constants/personality_metrics';
@@ -11,17 +11,21 @@ export default function AnimatedBars({
   innerRadius,
   onBarHover,
   onBarLeave,
+  onBarClick,
 }) {
   const ref = useRef(null);
   const previousRadii = useRef(new Map());
 
-  const getTooltipText = (d) => {
-    const cureName = d.cure || '（不明）';
-    const score = d.scores?.[metric] ?? '—';
-    const metricLabel =
-      PERSONALITY_METRICS.find((m) => m.key === metric)?.label || metric;
-    return `${cureName}\n${metricLabel}: ${score}`;
-  };
+  const getTooltipText = useCallback(
+    (d) => {
+      const cureName = d.cure || '（不明）';
+      const score = d.scores?.[metric] ?? '—';
+      const metricLabel =
+        PERSONALITY_METRICS.find((m) => m.key === metric)?.label || metric;
+      return `${cureName}\n${metricLabel}: ${score}`;
+    },
+    [metric],
+  );
 
   useEffect(() => {
     const g = d3.select(ref.current);
@@ -38,6 +42,7 @@ export default function AnimatedBars({
             .attr('fill', color)
             .attr('opacity', 0.9)
             .style('pointer-events', 'auto') // イベントを受け取るために必要
+            .style('cursor', 'pointer') // カーソルをポインタに変更
             .each(function (d) {
               previousRadii.current.set(d.name, radius(d.scores[metric]));
             })
@@ -57,11 +62,17 @@ export default function AnimatedBars({
               if (onBarLeave) {
                 onBarLeave();
               }
+            })
+            .on('click', (event, d) => {
+              if (onBarClick) {
+                onBarClick(d);
+              }
             }),
         (update) =>
           update
             .call((update) =>
               update
+                .style('cursor', 'pointer') // カーソルをポインタに変更
                 .on('mouseover', (event, d) => {
                   if (onBarHover) {
                     const tooltipText = getTooltipText(d);
@@ -74,6 +85,11 @@ export default function AnimatedBars({
                 .on('mouseout', () => {
                   if (onBarLeave) {
                     onBarLeave();
+                  }
+                })
+                .on('click', (event, d) => {
+                  if (onBarClick) {
+                    onBarClick(d);
                   }
                 }),
             )
@@ -95,7 +111,17 @@ export default function AnimatedBars({
             }),
         (exit) => exit.remove(),
       );
-  }, [data, metric, angle, radius, innerRadius, onBarHover, onBarLeave]);
+  }, [
+    data,
+    metric,
+    angle,
+    radius,
+    innerRadius,
+    onBarHover,
+    onBarLeave,
+    onBarClick,
+    getTooltipText,
+  ]);
 
   return <g ref={ref} />;
 }
