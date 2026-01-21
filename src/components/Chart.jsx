@@ -44,6 +44,8 @@ export default function Chart({
             metric={metric}
             innerRadius={barInner}
             outerRadius={barOuterMax}
+            onBarHover={onNodeHover}
+            onBarLeave={onNodeLeave}
           />
         </g>
       </svg>

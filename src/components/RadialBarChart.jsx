@@ -6,6 +6,8 @@ export default function RadialBarChart({
   metric,
   innerRadius,
   outerRadius,
+  onBarHover,
+  onBarLeave,
 }) {
   const angle = d3
     .scaleBand()
@@ -34,6 +36,8 @@ export default function RadialBarChart({
         angle={angle}
         radius={radius}
         innerRadius={innerRadius}
+        onBarHover={onBarHover}
+        onBarLeave={onBarLeave}
       />
 
       {/* 目盛りを追加 */}
