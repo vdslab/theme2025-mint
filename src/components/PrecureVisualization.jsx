@@ -4,6 +4,7 @@ import MetricSelector from './MetricSelector';
 import TransformationPlayer from './TransformationPlayer';
 import Chart from './Chart';
 import TooltipPortal from './TooltipPortal';
+import PrecureModal from './PrecureModal';
 import { PERSONALITY_METRICS } from '../constants/personality_metrics';
 import { normalizeYouTubeLinks } from '../utils/youtubeUtils';
 import { createColorSorter } from '../utils/colorUtils';
@@ -62,25 +63,36 @@ export default function PrecureVisualization() {
     <>
       <TooltipPortal {...tooltip} />
 
-      <div className="relative w-[700px] h-[700px]">
-        {/* 中央の YouTube */}
-        {/* videoLinksプロパティとして正規化済みのデータを渡す */}
-        <TransformationPlayer videoLinks={videoLinks} />
+      <div className="flex items-start">
+        <div>
+          <div className="relative w-[700px] h-[700px]">
+            {/* 中央の YouTube */}
+            {/* videoLinksプロパティとして正規化済みのデータを渡す */}
+            <TransformationPlayer videoLinks={videoLinks} />
 
-        {/* チャート */}
-        <Chart
-          data={data}
-          metric={metric}
-          onNodeClick={handleNodeClick}
-          onNodeHover={handleNodeHover}
-          onNodeLeave={handleNodeLeave}
+            {/* チャート */}
+            <Chart
+              data={data}
+              metric={metric}
+              onNodeClick={handleNodeClick}
+              onNodeHover={handleNodeHover}
+              onNodeLeave={handleNodeLeave}
+            />
+          </div>
+
+          {/* メトリックセレクター */}
+          <MetricSelector
+            metricsList={PERSONALITY_METRICS}
+            metric={metric}
+            setMetric={setMetric}
+          />
+        </div>
+        {/* モーダル */}
+        <PrecureModal
+          data={selectedCharacter}
+          onClose={() => setSelectedCharacter(null)}
         />
       </div>
-      <MetricSelector
-        metricsList={PERSONALITY_METRICS}
-        metric={metric}
-        setMetric={setMetric}
-      />
     </>
   );
 }
