@@ -1,6 +1,7 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useCallback } from 'react';
 import * as d3 from 'd3';
 import { getMetricColor } from '../utils/colorUtils';
+import { PERSONALITY_METRICS } from '../constants/personality_metrics';
 
 export default function AnimatedBars({
   data,
@@ -8,10 +9,23 @@ export default function AnimatedBars({
   angle,
   radius,
   innerRadius,
+  onBarHover,
+  onBarLeave,
+  onBarClick,
 }) {
   const ref = useRef(null);
-  // 前回の半径を保存するためのref
   const previousRadii = useRef(new Map());
+
+  const getTooltipText = useCallback(
+    (d) => {
+      const cureName = d.cure || '（不明）';
+      const score = d.scores?.[metric] ?? '—';
+      const metricLabel =
+        PERSONALITY_METRICS.find((m) => m.key === metric)?.label || metric;
+      return `${cureName}\n${metricLabel}: ${score}`;
+    },
+    [metric],
+  );
 
   useEffect(() => {
     const g = d3.select(ref.current);
@@ -27,8 +41,9 @@ export default function AnimatedBars({
             .append('path')
             .attr('fill', color)
             .attr('opacity', 0.9)
+            .style('pointer-events', 'auto') // イベントを受け取るために必要
+            .style('cursor', 'pointer') // カーソルをポインタに変更
             .each(function (d) {
-              // 初回描画時の半径をDOMではなくrefに保存
               previousRadii.current.set(d.name, radius(d.scores[metric]));
             })
             .attr('d', (d) =>
@@ -36,23 +51,57 @@ export default function AnimatedBars({
                 .outerRadius(radius(d.scores[metric]))
                 .startAngle(angle(d.name))
                 .endAngle(angle(d.name) + angle.bandwidth())(d),
-            ),
+            )
+            .on('mouseover', (event, d) => {
+              if (onBarHover) {
+                const tooltipText = getTooltipText(d);
+                onBarHover(tooltipText, { x: event.clientX, y: event.clientY });
+              }
+            })
+            .on('mouseout', () => {
+              if (onBarLeave) {
+                onBarLeave();
+              }
+            })
+            .on('click', (event, d) => {
+              if (onBarClick) {
+                onBarClick(d);
+              }
+            }),
         (update) =>
           update
+            .call((update) =>
+              update
+                .style('cursor', 'pointer') // カーソルをポインタに変更
+                .on('mouseover', (event, d) => {
+                  if (onBarHover) {
+                    const tooltipText = getTooltipText(d);
+                    onBarHover(tooltipText, {
+                      x: event.clientX,
+                      y: event.clientY,
+                    });
+                  }
+                })
+                .on('mouseout', () => {
+                  if (onBarLeave) {
+                    onBarLeave();
+                  }
+                })
+                .on('click', (event, d) => {
+                  if (onBarClick) {
+                    onBarClick(d);
+                  }
+                }),
+            )
             .transition()
             .duration(750)
             .attr('fill', color)
             .attrTween('d', function (d) {
               const finalRadius = radius(d.scores[metric]);
-              // refから前回の半径を取得、なければ内側半径を初期値とする
               const initialRadius =
                 previousRadii.current.get(d.name) || innerRadius;
-
-              // 新しい半径を次回のためにrefに保存
               previousRadii.current.set(d.name, finalRadius);
-
               const i = d3.interpolate(initialRadius, finalRadius);
-
               return (t) => {
                 return arcGenerator
                   .outerRadius(i(t))
@@ -62,7 +111,17 @@ export default function AnimatedBars({
             }),
         (exit) => exit.remove(),
       );
-  }, [data, metric, angle, radius, innerRadius]);
+  }, [
+    data,
+    metric,
+    angle,
+    radius,
+    innerRadius,
+    onBarHover,
+    onBarLeave,
+    onBarClick,
+    getTooltipText,
+  ]);
 
   return <g ref={ref} />;
 }
