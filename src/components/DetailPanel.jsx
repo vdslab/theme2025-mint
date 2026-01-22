@@ -26,11 +26,6 @@ export default function DetailPanel({ data }) {
             ))}
           </ul>
 
-          <p><strong>性格</strong></p>
-          <p style={{ whiteSpace: 'pre-wrap' }}>
-            {data.personality}
-          </p>
-
           <p><strong>スコア</strong></p>
           <ul>
             {Object.entries(data.scores).map(([k, v]) => (
