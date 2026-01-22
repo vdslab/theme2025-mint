@@ -4,7 +4,7 @@ import MetricSelector from './MetricSelector';
 import TransformationPlayer from './TransformationPlayer';
 import Chart from './Chart';
 import TooltipPortal from './TooltipPortal';
-import PrecureModal from './PrecureModal';
+import DetailPanel from './DetailPanel';
 import { PERSONALITY_METRICS } from '../constants/personality_metrics';
 import { normalizeYouTubeLinks } from '../utils/youtubeUtils';
 import { createColorSorter } from '../utils/colorUtils';
@@ -88,9 +88,8 @@ export default function PrecureVisualization() {
           />
         </div>
         {/* モーダル */}
-        <PrecureModal
+        <DetailPanel
           data={selectedCharacter}
-          onClose={() => setSelectedCharacter(null)}
         />
       </div>
     </>

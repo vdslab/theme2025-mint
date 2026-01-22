@@ -1,4 +1,4 @@
-export default function PrecureModal({ data, onClose }) {
+export default function DetailPanel({ data }) {
   return (
     <div
       style={{
