@@ -16,7 +16,7 @@ export default function TransformationPlayer({ videoLinks = [] }) {
 
   if (!videoLinks || videoLinks.length === 0) {
     return (
-      <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 rounded-full">
+      <div className="flex justify-center">
         <p className="text-white">No video available</p>
       </div>
     );
@@ -24,8 +24,8 @@ export default function TransformationPlayer({ videoLinks = [] }) {
 
   if (videoLinks.length === 1) {
     return (
-      <div className="absolute inset-0 flex items-center justify-center">
-        <div className="aspect-video w-full max-w-[350px] overflow-hidden rounded-lg shadow-xl">
+      <div className="flex justify-center">
+        <div className="aspect-video w-full max-w-[1080px] overflow-hidden rounded-lg shadow-xl">
           <IframePlayer embedUrl={embedUrl} />
         </div>
       </div>
@@ -33,7 +33,7 @@ export default function TransformationPlayer({ videoLinks = [] }) {
   }
 
   return (
-    <div className="absolute inset-0 flex flex-col items-center justify-center p-4">
+    <div className="flex justify-center">
       <div role="tablist" className="tabs tabs-boxed mb-2 bg-black/20">
         {videoLinks.map((link) => (
           <a
@@ -53,7 +53,7 @@ export default function TransformationPlayer({ videoLinks = [] }) {
           </a>
         ))}
       </div>
-      <div className="aspect-video w-full max-w-[350px] overflow-hidden rounded-lg shadow-xl ">
+      <div className="aspect-video w-full max-w-[1080px] overflow-hidden rounded-lg shadow-xl">
         <IframePlayer embedUrl={embedUrl} />
       </div>
     </div>

@@ -1,18 +1,12 @@
 import { useState, useEffect } from 'react';
 
 import MetricSelector from './MetricSelector';
-import TransformationPlayer from './TransformationPlayer';
 import Chart from './Chart';
 import TooltipPortal from './TooltipPortal';
 import { PERSONALITY_METRICS } from '../constants/personality_metrics';
-import { normalizeYouTubeLinks } from '../utils/youtubeUtils';
 import { createColorSorter } from '../utils/colorUtils';
 
-export default function PrecureVisualization({
-  size,
-  selectedCharacter,
-  onSelectCharacter,
-}) {
+export default function PrecureVisualization({ size, onSelectCharacter }) {
   const [data, setData] = useState([]);
   const [metric, setMetric] = useState(PERSONALITY_METRICS[0].key);
   const [tooltip, setTooltip] = useState({
@@ -57,10 +51,6 @@ export default function PrecureVisualization({
     return <div className="p-6">loading...</div>;
   }
 
-  const videoLinks = selectedCharacter
-    ? normalizeYouTubeLinks(selectedCharacter.YouTube)
-    : [];
-
   return (
     <>
       <TooltipPortal {...tooltip} />
@@ -70,10 +60,6 @@ export default function PrecureVisualization({
           className="relative"
           style={{ width: size, height: size, margin: '0 auto' }}
         >
-          {/* 中央の YouTube */}
-          {/* videoLinksプロパティとして正規化済みのデータを渡す */}
-          <TransformationPlayer videoLinks={videoLinks} />
-
           {/* チャート */}
           <Chart
             data={data}

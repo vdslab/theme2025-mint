@@ -19,7 +19,6 @@ export default function Main() {
       <main className="flex flex flex-col items-center py-8">
         <PrecureVisualization
           size={VIS_SIZE}
-          selectedCharacter={selectedCharacter}
           onSelectCharacter={setSelectedCharacter}
         />
       </main>
