@@ -7,12 +7,12 @@ export default function Chart({
   onNodeClick,
   onNodeHover,
   onNodeLeave,
+  // ここで円のサイズを変えます！！！！！！
+  size = 600,
 }) {
-  const size = 700;
-  // ラベルが見切れないように、全体的に半径を小さくする
-  const ringRadius = 240;
-  const barInner = 250;
-  const barOuterMax = 350;
+  const ringRadius = Math.round(size * (240 / 700));
+  const barInner = Math.round(size * (250 / 700));
+  const barOuterMax = Math.round(size * (350 / 700));
 
   return (
     <div
@@ -33,10 +33,16 @@ export default function Chart({
         onNodeHover={onNodeHover}
         onNodeLeave={onNodeLeave}
       />
+
       <svg
         width={size}
         height={size}
-        style={{ position: 'absolute', top: 0, left: 0, pointerEvents: 'none' }}
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          pointerEvents: 'none',
+        }}
       >
         <g transform={`translate(${size / 2}, ${size / 2})`}>
           <RadialBarChart
