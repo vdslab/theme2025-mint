@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 import * as d3 from 'd3';
 import { PERSONALITY_METRICS } from '../constants/personality_metrics';
 
@@ -7,12 +7,34 @@ const StripPlot = ({ data = [], selectedCharacter, onSelectCharacter }) => {
   const legendRef = useRef(null);
 
   const margin = { top: 10, right: 20, bottom: 30, left: 100 };
-  const width = 280;
+  const width = 270;
   const rowHeight = 20;
-  const height = Math.max(1, data.length) * rowHeight;
+
+  const legendItemW = 120;
+  const legendItemH = 18;
+  const legendPadX = 10;
+  const legendPadY = 10;
+
+  const legendCols = useMemo(
+    () => Math.max(1, Math.floor((width - legendPadX * 2) / legendItemW)),
+    [width],
+  );
+  const legendRows = useMemo(
+    () => Math.ceil(PERSONALITY_METRICS.length / legendCols),
+    [legendCols],
+  );
+  const legendHeight = useMemo(
+    () => legendPadY * 2 + legendRows * legendItemH,
+    [legendRows],
+  );
 
   useEffect(() => {
-    if (!data || data.length === 0) return;
+    if (!data || data.length === 0) {
+      // clear svgs
+      d3.select(svgRef.current).selectAll('*').remove();
+      d3.select(legendRef.current).selectAll('*').remove();
+      return;
+    }
 
     /* ---------- util ---------- */
     const idOf = (d) => String(d?.id ?? d?.cure ?? d?.name ?? '');
@@ -58,6 +80,8 @@ const StripPlot = ({ data = [], selectedCharacter, onSelectCharacter }) => {
     const chart = svg
       .attr('width', width)
       .attr('height', chartHeight + margin.top + margin.bottom)
+      .style('display', 'block') // avoid inline SVG whitespace
+      .style('overflow', 'visible')
       .append('g')
       .attr('transform', `translate(${margin.left},${margin.top})`);
 
@@ -97,7 +121,6 @@ const StripPlot = ({ data = [], selectedCharacter, onSelectCharacter }) => {
       .append('g')
       .attr('transform', `translate(0, ${chartHeight})`)
       .call(xAxis);
-
     xAxisGroup.select('.domain').remove();
     xAxisGroup.selectAll('line').style('stroke', '#ccc');
     xAxisGroup
@@ -138,7 +161,6 @@ const StripPlot = ({ data = [], selectedCharacter, onSelectCharacter }) => {
     const pointsData = safeData.flatMap((d) => {
       const scores = d.scores ?? {};
       const cureId = idOf(d);
-
       return PERSONALITY_METRICS.map((metric) => ({
         cureId,
         metricKey: metric.key,
@@ -167,9 +189,7 @@ const StripPlot = ({ data = [], selectedCharacter, onSelectCharacter }) => {
         .attr(
           'transform',
           (d) =>
-            `translate(${xScale(d.score)}, ${
-              yScale(d.cureId) + yScale.bandwidth() / 2
-            })`,
+            `translate(${xScale(d.score)}, ${yScale(d.cureId) + yScale.bandwidth() / 2})`,
         )
         .attr('fill', (d) => metricColor(d.metricKey))
         .attr('opacity', isSelected ? 1 : 0.35)
@@ -192,26 +212,29 @@ const StripPlot = ({ data = [], selectedCharacter, onSelectCharacter }) => {
       .attr('class', 'point-selected')
       .call((sel) => drawMarks(sel, { isSelected: true }));
 
-    /* ---------- legend (color + symbol) ---------- */
+    /* ---------- legend (horizontal wrap, color + symbol) ---------- */
     const legendSvg = d3.select(legendRef.current);
     legendSvg.selectAll('*').remove();
-
-    const legendHeight = 10 + PERSONALITY_METRICS.length * 16 + 10;
 
     const legend = legendSvg
       .attr('width', width)
       .attr('height', legendHeight)
+      .style('display', 'block')
+      .style('overflow', 'hidden')
       .append('g')
-      .attr('transform', `translate(10, 10)`);
+      .attr('transform', `translate(${legendPadX}, ${legendPadY})`);
 
     const legendItem = legend
       .selectAll('.legend-item')
       .data(PERSONALITY_METRICS, (d) => d.key)
       .join('g')
       .attr('class', 'legend-item')
-      .attr('transform', (_d, i) => `translate(0, ${i * 16})`);
+      .attr('transform', (_d, i) => {
+        const col = i % legendCols;
+        const row = Math.floor(i / legendCols);
+        return `translate(${col * legendItemW}, ${row * legendItemH})`;
+      });
 
-    // ★ rect の代わりに symbol を描く
     legendItem
       .append('path')
       .attr(
@@ -219,9 +242,9 @@ const StripPlot = ({ data = [], selectedCharacter, onSelectCharacter }) => {
         d3
           .symbol()
           .type((d) => metricSymbol(d.key))
-          .size(70), // 凡例用のサイズ
+          .size(70),
       )
-      .attr('transform', 'translate(6, 6)') // 左上に寄るので位置調整
+      .attr('transform', 'translate(6, 7)')
       .attr('fill', (d) => metricColor(d.key))
       .attr('stroke', '#111')
       .attr('stroke-width', 0.3);
@@ -229,21 +252,39 @@ const StripPlot = ({ data = [], selectedCharacter, onSelectCharacter }) => {
     legendItem
       .append('text')
       .attr('x', 18)
-      .attr('y', 8)
+      .attr('y', 10)
       .style('font-size', '11px')
       .style('fill', '#333')
       .text((d) => d.label);
-  }, [data, selectedCharacter, onSelectCharacter]);
-
-  const legendHeight = 10 + PERSONALITY_METRICS.length * 15 + 20;
+  }, [
+    data,
+    selectedCharacter,
+    onSelectCharacter,
+    legendCols,
+    legendHeight,
+    legendItemH,
+    legendItemW,
+    legendPadX,
+    legendPadY,
+    margin.left,
+    margin.right,
+    margin.top,
+    margin.bottom,
+    rowHeight,
+    width,
+  ]);
 
   return (
-    <div style={{ position: 'relative' }}>
-      <svg ref={legendRef} />
+    <div style={{ position: 'relative', overflowX: 'hidden' }}>
+      <svg ref={legendRef} style={{ display: 'block', overflow: 'hidden' }} />
       <div
-        style={{ overflowY: 'auto', height: `calc(100vh - ${legendHeight}px)` }}
+        style={{
+          overflowY: 'auto',
+          overflowX: 'hidden', // ★ horizontal scroll killer
+          height: `calc(100vh - ${legendHeight}px)`,
+        }}
       >
-        <svg ref={svgRef} />
+        <svg ref={svgRef} style={{ display: 'block' }} />
       </div>
     </div>
   );
