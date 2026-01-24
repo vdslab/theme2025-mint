@@ -67,6 +67,24 @@ export function getBarColor(themeColour) {
   return representativeColor || defaultColor;
 }
 
+// SVG 対応した関数
+export function getNodeFill(themeColour) {
+  const defaultColor = '#9ca3af';
+
+  if (!themeColour) return defaultColor;
+
+  const colors = Array.isArray(themeColour) ? themeColour : [themeColour];
+
+  const rep = colors
+    .map(getRepresentativeColor)
+    .filter(Boolean);
+
+  if (rep.length === 0) return defaultColor;
+
+  return rep[0]; // SVGではまず単色でOK
+}
+
+
 export function getNodeStyle(themeColour) {
   const defaultStyle = {
     backgroundColor: '#9ca3af', // gray-400
