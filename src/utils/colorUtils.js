@@ -136,7 +136,7 @@ function normalizeColorName(colorStr) {
 }
 
 // 主要な色カテゴリを決定する関数
-function getPrimaryColorCategory(themeColour) {
+export function getPrimaryColorCategory(themeColour) {
   const rawColors = Array.isArray(themeColour)
     ? themeColour
     : themeColour
