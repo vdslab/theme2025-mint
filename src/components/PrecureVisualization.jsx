@@ -1,17 +1,14 @@
 import { useState, useEffect } from 'react';
 
 import MetricSelector from './MetricSelector';
-import TransformationPlayer from './TransformationPlayer';
 import Chart from './Chart';
 import TooltipPortal from './TooltipPortal';
 import { PERSONALITY_METRICS } from '../constants/personality_metrics';
-import { normalizeYouTubeLinks } from '../utils/youtubeUtils';
 import { createColorSorter } from '../utils/colorUtils';
 
-export default function PrecureVisualization() {
+export default function PrecureVisualization({ size, onSelectCharacter }) {
   const [data, setData] = useState([]);
   const [metric, setMetric] = useState(PERSONALITY_METRICS[0].key);
-  const [selectedCharacter, setSelectedCharacter] = useState(null);
   const [tooltip, setTooltip] = useState({
     visible: false,
     content: '',
@@ -31,14 +28,14 @@ export default function PrecureVisualization() {
           (c) => c.YouTube && c.YouTube.length > 0,
         );
         if (firstValidCharacter) {
-          setSelectedCharacter(firstValidCharacter);
+          onSelectCharacter(firstValidCharacter);
         }
       });
   }, []);
 
   const handleNodeClick = (characterData) => {
     if (characterData) {
-      setSelectedCharacter(characterData);
+      onSelectCharacter(characterData);
     }
   };
 
@@ -54,33 +51,32 @@ export default function PrecureVisualization() {
     return <div className="p-6">loading...</div>;
   }
 
-  const videoLinks = selectedCharacter
-    ? normalizeYouTubeLinks(selectedCharacter.YouTube)
-    : [];
-
   return (
     <>
       <TooltipPortal {...tooltip} />
 
-      <div className="relative w-[700px] h-[700px]">
-        {/* 中央の YouTube */}
-        {/* videoLinksプロパティとして正規化済みのデータを渡す */}
-        <TransformationPlayer videoLinks={videoLinks} />
+      <div>
+        <div
+          className="relative"
+          style={{ width: size, height: size, margin: '0 auto' }}
+        >
+          {/* チャート */}
+          <Chart
+            data={data}
+            metric={metric}
+            onNodeClick={handleNodeClick}
+            onNodeHover={handleNodeHover}
+            onNodeLeave={handleNodeLeave}
+          />
+        </div>
 
-        {/* チャート */}
-        <Chart
-          data={data}
+        {/* メトリックセレクター */}
+        <MetricSelector
+          metricsList={PERSONALITY_METRICS}
           metric={metric}
-          onNodeClick={handleNodeClick}
-          onNodeHover={handleNodeHover}
-          onNodeLeave={handleNodeLeave}
+          setMetric={setMetric}
         />
       </div>
-      <MetricSelector
-        metricsList={PERSONALITY_METRICS}
-        metric={metric}
-        setMetric={setMetric}
-      />
     </>
   );
 }
