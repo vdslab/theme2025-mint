@@ -1,5 +1,7 @@
 import * as d3 from 'd3';
+import { useMemo } from 'react';
 import AnimatedBars from './AnimatedBars';
+import { getPrimaryColorCategory } from '../utils/colorUtils';
 
 export default function RadialBarChart({
   data,
@@ -10,25 +12,66 @@ export default function RadialBarChart({
   onBarLeave,
   onBarClick,
 }) {
-  const angle = d3
-    .scaleBand()
-    .domain(data.map((d) => d.name))
-    .range([0, 2 * Math.PI])
-    .padding(0.08);
+  const angle = useMemo(
+    () =>
+      d3
+        .scaleBand()
+        .domain(data.map((d) => d.name))
+        .range([0, 2 * Math.PI])
+        .padding(0.08),
+    [data],
+  );
 
-  const radius = d3
-    .scaleLinear()
-    .domain([0, 12])
-    .range([innerRadius, outerRadius]);
+  const radius = useMemo(
+    () => d3.scaleLinear().domain([0, 10]).range([innerRadius, outerRadius]),
+    [innerRadius, outerRadius],
+  );
 
-  // 目盛りの定義
-  const ticks = [
-    { value: 1, angle: -90 },
-    { value: 5, angle: -90 },
-    { value: 10, angle: -90 },
-  ];
+  const ticksData = useMemo(() => {
+    if (!data.length) return [];
 
-  const tickLabelOffset = 12; // ラベルの位置調整用
+    const groupedByColor = data.reduce((acc, character) => {
+      const category = getPrimaryColorCategory(character.themeColour);
+      if (category === 'Unknown') return acc;
+
+      if (!acc[category]) acc[category] = [];
+      acc[category].push(character);
+      return acc;
+    }, {});
+
+    return Object.entries(groupedByColor).map(([category, characters]) => {
+      const totalScore = characters.reduce((sum, char) => {
+        const score = char.scores?.[metric];
+        return typeof score === 'number' ? sum + score : sum;
+      }, 0);
+
+      const average =
+        characters.length > 0 ? totalScore / characters.length : 0;
+
+      const firstChar = characters[0];
+      const lastChar = characters[characters.length - 1];
+
+      const startAngle = angle(firstChar.name);
+      const endAngle = angle(lastChar.name) + angle.bandwidth();
+      const midAngle = (startAngle + endAngle) / 2;
+
+      return { category, average, startAngle, endAngle, midAngle };
+    });
+  }, [data, metric, angle]);
+
+  const arcGenerator = useMemo(() => d3.arc(), []);
+
+  // 平均線の太さ
+  const arcThickness = 2;
+  // 白フチの追加太さ
+  const outlineWidth = 3;
+
+  const categoryToColor = (category) => {
+    if (!category) return '#9ca3af';
+    if (category === 'Rainbow') return '#8b00ff'; // 代表色
+    return category.toLowerCase();
+  };
+
   return (
     <>
       <AnimatedBars
@@ -42,44 +85,74 @@ export default function RadialBarChart({
         onBarClick={onBarClick}
       />
 
-      {/* 目盛りを追加 */}
+      {/* 目盛り・平均線*/}
       <g style={{ pointerEvents: 'none' }}>
-        {/* 点線の同心円ガイド */}
-        {ticks.map((tick) => (
-          <circle
-            key={`circle-${tick.value}`}
-            cx={0}
-            cy={0}
-            r={radius(tick.value)}
-            fill="none"
-            stroke="rgba(0, 0, 0, 0.2)" // 少し薄く
-            strokeWidth={1} // 少し細く
-            strokeDasharray="4 4"
-          />
-        ))}
+        {/* 背景の同心円グリッド */}
+        {radius
+          .ticks(4)
+          .slice(1)
+          .map((tickValue) => (
+            <g key={tickValue}>
+              <circle
+                cx={0}
+                cy={0}
+                r={radius(tickValue)}
+                fill="none"
+                stroke="rgba(0, 0, 0, 0.1)"
+                strokeWidth={1}
+                strokeDasharray="2 4"
+              />
+              <text
+                x={3}
+                y={-radius(tickValue) - 3}
+                textAnchor="start"
+                fill="rgba(0, 0, 0, 0.4)"
+                fontSize="10"
+              >
+                {tickValue}
+              </text>
+            </g>
+          ))}
 
-        {/* 目盛り線とラベル */}
-        {ticks.map((tick) => {
-          const r = radius(tick.value);
+        {/* 色セグメントごとの平均値（白フチ付きの線） */}
+        {ticksData.map((tick) => {
+          if (!tick.average || tick.average === 0) return null;
+
+          const c = categoryToColor(tick.category);
+          const r = radius(tick.average);
+
+          const d = arcGenerator({
+            innerRadius: r,
+            outerRadius: r, // 線として描画
+            startAngle: tick.startAngle,
+            endAngle: tick.endAngle,
+          });
+
           return (
-            <g key={`tick-${tick.value}`} transform={`rotate(${tick.angle})`}>
-              {/* ラベル */}
-              <g transform={`translate(${r + tickLabelOffset}, 0)`}>
-                <text
-                  x={0}
-                  y={0}
-                  dy="0.35em"
-                  textAnchor="middle"
-                  transform={`rotate(${-tick.angle})`}
-                  fontSize="14"
-                  fill="brack"
-                  style={{
-                    textShadow: '0 0 6px white, 0 0 6px white, 0 0 6px white',
-                  }}
-                >
-                  {tick.value}
-                </text>
-              </g>
+            <g key={`avg-${tick.category}`}>
+              {/* 白フチ（下） */}
+              <path
+                d={d}
+                fill="none"
+                stroke="#ffffffff"
+                strokeWidth={arcThickness + outlineWidth * 2}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                opacity={0.8}
+              />
+              {/* 色（上） */}
+              <path
+                d={d}
+                fill="none"
+                stroke={c}
+                strokeWidth={arcThickness}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                opacity={0.95}
+                style={{
+                  filter: `drop-shadow(0 0 1px ${c})`,
+                }}
+              />
             </g>
           );
         })}

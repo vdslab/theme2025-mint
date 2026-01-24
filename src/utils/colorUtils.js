@@ -51,6 +51,22 @@ function getRepresentativeColor(color) {
   return isValidColorName(sanitized) ? sanitized : null;
 }
 
+export function getBarColor(themeColour) {
+  const defaultColor = '#9ca3af'; // gray-400
+
+  if (
+    !themeColour ||
+    (Array.isArray(themeColour) && themeColour.length === 0)
+  ) {
+    return defaultColor;
+  }
+
+  const colors = Array.isArray(themeColour) ? themeColour : [themeColour];
+  const representativeColor = getRepresentativeColor(colors[0]);
+
+  return representativeColor || defaultColor;
+}
+
 export function getNodeStyle(themeColour) {
   const defaultStyle = {
     backgroundColor: '#9ca3af', // gray-400
@@ -136,7 +152,7 @@ function normalizeColorName(colorStr) {
 }
 
 // 主要な色カテゴリを決定する関数
-function getPrimaryColorCategory(themeColour) {
+export function getPrimaryColorCategory(themeColour) {
   const rawColors = Array.isArray(themeColour)
     ? themeColour
     : themeColour
