@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
-import { getMetricColor } from '../utils/colorUtils';
+import { getBarColor } from '../utils/colorUtils';
 
 export default function AnimatedBars({
   data,
@@ -15,7 +15,6 @@ export default function AnimatedBars({
 
   useEffect(() => {
     const g = d3.select(ref.current);
-    const color = getMetricColor(metric);
 
     const arcGenerator = d3.arc().innerRadius(innerRadius);
 
@@ -25,8 +24,8 @@ export default function AnimatedBars({
         (enter) =>
           enter
             .append('path')
-            .attr('fill', color)
-            .attr('opacity', 0.9)
+            .attr('fill', (d) => getBarColor(d.themeColour))
+            .attr('opacity', 0.7)
             .each(function (d) {
               // 初回描画時の半径をDOMではなくrefに保存
               previousRadii.current.set(d.name, radius(d.scores[metric]));
@@ -41,7 +40,7 @@ export default function AnimatedBars({
           update
             .transition()
             .duration(750)
-            .attr('fill', color)
+            .attr('fill', (d) => getBarColor(d.themeColour))
             .attrTween('d', function (d) {
               const finalRadius = radius(d.scores[metric]);
               // refから前回の半径を取得、なければ内側半径を初期値とする
