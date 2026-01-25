@@ -37,7 +37,7 @@ export default function TransformationPlayer({ videoLinks = [] }) {
       <div className="aspect-video w-full max-w-[1080px] overflow-hidden rounded-lg shadow-xl">
         <IframePlayer embedUrl={embedUrl} />
       </div>
-      
+
       <div role="tablist" className="tabs tabs-boxed mb-2 bg-black/20">
         {videoLinks.map((link) => (
           <a

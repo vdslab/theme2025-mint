@@ -1,6 +1,6 @@
 import { useEffect, useRef, useCallback } from 'react';
 import * as d3 from 'd3';
-import { getBarColor } from '../utils/colorUtils';
+import { getBarColor } from '../utils/colorUtils.jsx';
 import { PERSONALITY_METRICS } from '../constants/personality_metrics';
 
 export default function AnimatedBars({

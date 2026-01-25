@@ -75,15 +75,12 @@ export function getNodeFill(themeColour) {
 
   const colors = Array.isArray(themeColour) ? themeColour : [themeColour];
 
-  const rep = colors
-    .map(getRepresentativeColor)
-    .filter(Boolean);
+  const rep = colors.map(getRepresentativeColor).filter(Boolean);
 
   if (rep.length === 0) return defaultColor;
 
   return rep[0]; // SVGではまず単色でOK
 }
-
 
 export function getNodeStyle(themeColour) {
   const defaultStyle = {
@@ -143,6 +140,60 @@ export function getNodeStyle(themeColour) {
 
   return defaultStyle;
 }
+
+// Function to generate SVG gradient stop elements
+export function getNodeGradientDefinition(themeColour) {
+  const colors = Array.isArray(themeColour) ? themeColour : [themeColour];
+
+  // Handle 'rainbow' special case
+  if (
+    colors.length === 1 &&
+    typeof colors[0] === 'string' &&
+    colors[0].toLowerCase() === 'rainbow'
+  ) {
+    const rainbowColors = [
+      'red',
+      'orange',
+      'yellow',
+      'green',
+      'blue',
+      'indigo',
+      'violet',
+    ];
+    return rainbowColors.map((color, i) => (
+      <stop
+        key={color}
+        offset={`${(i / (rainbowColors.length - 1)) * 100}%`}
+        stopColor={color}
+      />
+    ));
+  }
+
+  // Handle multiple specific colors
+  const representativeColors = colors
+    .map(getRepresentativeColor)
+    .filter(Boolean);
+
+  if (representativeColors.length > 1) {
+    return representativeColors.map((color, i) => (
+      <stop
+        key={color + i}
+        offset={`${(i / (representativeColors.length - 1)) * 100}%`}
+        stopColor={color}
+      />
+    ));
+  }
+
+  // Fallback (though Nodes.jsx should prevent this from being called for single colors)
+  return (
+    <stop
+      key="single"
+      offset="0%"
+      stopColor={representativeColors[0] || '#9ca3af'}
+    />
+  );
+}
+
 const COLOR_ORDER_MAP = {
   Pink: 0,
   Red: 1,

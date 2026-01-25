@@ -1,4 +1,8 @@
-import { getNodeFill } from '../utils/colorUtils';
+import React, { useMemo, useCallback } from 'react';
+import {
+  getNodeFill,
+  getNodeGradientDefinition,
+} from '../utils/colorUtils.jsx';
 import { PERSONALITY_METRICS } from '../constants/personality_metrics';
 
 export default function Nodes({
@@ -10,49 +14,90 @@ export default function Nodes({
   onNodeHover,
   onNodeLeave,
 }) {
-  const n = data.length;
-  const offset = Math.PI / n;
+  const n = data?.length ?? 0;
+  const offset = n > 0 ? Math.PI / n : 0;
 
-  const nodesData = data.map((d, i) => {
-    const theta = (2 * Math.PI * i) / n + offset;
-    return {
-      ...d,
-      x: ringRadius * Math.sin(theta),
-      y: -ringRadius * Math.cos(theta),
-    };
-  });
+  const getTooltipText = useCallback(
+    (d) => {
+      const cureName = d?.cure || '（不明）';
+      const score = d?.scores?.[metric] ?? '—';
+      const metricLabel =
+        PERSONALITY_METRICS.find((m) => m.key === metric)?.label || metric;
+      return `${cureName}\n${metricLabel}: ${score}`;
+    },
+    [metric],
+  );
 
-  const getTooltipText = (d) => {
-    const cureName = d.cure || '（不明）';
-    const score = d.scores?.[metric] ?? '—';
-    const metricLabel =
-      PERSONALITY_METRICS.find((m) => m.key === metric)?.label || metric;
-    return `${cureName}\n${metricLabel}: ${score}`;
-  };
+  const nodesData = useMemo(() => {
+    if (!Array.isArray(data) || data.length === 0) return [];
+
+    return data.map((d, i) => {
+      const theta = (2 * Math.PI * i) / data.length + offset;
+
+      // 安全でユニークなIDを作る（nameは衝突・不正文字の可能性があるので避ける）
+      const rawId = d?.id ?? d?.cure ?? d?.name ?? i;
+      const safeId = String(rawId).replace(/[^a-zA-Z0-9_-]/g, '_');
+      const gradId = `node-grad-${safeId}-${i}`;
+
+      const colors = Array.isArray(d?.themeColour)
+        ? d.themeColour
+        : [d?.themeColour];
+      const useGradient =
+        colors.filter(Boolean).length > 1 ||
+        (colors.length === 1 &&
+          typeof colors[0] === 'string' &&
+          colors[0].toLowerCase() === 'rainbow');
+
+      return {
+        ...d,
+        __i: i,
+        __gradId: gradId,
+        __useGradient: useGradient,
+        x: ringRadius * Math.sin(theta),
+        y: -ringRadius * Math.cos(theta),
+      };
+    });
+  }, [data, ringRadius, offset]);
+
+  if (!nodesData.length) return null;
 
   return (
     <>
+      <defs>
+        {nodesData
+          .filter((d) => d.__useGradient)
+          .map((d) => (
+            <linearGradient
+              key={d.__gradId}
+              id={d.__gradId}
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="0%"
+            >
+              {getNodeGradientDefinition(d.themeColour)}
+            </linearGradient>
+          ))}
+      </defs>
+
       {nodesData.map((d) => (
         <g
-          key={d.name}
+          key={d.__gradId}
           transform={`translate(${d.x}, ${d.y})`}
+          className="group cursor-pointer"
           onMouseEnter={(e) =>
-            onNodeHover(getTooltipText(d), { x: e.clientX, y: e.clientY })
+            onNodeHover?.(getTooltipText(d), { x: e.clientX, y: e.clientY })
           }
-          onMouseLeave={onNodeLeave}
-          onClick={() => onNodeClick(d)}
-          className="cursor-pointer"
+          onMouseLeave={() => onNodeLeave?.()}
+          onClick={() => onNodeClick?.(d)}
         >
           <circle
             r={radius}
-            fill={getNodeFill(d.themeColour)}
-            className="
-              transition-transform
-              duration-300
-              ease-out
-              origin-center
-              group-hover:scale-125
-            "
+            fill={
+              d.__useGradient
+                ? `url(#${d.__gradId})`
+                : getNodeFill(d.themeColour)
+            }
           />
         </g>
       ))}

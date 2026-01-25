@@ -7,9 +7,7 @@ export default function DetailPanel({ data }) {
     PERSONALITY_METRICS.map(({ key, label }) => [key, label]),
   );
 
-  const videoLinks = data
-    ? normalizeYouTubeLinks(data.YouTube)
-    : [];
+  const videoLinks = data ? normalizeYouTubeLinks(data.YouTube) : [];
 
   return (
     <div

@@ -4,7 +4,7 @@ import MetricSelector from './MetricSelector';
 import Chart from './Chart';
 import TooltipPortal from './TooltipPortal';
 import { PERSONALITY_METRICS } from '../constants/personality_metrics';
-import { createColorSorter } from '../utils/colorUtils';
+import { createColorSorter } from '../utils/colorUtils.jsx';
 
 export default function PrecureVisualization({ size, onSelectCharacter }) {
   const [data, setData] = useState([]);

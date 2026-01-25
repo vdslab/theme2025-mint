@@ -1,7 +1,7 @@
 import * as d3 from 'd3';
 import { useMemo } from 'react';
 import AnimatedBars from './AnimatedBars';
-import { getPrimaryColorCategory } from '../utils/colorUtils';
+import { getPrimaryColorCategory } from '../utils/colorUtils.jsx';
 
 export default function RadialBarChart({
   data,
