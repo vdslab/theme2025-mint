@@ -47,6 +47,10 @@ export default function PrecureVisualization({
     return originalData;
   }, [originalData, sortOrder]);
 
+  const selectedNode = useMemo(() => {
+    if (!selectedCharacter) return null;
+    return data.find((d) => d.name === selectedCharacter.name);
+  }, [data, selectedCharacter]);
 
   // コンポーネントのアンマウント時にタイムアウトをクリア
   useEffect(() => {
@@ -116,7 +120,7 @@ export default function PrecureVisualization({
             data={data}
             links={links}
             hoveredNode={hoveredNode}
-            selectedNode={selectedCharacter}
+            selectedNode={selectedNode}
             metric={metric}
             sortOrder={sortOrder}
             onNodeClick={handleNodeClick}
