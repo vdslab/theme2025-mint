@@ -1,8 +1,13 @@
 import TransformationPlayer from './TransformationPlayer';
+import { SEASON_LABELS } from '../constants/season_labels';
 import { PERSONALITY_METRICS } from '../constants/personality_metrics';
 import { normalizeYouTubeLinks } from '../utils/youtubeUtils';
 
 export default function DetailPanel({ data }) {
+  const SEASON_LABEL_MAP = Object.fromEntries(
+    SEASON_LABELS.map(({ key, label }) => [key, label]),
+  );
+
   const PERSONALITY_LABEL_MAP = Object.fromEntries(
     PERSONALITY_METRICS.map(({ key, label }) => [key, label]),
   );
@@ -41,7 +46,7 @@ export default function DetailPanel({ data }) {
           </p>
           <ul>
             {data.season.map((s, i) => (
-              <li key={i}>{s}</li>
+              <li key={i}>{SEASON_LABEL_MAP[s] ?? s}</li>
             ))}
           </ul>
 
