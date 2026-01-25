@@ -79,7 +79,7 @@ export function getNodeFill(themeColour) {
 
   if (rep.length === 0) return defaultColor;
 
-  return rep[0]; // SVGではまず単色でOK
+  return rep[0];
 }
 
 export function getNodeStyle(themeColour) {
@@ -141,11 +141,11 @@ export function getNodeStyle(themeColour) {
   return defaultStyle;
 }
 
-// Function to generate SVG gradient stop elements
 export function getNodeGradientDefinition(themeColour) {
+  const defaultColor = '#9ca3af';
   const colors = Array.isArray(themeColour) ? themeColour : [themeColour];
 
-  // Handle 'rainbow' special case
+  // rainbow 特別扱い（等間隔）
   if (
     colors.length === 1 &&
     typeof colors[0] === 'string' &&
@@ -169,12 +169,23 @@ export function getNodeGradientDefinition(themeColour) {
     ));
   }
 
-  // Handle multiple specific colors
   const representativeColors = colors
     .map(getRepresentativeColor)
     .filter(Boolean);
 
-  if (representativeColors.length > 1) {
+  if (representativeColors.length === 2) {
+    const [c1, c2] = representativeColors;
+    return (
+      <>
+        <stop key={`${c1}-0`} offset="0%" stopColor={c1} />
+        <stop key={`${c1}-50`} offset="50%" stopColor={c1} />
+        <stop key={`${c2}-100`} offset="100%" stopColor={c2} />
+      </>
+    );
+  }
+
+  // 3色以上: 等間隔
+  if (representativeColors.length >= 3) {
     return representativeColors.map((color, i) => (
       <stop
         key={color + i}
@@ -184,12 +195,12 @@ export function getNodeGradientDefinition(themeColour) {
     ));
   }
 
-  // Fallback (though Nodes.jsx should prevent this from being called for single colors)
+  // 単色/不明: fallback
   return (
     <stop
       key="single"
       offset="0%"
-      stopColor={representativeColors[0] || '#9ca3af'}
+      stopColor={representativeColors[0] || defaultColor}
     />
   );
 }
@@ -204,11 +215,11 @@ const COLOR_ORDER_MAP = {
   Purple: 6,
   Black: 7,
   White: 8,
-  Rainbow: 9, // Rainbowは特別扱いだが、順序としては末尾近くに
+  Rainbow: 9,
   Unknown: 10,
 };
 
-//色名の正規化関数
+// 色名の正規化関数
 function normalizeColorName(colorStr) {
   if (typeof colorStr !== 'string') return '';
   return colorStr
@@ -251,7 +262,6 @@ export function getPrimaryColorCategory(themeColour) {
     normalized.includes('lavender')
   )
     return 'Purple';
-  // Black/Whiteは他の色と混ざっている場合、そちらを優先するロジックのため後方に配置
   if (normalized.includes('black')) return 'Black';
   if (normalized.includes('white') || normalized.includes('silver'))
     return 'White';
@@ -290,9 +300,7 @@ export function createColorSorter() {
     const { orderIndex: orderA, subKey: subKeyA } = cache.get(a.name);
     const { orderIndex: orderB, subKey: subKeyB } = cache.get(b.name);
 
-    if (orderA !== orderB) {
-      return orderA - orderB;
-    }
+    if (orderA !== orderB) return orderA - orderB;
     return subKeyA.localeCompare(subKeyB);
   };
 }
