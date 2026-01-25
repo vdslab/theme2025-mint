@@ -10,7 +10,7 @@ export default function MetricSelector({ metricsList, metric, setMetric }) {
               key={m.key}
               onClick={() => setMetric(m.key)}
               className={`
-                btn btn-sm
+                btn btn-sm px-8
                 ${
                   isActive
                     ? 'bg-primary text-white border-primary'

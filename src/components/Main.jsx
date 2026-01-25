@@ -16,7 +16,7 @@ export default function Main() {
       {/* 左余白 */}
       <div />
 
-      <main className="flex flex flex-col items-center py-8">
+      <main className="flex flex-col items-center py-8">
         <PrecureVisualization
           size={VIS_SIZE}
           selectedCharacter={selectedCharacter}

@@ -126,6 +126,7 @@ export default function PrecureVisualization({
             onNodeClick={handleNodeClick}
             onNodeHover={handleNodeHover}
             onNodeLeave={handleNodeLeave}
+            size={size}
           />
         </div>
         <div className="flex justify-center items-center">

@@ -12,12 +12,12 @@ export default function Chart({
   onNodeClick,
   onNodeHover,
   onNodeLeave,
+  size,
 }) {
-  const size = 700;
   // ラベルが見切れないように、全体的に半径を小さくする
-  const ringRadius = 240;
-  const barInner = 250;
-  const barOuterMax = 350;
+  const ringRadius = (240 * size) / 700;
+  const barInner = (250 * size) / 700;
+  const barOuterMax = (350 * size) / 700;
 
   const positionedData = (() => {
     if (!data || data.length === 0) return [];
