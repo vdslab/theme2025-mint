@@ -101,7 +101,34 @@ export default function DetailPanel({ data }) {
         </div>
       ) : (
         <>
-          <h2 style={styles.header}>{data.cure}</h2>
+          <h2 style={styles.header}>
+            {data.url_official ? (
+              <a
+                href={data.url_official}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1"
+              >
+                {data.cure}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M18 13v6a2 2 0 01-2 2H8a2 2 0 01-2-2V8a2 2 0 012-2h6m2-2h4m0 0v4m0-4L10 14"
+                  />
+                </svg>
+              </a>
+            ) : (
+              data.cure
+            )}
+          </h2>
           <p style={styles.sub}>{data.name}</p>
 
           <div style={styles.playerWrap}>
