@@ -6,6 +6,7 @@ import { getPrimaryColorCategory } from '../utils/colorUtils.jsx';
 export default function RadialBarChart({
   data,
   metric,
+  sortOrder,
   innerRadius,
   outerRadius,
   onBarHover,
@@ -28,7 +29,7 @@ export default function RadialBarChart({
   );
 
   const ticksData = useMemo(() => {
-    if (!data.length) return [];
+    if (!data.length || sortOrder !== 'color') return [];
 
     const groupedByColor = data.reduce((acc, character) => {
       const category = getPrimaryColorCategory(character.themeColour);
@@ -57,7 +58,7 @@ export default function RadialBarChart({
 
       return { category, average, startAngle, endAngle, midAngle };
     });
-  }, [data, metric, angle]);
+  }, [data, metric, angle, sortOrder]);
 
   const arcGenerator = useMemo(() => d3.arc(), []);
 
@@ -115,48 +116,50 @@ export default function RadialBarChart({
           ))}
 
         {/* 色セグメントごとの平均値（白フチ付きの線） */}
-        {ticksData.map((tick) => {
-          if (!tick.average || tick.average === 0) return null;
+        {sortOrder === 'color' &&
+          ticksData.map((tick) => {
+            if (!tick.average || tick.average === 0) return null;
 
-          const c = categoryToColor(tick.category);
-          const r = radius(tick.average);
+            const c = categoryToColor(tick.category);
+            const r = radius(tick.average);
 
-          const d = arcGenerator({
-            innerRadius: r,
-            outerRadius: r, // 線として描画
-            startAngle: tick.startAngle,
-            endAngle: tick.endAngle,
-          });
+            const d = arcGenerator({
+              innerRadius: r,
+              outerRadius: r, // 線として描画
+              startAngle: tick.startAngle,
+              endAngle: tick.endAngle,
+            });
 
-          return (
-            <g key={`avg-${tick.category}`}>
-              {/* 白フチ（下） */}
-              <path
-                d={d}
-                fill="none"
-                stroke="#ffffffff"
-                strokeWidth={arcThickness + outlineWidth * 2}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                opacity={0.8}
-              />
-              {/* 色（上） */}
-              <path
-                d={d}
-                fill="none"
-                stroke={c}
-                strokeWidth={arcThickness}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                opacity={0.95}
-                style={{
-                  filter: `drop-shadow(0 0 1px ${c})`,
-                }}
-              />
-            </g>
-          );
-        })}
+            return (
+              <g key={`avg-${tick.category}`}>
+                {/* 白フチ（下） */}
+                <path
+                  d={d}
+                  fill="none"
+                  stroke="#ffffffff"
+                  strokeWidth={arcThickness + outlineWidth * 2}
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  opacity={0.8}
+                />
+                {/* 色（上） */}
+                <path
+                  d={d}
+                  fill="none"
+                  stroke={c}
+                  strokeWidth={arcThickness}
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  opacity={0.95}
+                  style={{
+                    filter: `drop-shadow(0 0 1px ${c})`,
+                  }}
+                />
+              </g>
+            );
+          })}
       </g>
     </>
   );
 }
+

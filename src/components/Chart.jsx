@@ -8,6 +8,7 @@ export default function Chart({
   hoveredNode,
   selectedNode,
   metric,
+  sortOrder,
   onNodeClick,
   onNodeHover,
   onNodeLeave,
@@ -69,6 +70,7 @@ export default function Chart({
           <RadialBarChart
             data={data}
             metric={metric}
+            sortOrder={sortOrder}
             innerRadius={barInner}
             outerRadius={barOuterMax}
             onBarHover={onNodeHover}
