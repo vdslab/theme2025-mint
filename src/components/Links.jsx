@@ -21,7 +21,7 @@ export default function Links({ nodes, links, hoveredNode, selectedNode }) {
           return null;
         }
         return (
-          <g key={`${link.source}-${link.target}`}>
+          <g key={`${link.source}-${link.target}-${link.season}`}>
             <line
               x1={sourceNode.x}
               y1={sourceNode.y}

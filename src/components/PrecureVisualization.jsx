@@ -1,6 +1,7 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useRef } from 'react';
 
 import MetricSelector from './MetricSelector';
+import SortSelector from './SortSelector';
 import Chart from './Chart';
 import TooltipPortal from './TooltipPortal';
 import { PERSONALITY_METRICS } from '../constants/personality_metrics';
@@ -11,7 +12,8 @@ export default function PrecureVisualization({
   selectedCharacter,
   onSelectCharacter,
 }) {
-  const [data, setData] = useState([]);
+  const [originalData, setOriginalData] = useState([]);
+  const [sortOrder, setSortOrder] = useState('color');
   const [metric, setMetric] = useState(PERSONALITY_METRICS[0].key);
   const [hoveredNode, setHoveredNode] = useState(null);
   const [tooltip, setTooltip] = useState({
@@ -19,16 +21,14 @@ export default function PrecureVisualization({
     content: '',
     position: { x: 0, y: 0 },
   });
+  const hoverTimeout = useRef(null);
 
+  // Fetch original data once
   useEffect(() => {
     fetch('/data/precure_profile.json')
       .then((res) => res.json())
       .then((json) => {
-        // 色に基づいたソートを実行
-        const colorSorter = createColorSorter();
-        json.sort(colorSorter);
-
-        setData(json);
+        setOriginalData(json);
         const firstValidCharacter = json.find(
           (c) => c.YouTube && c.YouTube.length > 0,
         );
@@ -36,6 +36,27 @@ export default function PrecureVisualization({
           onSelectCharacter(firstValidCharacter);
         }
       });
+  }, [onSelectCharacter]);
+
+  const data = useMemo(() => {
+    if (sortOrder === 'color') {
+      const colorSorter = createColorSorter();
+      return [...originalData].sort(colorSorter);
+    }
+    // 'series' order (original JSON order)
+    return originalData;
+  }, [originalData, sortOrder]);
+
+  const selectedNode = useMemo(() => {
+    if (!selectedCharacter) return null;
+    return data.find((d) => d.name === selectedCharacter.name);
+  }, [data, selectedCharacter]);
+
+  // コンポーネントのアンマウント時にタイムアウトをクリア
+  useEffect(() => {
+    return () => {
+      clearTimeout(hoverTimeout.current);
+    };
   }, []);
 
   const links = useMemo(() => {
@@ -49,13 +70,13 @@ export default function PrecureVisualization({
           const commonSeasons = node1.season.filter((season) =>
             node2.season.includes(season),
           );
-          if (commonSeasons.length > 0) {
+          commonSeasons.forEach((season) => {
             allLinks.push({
               source: node1.name,
               target: node2.name,
-              season: commonSeasons[0],
+              season: season,
             });
-          }
+          });
         }
       }
     }
@@ -69,13 +90,16 @@ export default function PrecureVisualization({
   };
 
   const handleNodeHover = (node, content, position) => {
+    clearTimeout(hoverTimeout.current);
     setTooltip({ visible: true, content, position });
     setHoveredNode(node);
   };
 
   const handleNodeLeave = () => {
     setTooltip((prev) => ({ ...prev, visible: false }));
-    setHoveredNode(null);
+    hoverTimeout.current = setTimeout(() => {
+      setHoveredNode(null);
+    }, 100);
   };
 
   if (!data.length) {
@@ -96,20 +120,22 @@ export default function PrecureVisualization({
             data={data}
             links={links}
             hoveredNode={hoveredNode}
-            selectedNode={selectedCharacter}
+            selectedNode={selectedNode}
             metric={metric}
+            sortOrder={sortOrder}
             onNodeClick={handleNodeClick}
             onNodeHover={handleNodeHover}
             onNodeLeave={handleNodeLeave}
           />
         </div>
-
-        {/* メトリックセレクター */}
-        <MetricSelector
-          metricsList={PERSONALITY_METRICS}
-          metric={metric}
-          setMetric={setMetric}
-        />
+        <div className="flex justify-center items-center">
+          <SortSelector sortOrder={sortOrder} setSortOrder={setSortOrder} />
+          <MetricSelector
+            metricsList={PERSONALITY_METRICS}
+            metric={metric}
+            setMetric={setMetric}
+          />
+        </div>
       </div>
     </>
   );
