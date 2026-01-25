@@ -1,103 +1,117 @@
-import * as d3 from 'd3';
-import { getNodeStyle } from '../utils/colorUtils';
+import React, { useMemo, useCallback } from 'react';
+import {
+  getNodeFill,
+  getNodeGradientDefinition,
+} from '../utils/colorUtils.jsx';
 import { PERSONALITY_METRICS } from '../constants/personality_metrics';
 
 export default function Nodes({
   data,
-  radius = 6,
+  radius,
+  ringRadius,
   metric,
-  ringRadius = 350,
   onNodeClick,
   onNodeHover,
   onNodeLeave,
+  hitPadding = 6, // ← ホバー判定を広げる量（好みで調整）
 }) {
-  const isPersonalityMetric = PERSONALITY_METRICS.some((m) => m.key === metric);
+  const n = data?.length ?? 0;
+  const offset = n > 0 ? Math.PI / n : 0;
 
-  let nodesData;
-  let containerStyle;
+  const getTooltipText = useCallback(
+    (d) => {
+      const cureName = d?.cure || '（不明）';
+      const score = d?.scores?.[metric] ?? '—';
+      const metricLabel =
+        PERSONALITY_METRICS.find((m) => m.key === metric)?.label || metric;
+      return `${cureName}\n${metricLabel}: ${score}`;
+    },
+    [metric],
+  );
 
-  const size = ringRadius * 2;
+  const nodesData = useMemo(() => {
+    if (!Array.isArray(data) || data.length === 0) return [];
 
-  if (isPersonalityMetric) {
-    const n = data.length;
-    const offset = Math.PI / n;
+    return data.map((d, i) => {
+      const theta = (2 * Math.PI * i) / data.length + offset;
 
-    nodesData = data.map((d, i) => {
-      const theta = (2 * Math.PI * i) / n + offset;
-      const x = ringRadius * Math.sin(theta);
-      const y = -ringRadius * Math.cos(theta);
-      return { ...d, x, y };
+      // 安全でユニークなIDを作る（name は衝突/不正文字の可能性があるので避ける）
+      const rawId = d?.id ?? d?.cure ?? d?.name ?? i;
+      const safeId = String(rawId).replace(/[^a-zA-Z0-9_-]/g, '_');
+      const gradId = `node-grad-${safeId}-${i}`;
+
+      const colors = Array.isArray(d?.themeColour)
+        ? d.themeColour
+        : [d?.themeColour];
+
+      const cleaned = colors.filter(Boolean);
+      const useGradient =
+        cleaned.length > 1 ||
+        (cleaned.length === 1 &&
+          typeof cleaned[0] === 'string' &&
+          cleaned[0].toLowerCase() === 'rainbow');
+
+      return {
+        ...d,
+        __i: i,
+        __gradId: gradId,
+        __useGradient: useGradient,
+        x: ringRadius * Math.sin(theta),
+        y: -ringRadius * Math.cos(theta),
+      };
     });
+  }, [data, ringRadius, offset]);
 
-    containerStyle = {
-      position: 'absolute',
-      left: '50%',
-      top: '50%',
-      width: `${size}px`,
-      height: `${size}px`,
-      transform: 'translate(-50%, -50%)',
-    };
-  } else {
-    const width = 800; // 水平配置の幅
-    const height = 100; // 水平配置の高さ
-    const xScale = d3
-      .scalePoint()
-      .domain(data.map((d) => d.name))
-      .range([radius, width - radius])
-      .padding(0.5);
-
-    nodesData = data.map((d) => ({
-      ...d,
-      x: xScale(d.name),
-      y: height / 2,
-    }));
-
-    containerStyle = {
-      position: 'absolute',
-      left: '50%',
-      top: '50%',
-      width: `${width}px`,
-      height: `${height}px`,
-      transform: 'translate(-50%, -50%)',
-    };
-  }
-
-  const getTooltipText = (d) => {
-    const cureName = d.cure || '（不明）';
-    const score = d.scores?.[metric] ?? '—';
-    const metricLabel =
-      PERSONALITY_METRICS.find((m) => m.key === metric)?.label || metric;
-    return `${cureName}\n${metricLabel}: ${score}`;
-  };
+  if (!nodesData.length) return null;
 
   return (
-    <div style={containerStyle} className="pointer-events-none">
-      {nodesData.map((d, i) => {
-        const nodeStyle = {
-          position: 'absolute',
-          // isPersonalityMetricに応じて座標計算の基準を変える
-          left: isPersonalityMetric ? `calc(50% + ${d.x}px)` : `${d.x}px`,
-          top: isPersonalityMetric ? `calc(50% + ${d.y}px)` : `${d.y}px`,
-          transform: 'translate(-50%, -50%)',
-          width: `${radius * 2}px`,
-          height: `${radius * 2}px`,
-          ...getNodeStyle(d.themeColour),
-        };
+    <>
+      <defs>
+        {nodesData
+          .filter((d) => d.__useGradient)
+          .map((d) => (
+            <linearGradient
+              key={d.__gradId}
+              id={d.__gradId}
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="0%"
+            >
+              {getNodeGradientDefinition(d.themeColour)}
+            </linearGradient>
+          ))}
+      </defs>
 
-        return (
-          <div
-            key={i}
-            style={nodeStyle}
-            className="group flex items-center justify-center rounded-full shadow-lg transition-transform duration-300 ease-in-out hover:scale-125 cursor-pointer pointer-events-auto"
-            tabIndex="0"
-            onClick={() => onNodeClick(d)}
-            onMouseEnter={(e) =>
-              onNodeHover(getTooltipText(d), { x: e.clientX, y: e.clientY })
+      {nodesData.map((d) => (
+        <g
+          key={d.__gradId}
+          transform={`translate(${d.x}, ${d.y})`}
+          className="cursor-pointer"
+          onMouseEnter={(e) =>
+            onNodeHover?.(d, getTooltipText(d), { x: e.clientX, y: e.clientY })
+          }
+          onMouseLeave={() => onNodeLeave?.()}
+          onClick={() => onNodeClick?.(d)}
+        >
+          {/* 当たり判定用 */}
+          <circle
+            r={Math.max(0, radius + hitPadding)}
+            fill="transparent"
+            pointerEvents="all"
+          />
+
+          {/* 見た目用 */}
+          <circle
+            r={radius}
+            fill={
+              d.__useGradient
+                ? `url(#${d.__gradId})`
+                : getNodeFill(d.themeColour)
             }
-            onMouseLeave={onNodeLeave}
-          ></div>
-        );
-      })}
-    </div>
+          />
+        </g>
+      ))}
+    </>
   );
 }

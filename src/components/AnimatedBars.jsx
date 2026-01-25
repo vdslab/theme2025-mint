@@ -1,6 +1,6 @@
 import { useEffect, useRef, useCallback } from 'react';
 import * as d3 from 'd3';
-import { getBarColor } from '../utils/colorUtils';
+import { getBarColor } from '../utils/colorUtils.jsx';
 import { PERSONALITY_METRICS } from '../constants/personality_metrics';
 
 export default function AnimatedBars({
@@ -40,7 +40,10 @@ export default function AnimatedBars({
         .on('mouseover', (event, d) => {
           if (!onBarHover) return;
           const tooltipText = getTooltipText(d);
-          onBarHover(tooltipText, { x: event.clientX, y: event.clientY });
+          onBarHover(d, tooltipText, {
+            x: event.clientX,
+            y: event.clientY,
+          });
         })
         .on('mouseout', () => {
           if (onBarLeave) onBarLeave();
