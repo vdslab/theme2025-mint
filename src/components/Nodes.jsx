@@ -13,6 +13,7 @@ export default function Nodes({
   onNodeClick,
   onNodeHover,
   onNodeLeave,
+  hitPadding = 6, // ← ホバー判定を広げる量（好みで調整）
 }) {
   const n = data?.length ?? 0;
   const offset = n > 0 ? Math.PI / n : 0;
@@ -34,7 +35,7 @@ export default function Nodes({
     return data.map((d, i) => {
       const theta = (2 * Math.PI * i) / data.length + offset;
 
-      // 安全でユニークなIDを作る（nameは衝突・不正文字の可能性があるので避ける）
+      // 安全でユニークなIDを作る（name は衝突/不正文字の可能性があるので避ける）
       const rawId = d?.id ?? d?.cure ?? d?.name ?? i;
       const safeId = String(rawId).replace(/[^a-zA-Z0-9_-]/g, '_');
       const gradId = `node-grad-${safeId}-${i}`;
@@ -42,11 +43,13 @@ export default function Nodes({
       const colors = Array.isArray(d?.themeColour)
         ? d.themeColour
         : [d?.themeColour];
+
+      const cleaned = colors.filter(Boolean);
       const useGradient =
-        colors.filter(Boolean).length > 1 ||
-        (colors.length === 1 &&
-          typeof colors[0] === 'string' &&
-          colors[0].toLowerCase() === 'rainbow');
+        cleaned.length > 1 ||
+        (cleaned.length === 1 &&
+          typeof cleaned[0] === 'string' &&
+          cleaned[0].toLowerCase() === 'rainbow');
 
       return {
         ...d,
@@ -84,13 +87,21 @@ export default function Nodes({
         <g
           key={d.__gradId}
           transform={`translate(${d.x}, ${d.y})`}
-          className="group cursor-pointer"
+          className="cursor-pointer"
           onMouseEnter={(e) =>
             onNodeHover?.(d, getTooltipText(d), { x: e.clientX, y: e.clientY })
           }
           onMouseLeave={() => onNodeLeave?.()}
           onClick={() => onNodeClick?.(d)}
         >
+          {/* 当たり判定用 */}
+          <circle
+            r={Math.max(0, radius + hitPadding)}
+            fill="transparent"
+            pointerEvents="all"
+          />
+
+          {/* 見た目用 */}
           <circle
             r={radius}
             fill={

@@ -21,7 +21,7 @@ export default function Links({ nodes, links, hoveredNode, selectedNode }) {
           return null;
         }
         return (
-          <>
+          <g key={`${link.source}-${link.target}`}>
             <line
               x1={sourceNode.x}
               y1={sourceNode.y}
@@ -40,7 +40,7 @@ export default function Links({ nodes, links, hoveredNode, selectedNode }) {
               strokeWidth={3}
               strokeOpacity={0.8}
             />
-          </>
+          </g>
         );
       })}
     </g>
