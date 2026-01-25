@@ -1,35 +1,48 @@
-export default function Links({ data }) {
-  const seasonMap = new Map();
+export default function Links({ nodes, links, hoveredNode, selectedNode }) {
+  const activeNode = hoveredNode || selectedNode;
 
-  data.forEach((d) => {
-    d.season.forEach((s) => {
-      if (!seasonMap.has(s)) seasonMap.set(s, []);
-      seasonMap.get(s).push(d);
-    });
-  });
+  if (!activeNode) {
+    return null;
+  }
 
-  const paths = [];
+  const activeSeasons = activeNode.season || [];
+  const relatedLinks = links.filter((link) =>
+    activeSeasons.includes(link.season),
+  );
 
-  seasonMap.forEach((nodes, season) => {
-    for (let i = 0; i < nodes.length; i++) {
-      for (let j = i + 1; j < nodes.length; j++) {
-        const a = nodes[i];
-        const b = nodes[j];
+  const findNode = (name) => nodes.find((node) => node.name === name);
 
-        paths.push(
-          <line
-            key={`${season}-${a.name}-${b.name}`}
-            x1={a.x}
-            y1={a.y}
-            x2={b.x}
-            y2={b.y}
-            stroke="red"
-            strokeWidth={3}
-          />,
+  return (
+    <g>
+      {relatedLinks.map((link) => {
+        const sourceNode = findNode(link.source);
+        const targetNode = findNode(link.target);
+        if (!sourceNode || !targetNode) {
+          return null;
+        }
+        return (
+          <>
+            <line
+              x1={sourceNode.x}
+              y1={sourceNode.y}
+              x2={targetNode.x}
+              y2={targetNode.y}
+              stroke="#a5f3fc"
+              strokeWidth={7}
+              strokeOpacity={0.2}
+            />
+            <line
+              x1={sourceNode.x}
+              y1={sourceNode.y}
+              x2={targetNode.x}
+              y2={targetNode.y}
+              stroke="#22d3ee"
+              strokeWidth={3}
+              strokeOpacity={0.8}
+            />
+          </>
         );
-      }
-    }
-  });
-
-  return <>{paths}</>;
+      })}
+    </g>
+  );
 }

@@ -4,6 +4,9 @@ import RadialBarChart from './RadialBarChart';
 
 export default function Chart({
   data,
+  links,
+  hoveredNode,
+  selectedNode,
   metric,
   onNodeClick,
   onNodeHover,
@@ -46,7 +49,12 @@ export default function Chart({
         style={{ position: 'absolute', top: 0, left: 0, pointerEvents: 'auto' }}
       >
         <g transform={`translate(${size / 2}, ${size / 2})`}>
-          <Links data={positionedData} />
+          <Links
+            nodes={positionedData}
+            links={links}
+            hoveredNode={hoveredNode}
+            selectedNode={selectedNode}
+          />
 
           <Nodes
             data={positionedData}

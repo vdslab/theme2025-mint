@@ -86,7 +86,7 @@ export default function Nodes({
           transform={`translate(${d.x}, ${d.y})`}
           className="group cursor-pointer"
           onMouseEnter={(e) =>
-            onNodeHover?.(getTooltipText(d), { x: e.clientX, y: e.clientY })
+            onNodeHover?.(d, getTooltipText(d), { x: e.clientX, y: e.clientY })
           }
           onMouseLeave={() => onNodeLeave?.()}
           onClick={() => onNodeClick?.(d)}

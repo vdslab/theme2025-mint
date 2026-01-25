@@ -40,7 +40,10 @@ export default function AnimatedBars({
         .on('mouseover', (event, d) => {
           if (!onBarHover) return;
           const tooltipText = getTooltipText(d);
-          onBarHover(tooltipText, { x: event.clientX, y: event.clientY });
+          onBarHover(d, tooltipText, {
+            x: event.clientX,
+            y: event.clientY,
+          });
         })
         .on('mouseout', () => {
           if (onBarLeave) onBarLeave();
